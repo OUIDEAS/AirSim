@@ -156,9 +156,9 @@ RpcLibServerBase::RpcLibServerBase(ApiProvider* api_provider, const std::string&
     });
 	
 		//	pimpl_->server.bind("setLidarPose", [&](const int pose, const std::string& lidar_name, const std::string& vehicle_name) -> int {
-	pimpl_->server.bind("setLidarPose", [&](const std::vector<int>& pose, const std::string& lidar_name, const std::string& vehicle_name) -> int {
-		const int result = getVehicleApi(vehicle_name)->setLidarPose(lidar_name, pose);
-		return result;
+	pimpl_->server.bind("doSingleLidarShot", [&](const std::vector<real_T>& endLocation, const std::string& lidar_name, const std::string& vehicle_name) -> RpcLibAdapatorsBase::LidarData {
+		const auto& lidar_data = getVehicleApi(vehicle_name)->doSingleLidarShot(lidar_name, endLocation);
+		return RpcLibAdapatorsBase::LidarData(lidar_data);
 	});
     pimpl_->server.bind("getImuData", [&](const std::string& imu_name, const std::string& vehicle_name) -> RpcLibAdapatorsBase::ImuData {
         const auto& imu_data = getVehicleApi(vehicle_name)->getImuData(imu_name);

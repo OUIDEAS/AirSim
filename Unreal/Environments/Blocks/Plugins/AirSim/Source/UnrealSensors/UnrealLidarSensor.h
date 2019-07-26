@@ -18,6 +18,9 @@ public:
 public:
     UnrealLidarSensor(const AirSimSettings::LidarSetting& setting,
         AActor* actor, const NedTransform* ned_transform);
+	msr::airlib::LidarData doSingleLidarShot(const std::vector<msr::airlib::real_T>& endLocation);
+	msr::airlib::LidarData singleshot_output;
+	FHitResult singleshot_result = FHitResult(ForceInit);
 
 protected:
     virtual void getPointCloud(const msr::airlib::Pose& lidar_pose, const msr::airlib::Pose& vehicle_pose,

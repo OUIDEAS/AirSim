@@ -663,14 +663,14 @@ void ASimModeBase::drawLidarDebugPoints()
                         else
                             throw std::runtime_error("Unknown requested data frame");
 
-                        DrawDebugPoint(
+                        /*DrawDebugPoint(
                             this->GetWorld(),
                             uu_point,
                             5,              //size
                             FColor::Red,
                             true,           //persistent (never goes away)
                             0.1             //point leaves a trail on moving object
-                        );
+                        );*/
                     }
                 }
             }

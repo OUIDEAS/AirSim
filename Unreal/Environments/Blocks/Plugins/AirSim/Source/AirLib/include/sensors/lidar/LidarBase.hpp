@@ -31,11 +31,11 @@ public: //types
         // - in meters
         vector<real_T> point_cloud;
     };
-	int setLidarPose(std::vector<int>& pose)
+	/*int setLidarPose(std::vector<int>& pose)
 	{
 		mPose = pose;
 		return 0;
-	}
+	}*/
 public:
     virtual void reportState(StateReporter& reporter) override
     {
@@ -55,6 +55,10 @@ public:
     {
         return output_;
     }
+	/*const LidarData& getSingleShotOutput() const
+	{
+		return singleshot_output_;
+	}*/
 
 protected:
     void setOutput(const LidarData& output)

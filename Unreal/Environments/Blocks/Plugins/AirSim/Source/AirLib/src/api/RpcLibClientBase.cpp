@@ -166,9 +166,9 @@ msr::airlib::LidarData RpcLibClientBase::getLidarData(const std::string& lidar_n
 
 //int RpcLibClientBase::setLidarPose(const int pose, const std::string& lidar_name, const std::string& vehicle_name) const
 
-int RpcLibClientBase::setLidarPose(const std::vector<int>& pose, const std::string& lidar_name, const std::string& vehicle_name) const
+msr::airlib::LidarData RpcLibClientBase::doSingleLidarShot(const std::vector<real_T>& endLocation, const std::string& lidar_name, const std::string& vehicle_name) const
 {
-	return pimpl_->client.call("setLidarPose", pose, lidar_name, vehicle_name).as<int>();
+	return pimpl_->client.call("doSingleLidarShot", endLocation, lidar_name, vehicle_name).as<RpcLibAdapatorsBase::LidarData>().to();
 }
 
 msr::airlib::ImuBase::Output RpcLibClientBase::getImuData(const std::string& imu_name, const std::string& vehicle_name) const
