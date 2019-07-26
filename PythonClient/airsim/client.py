@@ -117,9 +117,6 @@ class VehicleClient:
     def simSetObjectPose(self, object_name, pose, teleport = True):
         return self.client.call('simSetObjectPose', object_name, pose, teleport)
 
-    def simListSceneObjects(self, name_regex = '.*'):
-        return self.client.call('simListSceneObjects', name_regex)
-
     def simSetSegmentationObjectID(self, mesh_name, object_id, is_name_regex = False):
         return self.client.call('simSetSegmentationObjectID', mesh_name, object_id, is_name_regex)
     def simGetSegmentationObjectID(self, mesh_name):
@@ -161,6 +158,9 @@ class VehicleClient:
 
     def getLidarData(self, lidar_name = '', vehicle_name = ''):
         return LidarData.from_msgpack(self.client.call('getLidarData', lidar_name, vehicle_name))
+
+    def setLidarPose(self, pose = -1, lidar_name='', vehicle_name=''):
+        return self.client.call('setLidarPose', pose, lidar_name, vehicle_name)
 
     #----------- APIs to control ACharacter in scene ----------/
     def simCharSetFaceExpression(self, expression_name, value, character_name = ""):

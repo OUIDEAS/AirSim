@@ -276,8 +276,8 @@ ModelManifest.xml
 /AirLib/CTestTestfile.cmake
 /AirLib/cmake_install.cmake
 /MavLinkCom/lib/libMavLinkCom.a
-/Unreal/Plugins/AirSim/Source/AirLib/
-/Unreal/Environments/Blocks/Plugins/AirSim/
+#/Unreal/Plugins/AirSim/Source/AirLib/
+#/Unreal/Environments/Blocks/Plugins/AirSim/
 /enc_temp_folder
 /cmake/MavLinkCom/MavLinkTest/MavLinkTest
 /cmake/MavLinkCom/lib/libMavLinkCom.a
