@@ -170,7 +170,10 @@ msr::airlib::LidarData RpcLibClientBase::doSingleLidarShot(const std::vector<rea
 {
 	return pimpl_->client.call("doSingleLidarShot", endLocation, lidar_name, vehicle_name).as<RpcLibAdapatorsBase::LidarData>().to();
 }
-
+msr::airlib::LidarData RpcLibClientBase::doSingleLidarShotFrom(const double horizontal_angle, const double vertical_angle, const std::string& lidar_name, const std::string& vehicle_name) const
+{
+	return pimpl_->client.call("doSingleLidarShotFrom", horizontal_angle, vertical_angle, lidar_name, vehicle_name).as<RpcLibAdapatorsBase::LidarData>().to();
+}
 msr::airlib::ImuBase::Output RpcLibClientBase::getImuData(const std::string& imu_name, const std::string& vehicle_name) const
 {
     return pimpl_->client.call("getImuData", imu_name, vehicle_name).as<RpcLibAdapatorsBase::ImuData>().to();

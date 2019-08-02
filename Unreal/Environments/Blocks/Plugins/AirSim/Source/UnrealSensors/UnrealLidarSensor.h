@@ -18,6 +18,7 @@ public:
 public:
     UnrealLidarSensor(const AirSimSettings::LidarSetting& setting,
         AActor* actor, const NedTransform* ned_transform);
+	msr::airlib::LidarData doSingleLidarShotFrom(double hori, double vert);
 	msr::airlib::LidarData doSingleLidarShot(const std::vector<msr::airlib::real_T>& endLocation);
 	msr::airlib::LidarData singleshot_output;
 	FHitResult singleshot_result = FHitResult(ForceInit);
@@ -38,7 +39,7 @@ private:
 private:
     AActor* actor_;
     const NedTransform* ned_transform_;
-
+	bool draw_new_point = false;
     msr::airlib::vector<msr::airlib::real_T> laser_angles_;
     float current_horizontal_angle_ = 0.0f;
 };

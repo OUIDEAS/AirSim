@@ -471,8 +471,10 @@ public:
         msr::airlib::TTimePoint time_stamp;    // timestamp
         std::vector<float> point_cloud;        // data
         Pose pose;
+		Pose lidar;
+		Pose vehicle;
 
-        MSGPACK_DEFINE_MAP(time_stamp, point_cloud, pose);
+        MSGPACK_DEFINE_MAP(time_stamp, point_cloud, pose, lidar, vehicle);
 
         LidarData()
         {}
@@ -481,7 +483,8 @@ public:
         {
             time_stamp = s.time_stamp;
             point_cloud = s.point_cloud;
-
+			lidar = s.lidar;
+			vehicle = s.vehicle;
             //TODO: remove bug workaround for https://github.com/rpclib/rpclib/issues/152
             if (point_cloud.size() == 0)
                 point_cloud.push_back(0);
@@ -496,7 +499,8 @@ public:
             d.time_stamp = time_stamp;
             d.point_cloud = point_cloud;
             d.pose = pose.to();
-
+			d.lidar = lidar.to();
+			d.vehicle = vehicle.to();
             return d;
         }
     };

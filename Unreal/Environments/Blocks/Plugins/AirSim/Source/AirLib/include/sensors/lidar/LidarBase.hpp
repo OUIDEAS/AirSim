@@ -23,6 +23,8 @@ public: //types
         // header
         TTimePoint time_stamp;
         Pose relative_pose;
+		Pose lidar, vehicle;
+
         // data
         // - array of floats that represent [x,y,z] coordinate for each point hit within the range
         //       x0, y0, z0, x1, y1, z1, ..., xn, yn, zn

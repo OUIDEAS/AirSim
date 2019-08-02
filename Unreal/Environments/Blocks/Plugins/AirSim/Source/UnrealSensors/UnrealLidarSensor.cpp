@@ -91,7 +91,9 @@ void UnrealLidarSensor::getPointCloud(const msr::airlib::Pose& lidar_pose, const
 
 			Vector3r point;
 			// shoot laser and get the impact point, if any
-			if (shootLaser(lidar_pose, vehicle_pose, laser, horizontal_angle, vertical_angle, params, point))
+			if (shootLaser(lidar_pose, vehicle_pose, laser, 0, 15, params, point))
+
+			//if (shootLaser(lidar_pose, vehicle_pose, laser, horizontal_angle, vertical_angle, params, point))
 			{
 				point_cloud.emplace_back(point.x());
 				point_cloud.emplace_back(point.y());
@@ -101,20 +103,57 @@ void UnrealLidarSensor::getPointCloud(const msr::airlib::Pose& lidar_pose, const
 	}
 
 	current_horizontal_angle_ = std::fmod(current_horizontal_angle_ + angle_distance_of_tick, 360.0f);
-	/*if (true && UAirBlueprintLib::IsInGameThread())
+	if (true && UAirBlueprintLib::IsInGameThread() && draw_new_point)
 	{
 		// Debug code for very specific cases.
 		// Mostly shouldn't be needed. Use SimModeBase::drawLidarDebugPoints()
+		FlushPersistentDebugLines(actor_->GetWorld());
+
 		DrawDebugPoint(
 			actor_->GetWorld(),
 			singleshot_result.ImpactPoint,
-			5,                       //size
-			FColor::Yellow,
+			 15,                       //size
+			FColor::Red,
 			true,                    //persistent (never goes away)
-			0.1                      //point leaves a trail on moving object
+			10                      //point leaves a trail on moving object
 		);
-	}*/
+		draw_new_point = false;
+	}
 	return;
+}
+msr::airlib::LidarData UnrealLidarSensor::doSingleLidarShotFrom(double horizontal_angle, double vertical_angle)
+{
+	msr::airlib::LidarSimpleParams params = getParams();
+	const GroundTruth& ground_truth = getGroundTruth();
+
+	const auto number_of_lasers = 1;// params.number_of_channels;
+	msr::airlib::Pose lidar_pose = params.relative_pose + ground_truth.kinematics->pose;
+	msr::airlib::Pose vehicle_pose = ground_truth.kinematics->pose;
+	// start position
+	Vector3r start = lidar_pose.position + vehicle_pose.position;
+
+	// We need to compose rotations here rather than rotate a vector by a quaternion
+	// Hence using coordOrientationAdd(..) rather than rotateQuaternion(..)
+
+	// get ray quaternion in lidar frame (angles must be in radians)
+	msr::airlib::Quaternionr ray_q_l = msr::airlib::VectorMath::toQuaternion(
+		msr::airlib::Utils::degreesToRadians(vertical_angle),   //pitch - rotation around Y axis
+		0,                                                      //roll  - rotation around X axis
+		msr::airlib::Utils::degreesToRadians(horizontal_angle));//yaw   - rotation around Z axis
+
+	// get ray quaternion in body frame
+	msr::airlib::Quaternionr ray_q_b = VectorMath::coordOrientationAdd(ray_q_l, lidar_pose.orientation);
+
+	// get ray quaternion in world frame
+	msr::airlib::Quaternionr ray_q_w = VectorMath::coordOrientationAdd(ray_q_b, vehicle_pose.orientation);
+
+	// get ray vector (end position)
+	Vector3r endLocation = VectorMath::rotateVector(VectorMath::front(), ray_q_w, true) * params.range + start;
+	std::vector<msr::airlib::real_T> end = { 0,0,0 };
+	end[0] = endLocation[0];
+	end[1] = endLocation[1];
+	end[2] = endLocation[2];
+	return doSingleLidarShot(end);
 }
 msr::airlib::LidarData UnrealLidarSensor::doSingleLidarShot(const std::vector<msr::airlib::real_T>& endLocation)
 {
@@ -139,34 +178,44 @@ msr::airlib::LidarData UnrealLidarSensor::doSingleLidarShot(const std::vector<ms
 	end[1] = endLocation[1];
 	end[2] = endLocation[2];
 
+	singleshot_output.time_stamp = clock()->nowNanos();
+	singleshot_output.pose = lidar_pose;
+	singleshot_output.lidar = lidar_pose;
+	singleshot_output.vehicle = vehicle_pose;
 
 	bool is_hit = UAirBlueprintLib::GetObstacle(actor_, ned_transform_->fromLocalNed(start), ned_transform_->fromLocalNed(end), hit_result, actor_, ECC_Visibility);
 	// decide the frame for the point-cloud
 	Vector3r point;
 	if (is_hit)
 	{
-		/*if (true && UAirBlueprintLib::IsInGameThread())
+		/*FViewport Viewport;
+		EStereoscopicPass StereoPass;
+		FSceneViewProjectionData ProjectionData;
+		ULocalPlayer::GetProjectionData(Viewport, StereoPass, ProjectionData);*/
+		//if (true && UAirBlueprintLib::IsInGameThread())
 		{
 			// Debug code for very specific cases.
 			// Mostly shouldn't be needed. Use SimModeBase::drawLidarDebugPoints()
+			/*FlushPersistentDebugLines(actor_->GetWorld());
 			DrawDebugPoint(
 				actor_->GetWorld(),
 				hit_result.ImpactPoint,
-				5,                       //size
-				FColor::Yellow,
+				15,                       //size
+				FColor::Red,
 				true,                    //persistent (never goes away)
-				0.1                      //point leaves a trail on moving object
-			);
-		}*/
-		DrawDebugPoint(
+				10                      //point leaves a trail on moving object
+			);*/
+		}
+		/*DrawDebugPoint(
 			actor_->GetWorld(),
 			hit_result.ImpactPoint,
 			5,                       //size
 			FColor::Green,
 			true,                    //persistent (never goes away)
 			0.1                      //point leaves a trail on moving object
-		);
+		);*/
 		singleshot_result = hit_result;
+		draw_new_point = true;
 
 		if (params.data_frame == AirSimSettings::kVehicleInertialFrame) {
 			// current detault behavior; though it is probably not very useful.

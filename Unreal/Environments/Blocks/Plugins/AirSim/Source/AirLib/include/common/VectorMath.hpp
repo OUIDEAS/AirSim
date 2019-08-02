@@ -392,6 +392,12 @@ public:
 		q.x() = t0 * t3 * t4 - t1 * t2 * t5;
 		q.y() = t0 * t2 * t5 + t1 * t3 * t4;
 		q.z() = t1 * t2 * t4 - t0 * t3 * t5;
+
+		RealT wtf = std::sin(0.261 * 0.5);
+		RealT w = q.w();
+		RealT x = q.x();
+		RealT y = q.y();
+		RealT z = q.z();
 		return q;
 	}
 

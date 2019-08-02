@@ -68,6 +68,7 @@ public:
     msr::airlib::GeoPoint getHomeGeoPoint(const std::string& vehicle_name = "") const;
 
     // sensor APIs
+	msr::airlib::LidarData doSingleLidarShotFrom(const double horizontal_angle, const double vertical_angle, const std::string& lidar_name = "", const std::string& vehicle_name = "") const;
 	msr::airlib::LidarData doSingleLidarShot(const std::vector<real_T>& endLocation, const std::string& lidar_name = "", const std::string& vehicle_name = "") const;
 	//int setLidarPose(const int pose = 0, const std::string& lidar_name = "", const std::string& vehicle_name = "") const;
     msr::airlib::LidarData getLidarData(const std::string& lidar_name = "", const std::string& vehicle_name = "") const;

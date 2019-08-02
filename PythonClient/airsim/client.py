@@ -159,9 +159,13 @@ class VehicleClient:
     def getLidarData(self, lidar_name = '', vehicle_name = ''):
         return LidarData.from_msgpack(self.client.call('getLidarData', lidar_name, vehicle_name))
 
-    def setLidarPose(self, pose = -1, lidar_name='', vehicle_name=''):
-        return self.client.call('setLidarPose', pose, lidar_name, vehicle_name)
+    #def setLidarPose(self, pose = -1, lidar_name='', vehicle_name=''):
+    #    return self.client.call('setLidarPose', pose, lidar_name, vehicle_name)
+    def doSingleLidarShot(self, endLocation=[-1,0,0], lidar_name = '', vehicle_name = ''):
+        return LidarData.from_msgpack(self.client.call('doSingleLidarShot', endLocation, lidar_name, vehicle_name))
 
+    def doSingleLidarShotFrom(self, horizontal_angle=0, vertical_angle=0, lidar_name = '', vehicle_name = ''):
+        return LidarData.from_msgpack(self.client.call('doSingleLidarShotFrom', horizontal_angle, vertical_angle, lidar_name, vehicle_name))
     #----------- APIs to control ACharacter in scene ----------/
     def simCharSetFaceExpression(self, expression_name, value, character_name = ""):
         self.client.call('simCharSetFaceExpression', expression_name, value, character_name)

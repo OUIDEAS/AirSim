@@ -172,6 +172,27 @@ public:
 
 		return lidar->doSingleLidarShot(endLocation);
 	}
+	virtual LidarData doSingleLidarShotFrom(const std::string& lidar_name, const double horizontal_angle, const double vertical_angle) const
+	{
+		UnrealLidarSensor* lidar = nullptr;
+
+		// Find lidar with the given name (for empty input name, return the first one found)
+		// Not efficient but should suffice given small number of lidars
+		uint count_lidars = getSensors().size(SensorBase::SensorType::Lidar);
+		for (uint i = 0; i < count_lidars; i++)
+		{
+			UnrealLidarSensor* current_lidar = (UnrealLidarSensor*)(getSensors().getByType(SensorBase::SensorType::Lidar, i));
+			if (current_lidar != nullptr && (current_lidar->getName() == lidar_name || lidar_name == ""))
+			{
+				lidar = current_lidar;
+				break;
+			}
+		}
+		if (lidar == nullptr)
+			throw VehicleControllerException(Utils::stringf("No lidar with name %s exist on vehicle", lidar_name.c_str()));
+
+		return lidar->doSingleLidarShotFrom(horizontal_angle, vertical_angle);
+	}
     // IMU API
     virtual ImuBase::Output getImuData(const std::string& imu_name) const
     {

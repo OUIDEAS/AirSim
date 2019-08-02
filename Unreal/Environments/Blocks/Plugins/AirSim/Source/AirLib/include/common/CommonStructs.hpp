@@ -300,7 +300,8 @@ struct LidarData {
     TTimePoint time_stamp = 0;
     vector<real_T> point_cloud;
     Pose pose;
-
+	Pose lidar;
+	Pose vehicle;
     LidarData()
     {}
 };
