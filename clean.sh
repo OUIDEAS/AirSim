@@ -5,10 +5,16 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 pushd "$SCRIPT_DIR" >/dev/null
 
 set -e
-set +x
+set -x
 
-rm -rf build_debug
-rm -rf build_release
-rm -rf cmake/output
+# clean temporary unreal folders
+rm -rf Binaries
+rm -rf Intermediate
+rm -rf Saved
+rm -rf Plugins/AirSim/Binaries
+rm -rf Plugins/AirSim/Intermediate
+rm -rf Plugins/AirSim/Saved
+rm -f CMakeLists.txt
+rm -f Makefile
 
 popd >/dev/null
