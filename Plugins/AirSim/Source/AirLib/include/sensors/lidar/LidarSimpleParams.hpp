@@ -21,6 +21,7 @@ struct LidarSimpleParams {
     real_T range = 10000.0f / 100;            // meters
     uint points_per_second = 100000;  
     uint horizontal_rotation_frequency = 10;  // rotations/sec
+    real_T points_per_scan = 300;
     real_T horizontal_FOV_start = 0;
     real_T horizontal_FOV_end = 359;
     real_T vertical_FOV_upper = -15;             // drones -15, car +10
@@ -48,6 +49,7 @@ struct LidarSimpleParams {
 
         horizontal_FOV_start = settings.horizontal_FOV_start;
         horizontal_FOV_end = settings.horizontal_FOV_end;
+        points_per_scan = settings.points_per_scan;
 
         // By default, for multirotors the lidars FOV point downwards;
         // for cars, the lidars FOV is more forward facing.

@@ -54,7 +54,7 @@ void UnrealLidarSensor::getPointCloud(const msr::airlib::Pose& lidar_pose, const
     // since SensorBase mechanism uses the elapsed clock time instead of the tick delta-time.
     constexpr float MAX_POINTS_IN_SCAN = 1e+10f;
     // uint32 total_points_to_scan = FMath::RoundHalfFromZero(params.points_per_second * delta_time);
-    uint32 total_points_to_scan = 8000;
+    uint32 total_points_to_scan = params.points_per_scan ;
 
 
     if (total_points_to_scan > MAX_POINTS_IN_SCAN)

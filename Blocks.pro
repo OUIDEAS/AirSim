@@ -10,9 +10,9 @@ CONFIG -= qt
 TARGET = UE4 
 
 unrealRootPath=/home/travis/UnrealEngine/4.24EngineRedo/UnrealEngine
-BlocksRootPath=/home/travis/UnrealEngine/4.24Projects/UAVCameraBlocksLINUX2/UavCameraBlocksAttempt2/UAVCameraBlocks
+BlocksRootPath=/home/travis/UnrealEngine/4.24Projects/HectorSLAMEnv/UavCameraBlocksAttempt2/UAVCameraBlocks
 
-gameProjectFile=/home/travis/UnrealEngine/4.24Projects/UAVCameraBlocksLINUX2/UavCameraBlocksAttempt2/UAVCameraBlocks/Blocks.uproject
+gameProjectFile=/home/travis/UnrealEngine/4.24Projects/HectorSLAMEnv/UavCameraBlocksAttempt2/UAVCameraBlocks/Blocks.uproject
 build=bash $$unrealRootPath/Engine/Build/BatchFiles/Linux/RunMono.sh $$unrealRootPath/Engine/Binaries/DotNET/UnrealBuildTool.exe
 
 args=$(ARGS)

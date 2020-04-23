@@ -1,6 +1,6 @@
 HEADERS += \ 
-	"$$unrealRootPath/Engine/Source/Programs/BlankProgram/Private/BlankProgram.h" \
 	"$$unrealRootPath/Engine/Source/Programs/BenchmarkTool/Private/BenchmarkTool.h" \
+	"$$unrealRootPath/Engine/Source/Programs/BlankProgram/Private/BlankProgram.h" \
 	"$$unrealRootPath/Engine/Source/Programs/BuildPatchTool/Public/BuildPatchTool.h" \
 	"$$unrealRootPath/Engine/Source/Programs/BuildPatchTool/Public/Interfaces/ToolMode.h" \
 	"$$unrealRootPath/Engine/Source/Programs/BuildPatchTool/Public/ToolModes/AutomationMode.h" \
@@ -146,930 +146,23 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Programs/UnrealVersionSelector/Private/Windows/Resources/Resource.h" \
 	"$$unrealRootPath/Engine/Source/Programs/UnrealWatchdog/Private/UnrealWatchdog.h" \
 	"$$unrealRootPath/Engine/Source/Programs/UnrealWatchdog/Private/WatchdogAnalytics.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Mac/DsymExporter/Public/DsymExporterApp.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Mac/UnrealAtoS/Public/UnrealAtoSApp.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Mac/UE4EditorServices/Private/Mac/UE4EditorServicesAppDelegate.h" \
 	"$$unrealRootPath/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/LaunchDaemonMessageHandler.h" \
 	"$$unrealRootPath/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemon.h" \
 	"$$unrealRootPath/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/UnrealLaunchDaemonApp.h" \
 	"$$unrealRootPath/Engine/Source/Programs/IOS/UnrealLaunchDaemon/Private/IOS/IOSLaunchDaemonView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/MockAI.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/MockAI_BT.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/MockGameplayTasks.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/Actions/TestPawnAction_CallFunction.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/Actions/TestPawnAction_Log.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTDecorator_CantExecute.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTDecorator_DelayedAbort.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTService_Log.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTTask_LatentWithFlags.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTTask_Log.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTTask_SetFlag.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTTask_SetValue.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Public/AITestSuite.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Public/AITestsCommon.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Public/BTBuilder.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Public/TestLogger.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AllDesktopTargetPlatform/Private/AllDesktopTargetPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetFixUpRedirectors.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetRenameManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTools.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetToolsConsoleCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetToolsLog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetVtConversion.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/SAdvancedCopyReportDialog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/SDiscoveringAssetsDialog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/SPackageReportDialog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_ActorFoliageSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AimOffset.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AimOffset1D.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimBlueprint.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimComposite.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimCurveCompressionSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimMontage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimSequence.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimStreamable.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimationAsset.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_BlendSpace.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_BlendSpace1D.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CameraAnim.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CanvasRenderTarget2D.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Class.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CompositeCurveTable.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CompositeDataTable.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Curve.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CurveFloat.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CurveLinearColor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CurveLinearColorAtlas.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CurveTable.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CurveVector.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_DataAsset.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_DataTable.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Enum.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_FbxSceneImportData.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Font.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_FontFace.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_ForceFeedbackEffect.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_HLODProxy.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_InstancedFoliageSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_InterpData.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_LandscapeGrassType.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_LandscapeLayer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Material.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_MaterialFunction.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_MaterialFunctionInstance.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_MaterialInstanceConstant.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_MaterialInterface.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_MaterialParameterCollection.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_NodeMappingContainer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_ObjectLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_ParticleSystem.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_PhysicalMaterial.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_PhysicsAsset.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_PoseAsset.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_PreviewMeshCollection.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_ProceduralFoliageSpawner.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Redirector.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Rig.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_SkeletalMesh.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Skeleton.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_SlateBrush.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_SlateWidgetStyle.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_StaticMesh.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Struct.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_SubsurfaceProfile.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Texture.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Texture2D.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Texture2DArray.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TextureCube.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TextureLightProfile.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TextureRenderTarget.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TextureRenderTarget2D.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TextureRenderTargetCube.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TouchInterface.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_VectorField.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_VectorFieldAnimated.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_VectorFieldStatic.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_VolumeTexture.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_World.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/Experimental/AssetTypeActions_ChaosPhysicalMaterial.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AdvancedCopyCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetToolsModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetToolsSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetTypeActions_Base.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetTypeActions_CSVAssetBase.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetTypeCategories.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/ClassTypeActions_Base.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/IAssetTools.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/IAssetTypeActions.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/IClassTypeActions.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetTypeActions/AssetTypeActions_Blueprint.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetTypeActions/AssetTypeActions_ClassTypeBase.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AudioFormatADPCM/Private/AudioFormatADPCM.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AudioFormatOgg/Private/AudioFormatOgg.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AudioFormatOpus/Private/AudioFormatOpus.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AudioSettingsEditor/Public/TargetPlatformAudioCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Private/AutomationControllerManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Private/AutomationControllerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Private/AutomationDeviceClusterManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Private/AutomationReport.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Private/AutomationReportManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Public/AutomationControllerSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Public/IAutomationControllerManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Public/IAutomationControllerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Public/IAutomationReport.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/AutomationFilter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/AutomationPresetManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationExportMenu.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationGraphicalResultBox.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationTestItem.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationTestItemContextMenu.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationTestTreeView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationWindow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationWindowCommandBar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Public/IAutomationWindowModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/BlankModule/Public/BlankModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/BlueprintCompilerCppBackend/Private/BlueprintCompilerCppBackend.h" \
-	"$$unrealRootPath/Engine/Source/Developer/BlueprintCompilerCppBackend/Private/BlueprintCompilerCppBackendBase.h" \
-	"$$unrealRootPath/Engine/Source/Developer/BlueprintCompilerCppBackend/Private/BlueprintCompilerCppBackendUtils.h" \
-	"$$unrealRootPath/Engine/Source/Developer/BlueprintCompilerCppBackend/Public/BlueprintCompilerCppBackendGatherDependencies.h" \
-	"$$unrealRootPath/Engine/Source/Developer/BlueprintCompilerCppBackend/Public/IBlueprintCompilerCppBackendModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/BlueprintNativeCodeGen/Private/BlueprintNativeCodeGenManifest.h" \
-	"$$unrealRootPath/Engine/Source/Developer/BlueprintNativeCodeGen/Private/BlueprintNativeCodeGenUtils.h" \
-	"$$unrealRootPath/Engine/Source/Developer/BlueprintNativeCodeGen/Public/BlueprintNativeCodeGenModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/BlueprintNativeCodeGen/Public/NativeCodeGenerationTool.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Private/Collection.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Private/CollectionManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Private/CollectionManagerConsoleCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Private/CollectionManagerLog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Public/CollectionManagerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Public/CollectionManagerTypes.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Public/ICollectionManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/CollisionAnalyzer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/CollisionAnalyzerLog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/CollisionAnalyzerStyle.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/SCAQueryDetails.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/SCAQueryTableRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/SCollisionAnalyzer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Public/CollisionAnalyzerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Public/ICollisionAnalyzer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/AutomatedApplication.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/AutomationDriver.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/AutomationDriverLogging.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/DriverElement.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/DriverSequence.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/IApplicationElement.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/IStepExecutor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/PassThroughMessageHandler.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/SlateWidgetElement.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/StepExecutor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/Locators/SlateWidgetLocatorByDelegate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/Locators/SlateWidgetLocatorByPath.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/Locators/SlateWidgetLocatorByUniqueTag.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/MetaData/DriverUniqueTagMetaData.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/Specs/AutomationDriverSpecSuiteViewModel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/Specs/SAutomationDriverSpecSuite.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/AutomationDriverCommon.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/AutomationDriverTypeDefs.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/DriverConfiguration.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/IAutomationDriver.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/IAutomationDriverModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/IDriverElement.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/IDriverSequence.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/IElementLocator.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/LocateBy.h" \
-	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/WaitUntil.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/CrashDebugHelperPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/IOS/CrashDebugHelperIOS.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/Linux/CrashDebugHelperLinux.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/Mac/CrashDebugHelperMac.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/Windows/CrashDebugHelperWindows.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/Windows/WindowsPlatformStackWalkExt.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Public/CrashDebugHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Public/CrashDebugHelperModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Public/CrashDebugPDBCache.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/DesktopPlatformBase.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/DesktopPlatformPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/DesktopPlatformStub.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Linux/DesktopPlatformLinux.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Mac/DesktopPlatformMac.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Mac/MacNativeFeedbackContext.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Windows/DesktopPlatformWindows.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Windows/WindowsNativeFeedbackContext.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Windows/WindowsRegistry.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Public/DesktopPlatformModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Public/IDesktopPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Public/PlatformInfo.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Public/TargetReceipt.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/DerivedDataBackendAsyncPutWrapper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/DerivedDataBackendCorruptionWrapper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/DerivedDataBackendVerifyWrapper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/DerivedDataLimitKeyLengthWrapper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/HierarchicalDerivedDataBackend.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/MemoryDerivedDataBackend.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/PakFileDerivedDataBackend.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DDCCleanup.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DerivedDataBackendInterface.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DerivedDataCacheInterface.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DerivedDataCacheUsageStats.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DerivedDataPluginInterface.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DerivedDataUtilsInterface.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopWidgets/Public/Widgets/Input/SDirectoryPicker.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DesktopWidgets/Public/Widgets/Input/SFilePathPicker.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Models/DeviceBrowserFilter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Models/DeviceDetailsCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Models/DeviceDetailsFeature.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Models/DeviceManagerModel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/SDeviceManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Apps/SDeviceApps.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Apps/SDeviceAppsAppListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowser.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowserContextMenu.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowserDeviceAdder.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowserDeviceListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowserFilterBar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowserTooltip.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Details/SDeviceDetails.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Details/SDeviceDetailsFeatureListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Processes/SDeviceProcesses.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Processes/SDeviceProcessesProcessListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Processes/SDeviceProcessesProcessTreeNode.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Shared/SDeviceQuickInfo.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Toolbar/SDeviceToolbar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Public/IDeviceManagerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/GameplayDebuggerAddonManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/GameplayDebuggerCompat.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/GameplayDebuggerExtension_HUD.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/GameplayDebuggerExtension_Spectator.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/Editor/GameplayDebuggerCategoryConfigCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/Editor/GameplayDebuggerEdMode.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/Editor/GameplayDebuggerExtensionConfigCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/Editor/GameplayDebuggerInputConfigCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/Editor/GameplayDebuggerToolkit.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebugger.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerAddonBase.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerCategory.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerCategoryReplicator.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerConfig.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerExtension.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerLocalController.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerPlayerManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerRenderingComponent.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerTypes.h" \
-	"$$unrealRootPath/Engine/Source/Developer/EditorAnalyticsSession/Public/EditorAnalyticsSession.h" \
-	"$$unrealRootPath/Engine/Source/Developer/EditorAnalyticsSession/Public/EditorSessionSummarySender.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FileUtilities/Public/FileUtilities/ZipArchiveWriter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ExternalImagePicker/Private/SExternalImagePicker.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ExternalImagePicker/Public/IExternalImagePickerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FuncTestRenderingComponent.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalAITest.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTest.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTestBase.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTestGameMode.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTestLevelScript.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTestUtilityLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTestingManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalUIScreenshotTest.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/ScreenshotFunctionalTest.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/ScreenshotFunctionalTestBase.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/TestPhaseComponent.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/TraceQueryTestResults.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/AutomationBlueprintFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/AutomationScreenshotOptions.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/AutomationViewSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/DelayForFramesLatentAction.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/FunctionalTestingHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/FunctionalTestingModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/GroundTruthData.h" \
-	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/TakeScreenshotAfterTimeLatentAction.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/appconst.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graph.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphColorVertices.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphColorVertices.private.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphExtensions.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphExtensions.private.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphFunctionTable.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphStructures.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/listcoll.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/stack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Public/GraphColor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/DirectoryWatcherPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/DirectoryWatcherProxy.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Linux/DirectoryWatchRequestLinux.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Linux/DirectoryWatcherLinux.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Mac/DirectoryWatchRequestMac.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Mac/DirectoryWatcherMac.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Windows/DirectoryWatchRequestWindows.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Windows/DirectoryWatcherWindows.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Public/DirectoryWatcherModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Public/FileCache.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Public/FileCacheUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Public/IDirectoryWatcher.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/Launcher.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherProjectPath.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherTask.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherTaskChainState.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherUATCommand.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherUATTask.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherVerifyProfileTask.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherWorker.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Profiles/LauncherDeviceGroup.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Profiles/LauncherProfile.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Profiles/LauncherProfileLaunchRole.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Profiles/LauncherProfileManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/GameProjectHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncher.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherDeviceGroup.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherProfile.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherProfileLaunchRole.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherProfileManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherServicesModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherTask.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherWorker.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GammaUI/Private/GammaUIPanel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/GammaUI/Public/GammaUI.h" \
-	"$$unrealRootPath/Engine/Source/Developer/HierarchicalLODUtilities/Public/HierarchicalLODProxyProcessor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/HierarchicalLODUtilities/Public/HierarchicalLODUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Developer/HierarchicalLODUtilities/Public/HierarchicalLODUtilitiesModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/HierarchicalLODUtilities/Public/IHierarchicalLODUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Developer/HotReload/Private/HotReloadClassReinstancer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/HotReload/Private/HotReloadLog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/HotReload/Public/IHotReload.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocTextHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocalizationConfigurationScript.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocalizationModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocalizationSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocalizationSourceControlUtil.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocalizationTargetTypes.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/PortableObjectFormatDOM.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/PortableObjectPipeline.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/TextLocalizationResourceGenerator.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/Serialization/JsonInternationalizationArchiveSerializer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/Serialization/JsonInternationalizationManifestSerializer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/Serialization/JsonInternationalizationMetadataSerializer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/LogVisualizer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/LogVisualizerPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/LogVisualizerStyle.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SFilterCheckBox.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SFilterWidget.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLogger.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerFilters.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerLogsList.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerReport.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerSectionOverlay.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerStatusView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerTimeSlider.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerTimeline.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerTimelineBar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerTimelinesContainer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerToolbar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerCameraController.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerCanvasRenderer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerDatabase.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerHUD.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerRenderingActor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerRenderingComponent.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerTimeSliderController.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Public/ILogVisualizer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Public/LogVisualizerSessionSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Public/LogVisualizerSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/ExportMaterialProxy.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/MaterialBakingModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/MaterialOptionsCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/MaterialOptionsWindow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/MaterialRenderItem.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/MaterialRenderItemData.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Public/IMaterialBakingModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Public/MaterialBakingHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Public/MaterialBakingModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Public/MaterialBakingStructures.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Public/MaterialOptions.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialUtilities/Public/MaterialUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MaterialUtilities/Public/MeshRendering.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/BlueprintMergeData.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/MergeUtils.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/SBlueprintMerge.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/SMergeAssetPickerView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/SMergeDetailsView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/SMergeGraphView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/SMergeTreeView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Merge/Public/Merge.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Private/BuildOptimizationHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Private/BuildStatisticManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Private/MeshDescriptionHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Public/IMeshBuilderModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Public/MeshBuilder.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Public/SkeletalMeshBuilder.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Public/StaticMeshBuilder.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Private/DefaultLocalizationServiceProvider.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Private/LocalizationServiceModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Private/LocalizationServiceSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ILocalizationServiceModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ILocalizationServiceOperation.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ILocalizationServiceProvider.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ILocalizationServiceRevision.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ILocalizationServiceState.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/LocalizationServiceHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/LocalizationServiceOperations.h" \
-	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ScopedLocalizationServiceProgress.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshBoneReduction/Public/MeshBoneReduction.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshBuilderCommon/Public/IMeshBuilderCommonModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshBuilderCommon/Public/ThirdPartyBuildOptimizationHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshDescriptionOperations/Public/MeshDescriptionOperations.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshDescriptionOperations/Public/UVMapSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Private/MeshMergeEditorExtensions.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Private/MeshMergeHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Private/MeshMergeUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Private/ProxyGenerationProcessor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Private/ProxyMaterialUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/IMaterialBakingAdapter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/IMeshMergeExtension.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/IMeshMergeUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/MeshMergeData.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/MeshMergeDataTracker.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/MeshMergeModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/SkeletalMeshAdapter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/StaticMeshAdapter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/StaticMeshComponentAdapter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshReductionInterface/Private/MeshReductionManagerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshReductionInterface/Public/IMeshReductionInterfaces.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshReductionInterface/Public/IMeshReductionManagerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshReductionInterface/Public/MeshReductionModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshUtilities/Private/MeshUtilitiesPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshUtilities/Private/SkeletalMeshTools.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshUtilities/Public/MeshUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/MessageFilter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/Model/MessageLogListingModel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/Model/MessageLogModel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/Presentation/MessageLogListingViewModel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/Presentation/MessageLogViewModel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/UserInterface/SMessageLog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/UserInterface/SMessageLogCategoryListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/UserInterface/SMessageLogListing.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/UserInterface/SMessageLogMessageListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Public/IMessageLogListing.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Public/MessageLogInitializationOptions.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Public/MessageLogModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshUtilitiesCommon/Public/Allocator2D.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshUtilitiesCommon/Public/DisjointSet.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshUtilitiesCommon/Public/LayoutUV.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshUtilitiesCommon/Public/MeshUtilitiesCommon.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshUtilitiesCommon/Public/OverlappingCorners.h" \
-	"$$unrealRootPath/Engine/Source/Developer/OutputLog/Private/SDebugConsole.h" \
-	"$$unrealRootPath/Engine/Source/Developer/OutputLog/Private/SDeviceOutputLog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/OutputLog/Private/SOutputLog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/OutputLog/Public/OutputLogModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ModuleUI/Private/SModuleUI.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ModuleUI/Public/ModuleUIInterface.h" \
-	"$$unrealRootPath/Engine/Source/Developer/PakFileUtilities/Private/SignedArchiveWriter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/PakFileUtilities/Public/PakFileUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/ProjectLauncherHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Models/ProjectLauncherCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Models/ProjectLauncherModel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/SProjectLauncher.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Archive/SProjectLauncherArchivePage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Build/SProjectLauncherBuildPage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Build/SProjectLauncherBuildTaskSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherCookByTheBookSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherCookOnTheFlySettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherCookPage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherCookedPlatforms.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherCultureListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherMapListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherPlatformListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherSimpleCookPage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployFileServerSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployPage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployRepositorySettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployTargetListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployTargets.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployTaskSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployToDeviceSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeviceGroupSelector.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherSimpleDeviceListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherSimpleDeviceListView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Launch/SProjectLauncherLaunchCustomRoles.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Launch/SProjectLauncherLaunchPage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Launch/SProjectLauncherLaunchRoleEditor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Launch/SProjectLauncherLaunchTaskSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Package/SProjectLauncherPackagePage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Package/SProjectLauncherPackagingSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Preview/SProjectLauncherPreviewPage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Profile/SProjectLauncherProfileListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Profile/SProjectLauncherProfileListView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Progress/SProjectLauncherMessageListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Progress/SProjectLauncherProgress.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Progress/SProjectLauncherTaskListRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Project/SProjectLauncherProjectPage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Project/SProjectLauncherProjectPicker.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Settings/SProjectLauncherSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/ProjectLauncherDelegates.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherBuildConfigurationSelector.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherCookModeSelector.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherFormLabel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherInstanceTypeSelector.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherProfileLaunchButton.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherProfileNameDescEditor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherValidation.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherVariantSelector.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Public/IProjectLauncherModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProfilerMessages/Public/ProfilerServiceMessages.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProfilerClient/Private/ProfilerClientManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProfilerClient/Public/IProfilerClient.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProfilerClient/Public/IProfilerClientModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProfilerService/Private/ProfilerServiceManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProfilerService/Public/IProfilerServiceManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ProfilerService/Public/IProfilerServiceModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/RawMesh/Public/RawMesh.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshSimplifier/Private/Cache.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshSimplifier/Private/MeshSimplify.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshSimplifier/Private/MeshSimplifyElements.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshSimplifier/Private/Quadric.h" \
-	"$$unrealRootPath/Engine/Source/Developer/MeshSimplifier/Private/UnrolledLinkList.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerDataProvider.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerDataSource.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerFPSAnalyzer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerRawStatsForMemory.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerRawStatsForThreadView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerSample.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerSession.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerStream.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SDataGraph.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SEventGraph.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SEventGraphTooltip.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SFiltersAndPresets.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SHistogram.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SMultiDumpBrowser.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerFPSChartPanel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerGraphPanel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerMiniView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerThreadView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerToolbar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerWindow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/StatDragDropOp.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Public/IProfilerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Profiler/Public/ProfilerCommon.h" \
-	"$$unrealRootPath/Engine/Source/Developer/RealtimeProfiler/Private/RealtimeProfiler.h" \
-	"$$unrealRootPath/Engine/Source/Developer/RealtimeProfiler/Private/SRealtimeProfilerFrame.h" \
-	"$$unrealRootPath/Engine/Source/Developer/RealtimeProfiler/Private/SRealtimeProfilerLineGraph.h" \
-	"$$unrealRootPath/Engine/Source/Developer/RealtimeProfiler/Private/SRealtimeProfilerTimeline.h" \
-	"$$unrealRootPath/Engine/Source/Developer/RealtimeProfiler/Private/SRealtimeProfilerVisualizer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Models/ScreenComparisonModel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Models/ScreenShotComparisonFilter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Widgets/SAsyncImage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Widgets/SScreenComparisonRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Widgets/SScreenShotBrowser.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Widgets/SScreenShotImagePopup.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Public/ScreenShotComparison.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Public/Interfaces/IScreenShotComparisonModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparisonTools/Private/ScreenShotManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparisonTools/Public/ImageComparer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparisonTools/Public/ScreenShotComparisonTools.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparisonTools/Public/Interfaces/IScreenShotManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparisonTools/Public/Interfaces/IScreenShotToolsModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Private/CCIR.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Private/HlslAST.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Private/HlslLexer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Private/HlslParser.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Private/HlslUtils.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Public/CrossCompiler.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Public/ShaderCompilerCommon.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Settings/Private/SettingsCategory.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Settings/Private/SettingsContainer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Settings/Private/SettingsSection.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Settings/Public/ISettingsCategory.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Settings/Public/ISettingsContainer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Settings/Public/ISettingsModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Settings/Public/ISettingsSection.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Settings/Public/ISettingsViewer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ScriptDisassembler/Public/ScriptDisassembler.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionBrowserOwnerFilter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionBrowserTreeItems.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionConsoleCategoryFilter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionConsoleCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionConsoleLogMessage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionConsoleVerbosityFilter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/SSessionFrontend.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Browser/SSessionBrowser.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Browser/SSessionBrowserCommandBar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Browser/SSessionBrowserTreeGroupRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Browser/SSessionBrowserTreeInstanceRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Browser/SSessionBrowserTreeSessionRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsole.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsoleCommandBar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsoleFilterBar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsoleLogTableRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsoleShortcutWindow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsoleToolbar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Public/ISessionFrontendModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderFormatOpenGL/Public/GlslBackend.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderFormatOpenGL/Public/ShaderFormatOpenGL.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/ManifestUpdateHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/PlatformIconInfo.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/SExternalImageReference.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/SHyperlinkLaunchURL.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/SPlatformSetupMessage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/SSettingsEditorCheckoutNotice.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/ShaderFormatsPropertyDetails.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderPreprocessor/Private/PreprocessorPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderPreprocessor/Public/ShaderPreprocessor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderFormatVectorVM/Private/VectorVMBackend.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ShaderFormatVectorVM/Public/ShaderFormatVectorVM.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SkeletalMeshUtilitiesCommon/Public/LODUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/VisualTreeCapture.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/WidgetSnapshotMessages.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/WidgetSnapshotService.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Models/WidgetReflectorNode.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SAtlasVisualizer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SWidgetEventLog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SWidgetReflector.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SWidgetReflectorToolTipWidget.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SWidgetReflectorTreeWidgetItem.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SWidgetSnapshotVisualizer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Public/ISlateReflectorModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceCodeAccess/Private/DefaultSourceCodeAccessor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceCodeAccess/Private/SourceCodeAccessModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceCodeAccess/Private/SourceCodeAccessSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceCodeAccess/Public/ISourceCodeAccessModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceCodeAccess/Public/ISourceCodeAccessor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlackIntegrations/Private/SlackIncomingWebhookInterface.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlackIntegrations/Public/ISlackIncomingWebhookInterface.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlackIntegrations/Public/SlackIntegrations.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlackIntegrations/Public/SlackIntegrationsModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateFileDialogs/Private/SlateFileDialogsPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateFileDialogs/Private/SlateFileDlgWindow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateFileDialogs/Public/ISlateFileDialogModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateFileDialogs/Public/SlateFileDialogs.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SlateFileDialogs/Public/SlateFileDialogsStyles.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SettingsEditor/Private/Models/SettingsEditorModel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SettingsEditor/Private/Widgets/SSettingsEditor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SettingsEditor/Private/Widgets/SSettingsSectionHeader.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SettingsEditor/Public/ISettingsEditorModel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SettingsEditor/Public/ISettingsEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/DefaultSourceControlProvider.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/SSourceControlLogin.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/SSourceControlPicker.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/SourceControlModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/SourceControlPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/SourceControlSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlLabel.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlOperation.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlProvider.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlRevision.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlState.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ScopedSourceControlProgress.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/SourceControlHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/SourceControlOperationBase.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/SourceControlOperations.h" \
-	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/Tests/SourceControlAutomationCommon.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/StandaloneRendererLog.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/StandaloneRendererPlatformHeaders.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/StandaloneRendererPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Mac/OpenGL/SlateOpenGLMac.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLExtensions.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLIndexBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLRenderer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLRenderingPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLShaders.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLTextureManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLTextures.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLVertexBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DConstantBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DIndexBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DRenderer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DRenderingPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DShaders.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DTextureManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DTextures.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DVertexBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Public/StandaloneRenderer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Public/IOS/SlateOpenGLESView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Private/DeviceBrowserDefaultPlatformWidgetCreator.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Private/SDeviceBrowserDefaultPlatformAddWidget.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/InstalledPlatformInfo.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/TargetPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Common/TargetPlatformBase.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IAudioFormat.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IAudioFormatModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IDeviceManagerCustomPlatformWidgetCreator.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IProjectBuildMutatorFeature.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IShaderFormat.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IShaderFormatArchive.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IShaderFormatModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetDevice.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetDeviceOutput.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetPlatformManagerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetPlatformModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITextureFormat.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITextureFormatModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/TargetDeviceId.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Private/TargetDeviceServicesPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Private/Proxies/TargetDeviceProxy.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Private/Proxies/TargetDeviceProxyManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Private/Services/TargetDeviceService.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Private/Services/TargetDeviceServiceManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/ITargetDeviceProxy.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/ITargetDeviceProxyManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/ITargetDeviceService.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/ITargetDeviceServiceManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/ITargetDeviceServicesModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/TargetDeviceServiceMessages.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TextureCompressor/Public/TextureCompressorModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Private/SProfileVisualizer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Private/TaskGraphStyle.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/SBarVisualizer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/SEventsTree.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/SGraphBar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/STaskGraph.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/STimeline.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/VisualizerEvents.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Private/ToolMenusBlueprintLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/IToolMenusModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenu.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuContext.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuDelegates.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuEntry.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuEntryScript.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuMisc.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuOwner.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuSection.h" \
-	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenus.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/Common.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/DataStream.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/Analysis/Engine.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/Analysis/Processor.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/Analysis/Transport/TlsTransport.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/Analysis/Transport/Transport.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/Analysis.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/Analyzer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/ControlClient.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/DataStream.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/Recorder.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/Store.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/AnalysisServicePrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/ModuleServicePrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/SessionServicePrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/CountersTraceAnalysis.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/CpuProfilerTraceAnalysis.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/CsvProfilerTraceAnalysis.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/GpuProfilerTraceAnalysis.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/LoadTimeTraceAnalysis.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/LogTraceAnalysis.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/MiscTraceAnalysis.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/NetTraceAnalyzer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/PlatformFileTraceAnalysis.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/StatsTraceAnalysis.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/FormatArgs.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/PagedArray.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/SlabAllocator.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/StringStore.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/TimelineStatistics.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/Utils.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/BookmarksPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/CountersPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/CsvProfilerPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/FileActivity.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/FramesPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/IntervalTimeline.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/LoadTimeProfilerPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/LogPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/MonotonicTimeline.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/NetProfilerProvider.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/Tables.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/ThreadsPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/TimingProfilerPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/CountersModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/CsvProfilerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/LoadTimeProfilerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/NetProfilerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/StatsModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/TimingProfilerModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/AnalysisService.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/ITraceServicesModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/ModuleService.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/SessionService.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Containers/Allocators.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Containers/Tables.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Containers/Timelines.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/AnalysisSession.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Bookmarks.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Counters.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/CsvProfiler.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Frames.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/LoadTimeProfiler.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Log.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/NetProfiler.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Threads.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/TimingProfiler.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/InsightsCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/InsightsManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/InsightsSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/InsightsStyle.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/TimingProfilerCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/TimingProfilerManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Common/FixedCircularBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Common/PaintUtils.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Common/Stopwatch.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Common/TimeUtils.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/LoadingProfiler/LoadingProfilerCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/LoadingProfiler/LoadingProfilerManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/LoadingProfiler/Widgets/SLoadingProfilerToolbar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/LoadingProfiler/Widgets/SLoadingProfilerWindow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/NetworkingProfilerCommands.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/NetworkingProfilerManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/NetEventGroupingAndSorting.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/NetEventNode.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/NetEventNodeHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/NetStatsViewColumnFactory.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/PacketContentViewDrawHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/PacketContentViewport.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/PacketViewDrawHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/PacketViewport.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetStatsTableCell.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetStatsTableRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetStatsView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetStatsViewTooltip.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetworkingProfilerToolbar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetworkingProfilerWindow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SPacketContentView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SPacketView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/BaseTreeNode.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/Table.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableCellValue.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableCellValueFormatter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableCellValueGetter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableCellValueSorter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableColumn.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableTreeNode.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TreeNodeGrouping.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TreeNodeSorting.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/Widgets/STableTreeView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/Widgets/STableTreeViewCell.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/Widgets/STableTreeViewRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/Widgets/STableTreeViewTooltip.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/AxisViewportDouble.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/AxisViewportInt32.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/BaseTimingTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/DrawHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/FileActivityTimingTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/FrameTrackHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/FrameTrackViewport.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/GraphTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/LoadingTimingTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/LogFilter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/LogMessage.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/MarkersTimingTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/StatsNode.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/StatsNodeHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/StatsViewColumn.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/StatsViewColumnFactory.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/ThreadTimingTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimeRulerTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimerGroupingAndSorting.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimerNode.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimerNodeHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimersViewColumn.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimersViewColumnFactory.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimingEvent.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimingEventsTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimingGraphTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimingTrackViewport.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimingViewDrawHelper.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TooltipDrawState.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SFrameTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SGraphTrack.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SInsightsSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SLogView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SStartPageWindow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SStatsTableCell.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SStatsTableRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SStatsView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SStatsViewTooltip.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimerTableCell.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimerTableRow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimerTreeView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimersView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimersViewTooltip.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimingProfilerToolbar.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimingProfilerWindow.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimingView.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Public/Insights/IUnrealInsightsModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Public/Insights/TimingProfilerCommon.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Public/Insights/Version.h" \
-	"$$unrealRootPath/Engine/Source/Developer/VulkanShaderFormat/Private/VulkanBackend.h" \
-	"$$unrealRootPath/Engine/Source/Developer/VulkanShaderFormat/Private/VulkanShaderFormat.h" \
-	"$$unrealRootPath/Engine/Source/Developer/XGEController/Public/XGEControllerInterface.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TreeMap/TreeMapModule.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TreeMap/Public/ITreeMap.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TreeMap/Public/ITreeMapCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TreeMap/Public/STreeMap.h" \
-	"$$unrealRootPath/Engine/Source/Developer/TreeMap/Public/TreeMapStyle.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Mac/DsymExporter/Public/DsymExporterApp.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Mac/UnrealAtoS/Public/UnrealAtoSApp.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Mac/UE4EditorServices/Private/Mac/UE4EditorServicesAppDelegate.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Classes/AIGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Classes/AIGraphNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Classes/AIGraphSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Classes/AIGraphTypes.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/AIGraphConnectionDrawingPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/AIGraphEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/AIGraphModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/K2Node_AIMoveTo.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/SGraphEditorActionMenuAI.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/SGraphNodeAI.h" \
 	"$$unrealRootPath/Engine/Source/Editor/AddContentDialog/Private/AddContentDialogStyle.h" \
 	"$$unrealRootPath/Engine/Source/Editor/AddContentDialog/Private/ContentSourceDragDropOp.h" \
 	"$$unrealRootPath/Engine/Source/Editor/AddContentDialog/Private/ContentSourceProviderManager.h" \
@@ -1083,18 +176,230 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/AddContentDialog/Private/ViewModels/ContentSourceViewModel.h" \
 	"$$unrealRootPath/Engine/Source/Editor/AddContentDialog/Public/FeaturePackContentSource.h" \
 	"$$unrealRootPath/Engine/Source/Editor/AddContentDialog/Public/IAddContentDialogModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AdvancedPreviewScene/Private/AdvancedPreviewSceneCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AdvancedPreviewScene/Public/AdvancedPreviewScene.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AdvancedPreviewScene/Public/AdvancedPreviewSceneModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AdvancedPreviewScene/Public/AssetViewerSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AdvancedPreviewScene/Public/SAdvancedPreviewDetailsTab.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ActorPickerMode/Private/EditorModeActorPicker.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ActorPickerMode/Public/ActorPickerMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Classes/AIGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Classes/AIGraphNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Classes/AIGraphSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Classes/AIGraphTypes.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/AIGraphConnectionDrawingPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/AIGraphEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/AIGraphModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/K2Node_AIMoveTo.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/SGraphEditorActionMenuAI.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AIGraph/Public/SGraphNodeAI.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimBlueprintPostCompileValidation.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_AimOffsetLookAt.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_AnimDynamics.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ApplyAdditive.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ApplyLimits.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ApplyMeshSpaceAdditive.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_AssetPlayerBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Base.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendBoneByChannel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendListBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendListByBool.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendListByEnum.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendListByInt.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendSpaceBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendSpaceEvaluator.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendSpacePlayer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BoneDrivenController.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CCDIK.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ComponentToLocalSpace.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Constraint.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CopyBone.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CopyBoneDelta.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CopyPoseFromMesh.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CurveSource.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CustomProperty.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CustomTransitionResult.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Fabrik.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_HandIKRetargeting.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_IdentityPose.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Inertialization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LayeredBoneBlend.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LegIK.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LinkedAnimGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LinkedAnimGraphBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LinkedAnimLayer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LinkedInputPose.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LocalRefPose.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LocalToComponentSpace.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LookAt.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_MakeDynamicAdditive.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_MeshRefPose.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ModifyBone.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ModifyCurve.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_MultiWayBlend.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_PoseBlendNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_PoseByName.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_PoseDriver.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_PoseHandler.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_PoseSnapshot.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RandomPlayer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RefPoseBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ResetRoot.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RigidBody.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RigidBody_Chaos.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Root.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RotateRootBone.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RotationMultiplier.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RotationOffsetBlendSpace.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SaveCachedPose.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ScaleChainLength.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SequenceEvaluator.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SequencePlayer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SkeletalControlBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Slot.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SplineIK.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SpringBone.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_StateMachine.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_StateMachineBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_StateResult.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Trail.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_TransitionPoseEvaluator.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_TransitionResult.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_TwistCorrectiveNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_TwoBoneIK.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_TwoWayBlend.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_UseCachedPose.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimPreviewAttacheInstance.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimPreviewInstance.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimStateConduitNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimStateEntryNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimStateNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimStateNodeBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimStateTransitionNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationConduitGraphSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationCustomTransitionGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationCustomTransitionSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationGraphSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationStateGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationStateGraphSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationStateMachineGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationStateMachineSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationTransitionGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationTransitionSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/K2Node_AnimGetter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/K2Node_PlayMontage.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/K2Node_TransitionRuleGetter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/AnimBlueprintNodeOptionalPinManager.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/AnimBlueprintPinInfoDetails.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/AnimGraphDetails.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/PoseDriverDetails.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/CCDIKEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/ConstraintEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/FabrikEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/LookAtEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/ModifyBoneEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/ObserveBoneEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/PoseDriverEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/SplineIKEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/TwoBoneIKEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimGraphCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimGraphDefinitions.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimGraphModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimGraphNode_ObserveBone.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimNodeEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimNodeEditModes.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/IAnimNodeEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationEditor/Private/AnimationEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationEditor/Private/AnimationEditorCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationEditor/Private/AnimationEditorMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationEditor/Public/IAnimationEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationEditor/Public/IAnimationEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/DialogueVoiceFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/DialogueWaveFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/ReimportSoundFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/ReimportSoundSurroundFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/ReverbEffectFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundAttenuationFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundClassFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundConcurrencyFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundCueFactoryNew.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundCueTemplateFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundMixFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundSourceBusFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundSourceEffectFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundSubmixEffectFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundSubmixFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundSurroundFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundClassGraph/SoundClassGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundClassGraph/SoundClassGraphNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundClassGraph/SoundClassGraphSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundCueGraph/SoundCueGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundCueGraph/SoundCueGraphNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundCueGraph/SoundCueGraphNode_Base.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundCueGraph/SoundCueGraphNode_Root.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundCueGraph/SoundCueGraphSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundSubmixGraph/SoundSubmixGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundSubmixGraph/SoundSubmixGraphNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundSubmixGraph/SoundSubmixGraphSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SGraphNodeSoundBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SGraphNodeSoundResult.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SSoundClassActionMenu.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SSoundCuePalette.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SSoundSubmixActionMenu.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SoundClassEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SoundCueEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SoundCueGraphConnectionDrawingPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SoundCueGraphNodeFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SoundSubmixEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_DialogueVoice.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_DialogueWave.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_ReverbEffect.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundAttenuation.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundClass.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundConcurrency.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundCue.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundCueTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundEffectPreset.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundMix.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundSourceBus.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundSubmix.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundWave.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/Factories/SoundFactoryUtility.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/AudioEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/ISoundClassEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/ISoundCueEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/ISoundSubmixEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/SoundClassEditorCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/SoundClassEditorUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/SoundCueEditorUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/SoundCueGraphEditorCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/SoundSubmixEditorUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/AssetTypeActions/AssetTypeActions_SoundBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimGraphConnectionDrawingPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationBlueprintEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationBlueprintEditorMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationBlueprintEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationBlueprintInterfaceEditorMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationGraphFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/StateMachineConnectionDrawingPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationNodes/SAnimationGraphNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationNodes/SGraphNodeAnimationResult.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationNodes/SGraphNodeLayeredBoneBlend.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationNodes/SGraphNodeSequencePlayer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationNodes/SGraphNodeStateMachineInstance.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationPins/SGraphPinPose.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationStateNodes/SGraphNodeAnimState.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationStateNodes/SGraphNodeAnimStateEntry.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationStateNodes/SGraphNodeAnimTransition.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Public/IAnimationBlueprintEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Public/IAnimationBlueprintEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AssetTagsEditor/Public/AssetTagItemTypes.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AssetTagsEditor/Public/SAssetTagItem.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/AnimationModifierDetailCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/AnimationModifierHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/AnimationModifiersAssetUserData.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/AnimationModifiersModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/AnimationModifiersTabSummoner.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/ModifierOutputFilter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/SAnimationModifierContentBrowserWindow.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/SAnimationModifiersTab.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/SModifierItemRow.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/SModifierListview.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Public/AnimationBlueprintLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Public/AnimationModifier.h" \
+	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Public/IAnimationModifiersModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/BehaviorTreeEditor/Classes/BehaviorTreeDecoratorGraph.h" \
 	"$$unrealRootPath/Engine/Source/Editor/BehaviorTreeEditor/Classes/BehaviorTreeDecoratorGraphNode.h" \
 	"$$unrealRootPath/Engine/Source/Editor/BehaviorTreeEditor/Classes/BehaviorTreeDecoratorGraphNode_Decorator.h" \
@@ -1138,6 +443,55 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/BehaviorTreeEditor/Private/DetailCustomizations/BlackboardSelectorDetails.h" \
 	"$$unrealRootPath/Engine/Source/Editor/BehaviorTreeEditor/Public/BehaviorTreeEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/BehaviorTreeEditor/Public/IBehaviorTreeEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/ActorActionUtility.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/AssetActionUtility.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityActor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityActorComponent.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityBlueprint.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityBlueprintFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityCamera.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityObject.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityWidget.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityWidgetBlueprint.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityWidgetBlueprintFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/GlobalEditorUtilityBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/PlacedEditorUtilityBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/AssetTypeActions_EditorUtilityBlueprint.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/AssetTypeActions_EditorUtilityWidgetBlueprint.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/BlutilityContentBrowserExtensions.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/BlutilityLevelEditorExtensions.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/BlutilityMenuExtensions.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/EditorUtilityCommon.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Public/EditorUtilityLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Public/EditorUtilitySubsystem.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Blutility/Public/IBlutilityModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/BspMode/Private/BspMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/BspMode/Private/BspModeModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/BspMode/Private/SBspPalette.h" \
+	"$$unrealRootPath/Engine/Source/Editor/BspMode/Public/BspModeStyle.h" \
+	"$$unrealRootPath/Engine/Source/Editor/BspMode/Public/IBspModeModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Private/ClassViewerNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Private/SClassViewer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Private/UnloadedBlueprintData.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Public/ClassViewerFilter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Public/ClassViewerModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Public/ClassViewerProjectSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothMeshAdapter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPaintSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPaintSettingsCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPaintToolBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPaintToolCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPaintTools.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPainter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPainterCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothingAssetListCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothingPaintEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/SClothAssetSelector.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/SClothPaintTab.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/SClothPaintWidget.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/SCopyVertexColorSettingsPanel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Public/ClothPaintingModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Public/CopyVertexColorToClothParams.h" \
 	"$$unrealRootPath/Engine/Source/Editor/BlueprintGraph/Classes/BlueprintBoundEventNodeSpawner.h" \
 	"$$unrealRootPath/Engine/Source/Editor/BlueprintGraph/Classes/BlueprintBoundNodeSpawner.h" \
 	"$$unrealRootPath/Engine/Source/Editor/BlueprintGraph/Classes/BlueprintComponentNodeSpawner.h" \
@@ -1276,242 +630,9 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/BlueprintGraph/Public/EventEntryHandler.h" \
 	"$$unrealRootPath/Engine/Source/Editor/BlueprintGraph/Public/MathExpressionHandler.h" \
 	"$$unrealRootPath/Engine/Source/Editor/BlueprintGraph/Public/VariableSetHandler.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AdvancedPreviewScene/Private/AdvancedPreviewSceneCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AdvancedPreviewScene/Public/AdvancedPreviewScene.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AdvancedPreviewScene/Public/AdvancedPreviewSceneModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AdvancedPreviewScene/Public/AssetViewerSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AdvancedPreviewScene/Public/SAdvancedPreviewDetailsTab.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimBlueprintPostCompileValidation.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_AimOffsetLookAt.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_AnimDynamics.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ApplyAdditive.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ApplyLimits.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ApplyMeshSpaceAdditive.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_AssetPlayerBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Base.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendBoneByChannel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendListBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendListByBool.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendListByEnum.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendListByInt.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendSpaceBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendSpaceEvaluator.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BlendSpacePlayer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_BoneDrivenController.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CCDIK.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ComponentToLocalSpace.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Constraint.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CopyBone.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CopyBoneDelta.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CopyPoseFromMesh.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CurveSource.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CustomProperty.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_CustomTransitionResult.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Fabrik.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_HandIKRetargeting.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_IdentityPose.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Inertialization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LayeredBoneBlend.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LegIK.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LinkedAnimGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LinkedAnimGraphBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LinkedAnimLayer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LinkedInputPose.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LocalRefPose.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LocalToComponentSpace.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_LookAt.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_MakeDynamicAdditive.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_MeshRefPose.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ModifyBone.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ModifyCurve.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_MultiWayBlend.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_PoseBlendNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_PoseByName.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_PoseDriver.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_PoseHandler.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_PoseSnapshot.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RandomPlayer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RefPoseBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ResetRoot.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RigidBody.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RigidBody_Chaos.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Root.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RotateRootBone.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RotationMultiplier.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_RotationOffsetBlendSpace.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SaveCachedPose.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_ScaleChainLength.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SequenceEvaluator.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SequencePlayer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SkeletalControlBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Slot.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SplineIK.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_SpringBone.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_StateMachine.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_StateMachineBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_StateResult.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_Trail.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_TransitionPoseEvaluator.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_TransitionResult.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_TwistCorrectiveNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_TwoBoneIK.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_TwoWayBlend.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimGraphNode_UseCachedPose.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimPreviewAttacheInstance.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimPreviewInstance.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimStateConduitNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimStateEntryNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimStateNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimStateNodeBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimStateTransitionNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationConduitGraphSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationCustomTransitionGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationCustomTransitionSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationGraphSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationStateGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationStateGraphSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationStateMachineGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationStateMachineSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationTransitionGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/AnimationTransitionSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/K2Node_AnimGetter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/K2Node_PlayMontage.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Classes/K2Node_TransitionRuleGetter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/AnimBlueprintNodeOptionalPinManager.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/AnimBlueprintPinInfoDetails.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/AnimGraphDetails.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/PoseDriverDetails.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/CCDIKEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/ConstraintEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/FabrikEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/LookAtEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/ModifyBoneEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/ObserveBoneEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/PoseDriverEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/SplineIKEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Private/EditModes/TwoBoneIKEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimGraphCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimGraphDefinitions.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimGraphModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimGraphNode_ObserveBone.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimNodeEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/AnimNodeEditModes.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimGraph/Public/IAnimNodeEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/ActorActionUtility.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/AssetActionUtility.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityActor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityActorComponent.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityBlueprint.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityBlueprintFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityCamera.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityObject.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityWidget.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityWidgetBlueprint.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/EditorUtilityWidgetBlueprintFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/GlobalEditorUtilityBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Classes/PlacedEditorUtilityBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/AssetTypeActions_EditorUtilityBlueprint.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/AssetTypeActions_EditorUtilityWidgetBlueprint.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/BlutilityContentBrowserExtensions.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/BlutilityLevelEditorExtensions.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/BlutilityMenuExtensions.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Private/EditorUtilityCommon.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Public/EditorUtilityLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Public/EditorUtilitySubsystem.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Blutility/Public/IBlutilityModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimGraphConnectionDrawingPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationBlueprintEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationBlueprintEditorMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationBlueprintEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationBlueprintInterfaceEditorMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationGraphFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/StateMachineConnectionDrawingPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationNodes/SAnimationGraphNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationNodes/SGraphNodeAnimationResult.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationNodes/SGraphNodeLayeredBoneBlend.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationNodes/SGraphNodeSequencePlayer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationNodes/SGraphNodeStateMachineInstance.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationPins/SGraphPinPose.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationStateNodes/SGraphNodeAnimState.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationStateNodes/SGraphNodeAnimStateEntry.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Private/AnimationStateNodes/SGraphNodeAnimTransition.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Public/IAnimationBlueprintEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationBlueprintEditor/Public/IAnimationBlueprintEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationEditor/Private/AnimationEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationEditor/Private/AnimationEditorCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationEditor/Private/AnimationEditorMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationEditor/Public/IAnimationEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationEditor/Public/IAnimationEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AssetTagsEditor/Public/AssetTagItemTypes.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AssetTagsEditor/Public/SAssetTagItem.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/DialogueVoiceFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/DialogueWaveFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/ReimportSoundFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/ReimportSoundSurroundFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/ReverbEffectFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundAttenuationFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundClassFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundConcurrencyFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundCueFactoryNew.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundCueTemplateFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundMixFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundSourceBusFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundSourceEffectFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundSubmixEffectFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundSubmixFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/Factories/SoundSurroundFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundClassGraph/SoundClassGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundClassGraph/SoundClassGraphNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundClassGraph/SoundClassGraphSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundCueGraph/SoundCueGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundCueGraph/SoundCueGraphNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundCueGraph/SoundCueGraphNode_Base.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundCueGraph/SoundCueGraphNode_Root.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundCueGraph/SoundCueGraphSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundSubmixGraph/SoundSubmixGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundSubmixGraph/SoundSubmixGraphNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Classes/SoundSubmixGraph/SoundSubmixGraphSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SGraphNodeSoundBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SGraphNodeSoundResult.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SSoundClassActionMenu.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SSoundCuePalette.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SSoundSubmixActionMenu.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SoundClassEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SoundCueEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SoundCueGraphConnectionDrawingPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SoundCueGraphNodeFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/SoundSubmixEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_DialogueVoice.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_DialogueWave.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_ReverbEffect.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundAttenuation.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundClass.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundConcurrency.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundCue.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundCueTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundEffectPreset.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundMix.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundSourceBus.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundSubmix.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/AssetTypeActions/AssetTypeActions_SoundWave.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Private/Factories/SoundFactoryUtility.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/AudioEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/ISoundClassEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/ISoundCueEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/ISoundSubmixEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/SoundClassEditorCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/SoundClassEditorUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/SoundCueEditorUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/SoundCueGraphEditorCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/SoundSubmixEditorUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AudioEditor/Public/AssetTypeActions/AssetTypeActions_SoundBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/BspMode/Private/BspMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/BspMode/Private/BspModeModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/BspMode/Private/SBspPalette.h" \
-	"$$unrealRootPath/Engine/Source/Editor/BspMode/Public/BspModeStyle.h" \
-	"$$unrealRootPath/Engine/Source/Editor/BspMode/Public/IBspModeModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothingSystemEditorInterface/Public/ClothingAssetFactoryInterface.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothingSystemEditorInterface/Public/ClothingSystemEditorInterfaceModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ClothingSystemEditorInterface/Public/SimulationEditorExtender.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Cascade/Classes/CascadeConfiguration.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Cascade/Classes/CascadeParticleSystemComponent.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Cascade/Private/Cascade.h" \
@@ -1524,32 +645,14 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/Cascade/Private/SCascadePreviewViewport.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Cascade/Public/CascadeModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Cascade/Public/ICascade.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Private/ClassViewerNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Private/SClassViewer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Private/UnloadedBlueprintData.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Public/ClassViewerFilter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Public/ClassViewerModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClassViewer/Public/ClassViewerProjectSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothMeshAdapter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPaintSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPaintSettingsCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPaintToolBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPaintToolCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPaintTools.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPainter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothPainterCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothingAssetListCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/ClothingPaintEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/SClothAssetSelector.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/SClothPaintTab.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/SClothPaintWidget.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Private/SCopyVertexColorSettingsPanel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Public/ClothPaintingModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothPainter/Public/CopyVertexColorToClothParams.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ClothingSystemEditor/Private/ClothingSystemEditorPrivatePCH.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ClothingSystemEditor/Public/ClothingAssetFactory.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ClothingSystemEditor/Public/ClothingSystemEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ClothingSystemEditor/Public/SimulationEditorExtenderNv.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CommonMenuExtensions/Public/BufferVisualizationMenuCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CommonMenuExtensions/Public/CommonMenuExtensionsModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CommonMenuExtensions/Public/ShowFlagFilter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CommonMenuExtensions/Public/ShowFlagMenuCommands.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ComponentVisualizers/Public/AttenuatedComponentVisualizer.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ComponentVisualizers/Public/AudioComponentVisualizer.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ComponentVisualizers/Public/ComponentVisualizers.h" \
@@ -1569,13 +672,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/ComponentVisualizers/Public/SpringArmComponentVisualizer.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ComponentVisualizers/Public/SpringComponentVisualizer.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ComponentVisualizers/Public/StereoLayerComponentVisualizer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothingSystemEditorInterface/Public/ClothingAssetFactoryInterface.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothingSystemEditorInterface/Public/ClothingSystemEditorInterfaceModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ClothingSystemEditorInterface/Public/SimulationEditorExtender.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CommonMenuExtensions/Public/BufferVisualizationMenuCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CommonMenuExtensions/Public/CommonMenuExtensionsModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CommonMenuExtensions/Public/ShowFlagFilter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CommonMenuExtensions/Public/ShowFlagMenuCommands.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ConfigEditor/Private/ConfigEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ConfigEditor/Private/SConfigEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ConfigEditor/Private/STargetPlatformSelector.h" \
@@ -1584,117 +680,21 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/ConfigEditor/Public/IConfigEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ConfigEditor/Public/PropertyVisualization/ConfigPropertyColumn.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ConfigEditor/Public/PropertyVisualization/ConfigPropertyConfigFileStateColumn.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/AnimationModifierDetailCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/AnimationModifierHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/AnimationModifiersAssetUserData.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/AnimationModifiersModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/AnimationModifiersTabSummoner.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/ModifierOutputFilter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/SAnimationModifierContentBrowserWindow.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/SAnimationModifiersTab.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/SModifierItemRow.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Private/SModifierListview.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Public/AnimationBlueprintLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Public/AnimationModifier.h" \
-	"$$unrealRootPath/Engine/Source/Editor/AnimationModifiers/Public/IAnimationModifiersModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/AssetContextMenu.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/AssetViewSortManager.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/AssetViewTypes.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/AssetViewWidgets.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/CollectionAssetManagement.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/CollectionAssetRegistryBridge.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/CollectionContextMenu.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/CollectionViewTypes.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/CollectionViewUtils.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/ContentBrowserCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/ContentBrowserLog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/ContentBrowserSingleton.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/ContentBrowserUtils.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/DragDropHandler.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/EmptyFolderVisibilityManager.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/FrontendFilters.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/HistoryManager.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/NativeClassHierarchy.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/NewAssetOrClassContextMenu.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/PathContextMenu.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/PathViewTypes.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SAssetDialog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SAssetPicker.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SAssetView.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SCollectionPicker.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SCollectionView.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SContentBrowser.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SFilterList.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SMetaDataView.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SPathPicker.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SPathView.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SThumbnailEditModeTools.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SourcesData.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SourcesSearch.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SourcesViewWidgets.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/ContentBrowserDelegates.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/ContentBrowserFrontEndFilterExtension.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/ContentBrowserMenuContexts.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/ContentBrowserModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/FrontendFilterBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/IContentBrowserSingleton.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/CurveEditorContextMenu.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/CurveEditorEditObjectContainer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/CurveEditorViewRegistry.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/RichCurveKeyProxy.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/SCurveEditorToolProperties.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/SCurveEditorViewContainer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/DragOperations/CurveEditorDragOperation_Marquee.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/DragOperations/CurveEditorDragOperation_MoveKeys.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/DragOperations/CurveEditorDragOperation_Pan.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/DragOperations/CurveEditorDragOperation_Tangent.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/DragOperations/CurveEditorDragOperation_Zoom.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveDataAbstraction.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveDrawInfo.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorKeyProxy.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorScreenSpace.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorSelection.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorSnapMetrics.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorTypes.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveModel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/IBufferedCurveModel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/ICurveEditorBounds.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/ICurveEditorDragOperation.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/ICurveEditorExtension.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/ICurveEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/ICurveEditorToolExtension.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/RichCurveEditorModel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/SCurveEditorPanel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/SCurveEditorView.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/SCurveKeyDetailPanel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/SGridLineSpacingList.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Filters/CurveEditorBakeFilter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Filters/CurveEditorEulerFilter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Filters/CurveEditorFilterBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Filters/CurveEditorReduceFilter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Filters/SCurveEditorFilterPanel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/CurveEditorTree.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/CurveEditorTreeFilter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/CurveEditorTreeTraits.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/ICurveEditorTreeItem.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/SCurveEditorTree.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/SCurveEditorTreeFilterStatusBar.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/SCurveEditorTreePin.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/SCurveEditorTreeTextFilter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Views/SCurveEditorViewAbsolute.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Views/SCurveEditorViewNormalized.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Views/SCurveEditorViewStacked.h" \
-	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Views/SInteractiveCurveEditorView.h" \
 	"$$unrealRootPath/Engine/Source/Editor/CurveTableEditor/Private/CompositeCurveTableEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/CurveTableEditor/Private/CurveTableEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/CurveTableEditor/Private/CurveTableEditorCommands.h" \
 	"$$unrealRootPath/Engine/Source/Editor/CurveTableEditor/Private/CurveTableEditorHandle.h" \
 	"$$unrealRootPath/Engine/Source/Editor/CurveTableEditor/Public/CurveTableEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/CurveTableEditor/Public/ICurveTableEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/DeviceProfileConsoleVariableColumn.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/DeviceProfileTextureLODSettingsColumn.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/SDeviceProfileCreateProfilePanel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/SDeviceProfileEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/SDeviceProfileEditorSingleProfileView.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/SDeviceProfileSelectionPanel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/DetailsPanel/SDeviceProfileDetailsPanel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Public/DeviceProfileEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Public/DeviceProfileEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/CurveAssetEditor/Private/CurveAssetEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/CurveAssetEditor/Private/SColorGradientCurveEditorView.h" \
 	"$$unrealRootPath/Engine/Source/Editor/CurveAssetEditor/Public/CurveAssetEditorModule.h" \
@@ -1842,6 +842,47 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/DetailCustomizations/Public/Customizations/MobilityCustomization.h" \
 	"$$unrealRootPath/Engine/Source/Editor/DetailCustomizations/Public/Customizations/SlateBrushCustomization.h" \
 	"$$unrealRootPath/Engine/Source/Editor/DetailCustomizations/Public/Customizations/SlateFontInfoCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/AssetContextMenu.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/AssetViewSortManager.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/AssetViewTypes.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/AssetViewWidgets.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/CollectionAssetManagement.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/CollectionAssetRegistryBridge.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/CollectionContextMenu.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/CollectionViewTypes.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/CollectionViewUtils.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/ContentBrowserCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/ContentBrowserLog.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/ContentBrowserSingleton.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/ContentBrowserUtils.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/DragDropHandler.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/EmptyFolderVisibilityManager.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/FrontendFilters.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/HistoryManager.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/NativeClassHierarchy.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/NewAssetOrClassContextMenu.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/PathContextMenu.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/PathViewTypes.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SAssetDialog.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SAssetPicker.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SAssetView.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SCollectionPicker.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SCollectionView.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SContentBrowser.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SFilterList.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SMetaDataView.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SPathPicker.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SPathView.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SThumbnailEditModeTools.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SourcesData.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SourcesSearch.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Private/SourcesViewWidgets.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/ContentBrowserDelegates.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/ContentBrowserFrontEndFilterExtension.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/ContentBrowserMenuContexts.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/ContentBrowserModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/FrontendFilterBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ContentBrowser/Public/IContentBrowserSingleton.h" \
 	"$$unrealRootPath/Engine/Source/Editor/DataTableEditor/Private/CompositeDataTableEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/DataTableEditor/Private/DataTableEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/DataTableEditor/Private/SCompositeRowEditor.h" \
@@ -1850,27 +891,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/DataTableEditor/Public/DataTableEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/DataTableEditor/Public/DataTableRowUtlis.h" \
 	"$$unrealRootPath/Engine/Source/Editor/DataTableEditor/Public/IDataTableEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/DeviceProfileConsoleVariableColumn.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/DeviceProfileTextureLODSettingsColumn.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/SDeviceProfileCreateProfilePanel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/SDeviceProfileEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/SDeviceProfileEditorSingleProfileView.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/SDeviceProfileSelectionPanel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Private/DetailsPanel/SDeviceProfileDetailsPanel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Public/DeviceProfileEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileEditor/Public/DeviceProfileEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileServices/Private/DeviceProfileServicesUIManager.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileServices/Public/DeviceProfileServices.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileServices/Public/IDeviceProfileServicesModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileServices/Public/IDeviceProfileServicesUIManager.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/CurveEditorActions.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/CurveEditorHitProxies.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/CurveEditorSharedData.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/CurveEditorViewportClient.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/SCurveEditorViewport.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/SDistributionCurveEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Public/DistCurveEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Public/IDistCurveEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Documentation/Private/Documentation.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Documentation/Private/DocumentationLink.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Documentation/Private/DocumentationPage.h" \
@@ -1880,6 +900,69 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/Documentation/Public/IDocumentationModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Documentation/Public/IDocumentationPage.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Documentation/Public/SDocumentationToolTip.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileServices/Private/DeviceProfileServicesUIManager.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileServices/Public/DeviceProfileServices.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileServices/Public/IDeviceProfileServicesModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DeviceProfileServices/Public/IDeviceProfileServicesUIManager.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/CurveEditorContextMenu.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/CurveEditorEditObjectContainer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/CurveEditorViewRegistry.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/RichCurveKeyProxy.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/SCurveEditorToolProperties.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/SCurveEditorViewContainer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/DragOperations/CurveEditorDragOperation_Marquee.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/DragOperations/CurveEditorDragOperation_MoveKeys.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/DragOperations/CurveEditorDragOperation_Pan.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/DragOperations/CurveEditorDragOperation_Tangent.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Private/DragOperations/CurveEditorDragOperation_Zoom.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveDataAbstraction.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveDrawInfo.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorKeyProxy.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorScreenSpace.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorSelection.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorSnapMetrics.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveEditorTypes.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/CurveModel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/IBufferedCurveModel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/ICurveEditorBounds.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/ICurveEditorDragOperation.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/ICurveEditorExtension.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/ICurveEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/ICurveEditorToolExtension.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/RichCurveEditorModel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/SCurveEditorPanel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/SCurveEditorView.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/SCurveKeyDetailPanel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/SGridLineSpacingList.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Filters/CurveEditorBakeFilter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Filters/CurveEditorEulerFilter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Filters/CurveEditorFilterBase.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Filters/CurveEditorReduceFilter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Filters/SCurveEditorFilterPanel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/CurveEditorTree.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/CurveEditorTreeFilter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/CurveEditorTreeTraits.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/ICurveEditorTreeItem.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/SCurveEditorTree.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/SCurveEditorTreeFilterStatusBar.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/SCurveEditorTreePin.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Tree/SCurveEditorTreeTextFilter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Views/SCurveEditorViewAbsolute.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Views/SCurveEditorViewNormalized.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Views/SCurveEditorViewStacked.h" \
+	"$$unrealRootPath/Engine/Source/Editor/CurveEditor/Public/Views/SInteractiveCurveEditorView.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/CurveEditorActions.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/CurveEditorHitProxies.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/CurveEditorSharedData.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/CurveEditorViewportClient.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/SCurveEditorViewport.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Private/SDistributionCurveEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Public/DistCurveEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/DistCurveEditor/Public/IDistCurveEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/EditorStyle/Private/SlateEditorStyle.h" \
 	"$$unrealRootPath/Engine/Source/Editor/EditorStyle/Public/EditorFontGlyphs.h" \
 	"$$unrealRootPath/Engine/Source/Editor/EditorStyle/Public/EditorStyle.h" \
@@ -1899,6 +982,34 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/EditorWidgets/Public/STextPropertyEditableTextBox.h" \
 	"$$unrealRootPath/Engine/Source/Editor/EditorSubsystem/Public/EditorSubsystem.h" \
 	"$$unrealRootPath/Engine/Source/Editor/EditorSubsystem/Public/EditorSubsystemModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/ActorFactoryProceduralFoliage.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageEdMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageEdModeToolkit.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageEditActions.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliagePaletteCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliagePaletteItem.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageTypeCustomizationHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageTypeDetails.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageTypeFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageTypeObjectCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageTypePaintingCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageType_InstancedStaticMeshPaintingCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/LandscapeGrassTypeFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/ProceduralFoliageComponentDetails.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/ProceduralFoliageComponentVisualizer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/ProceduralFoliageSpawnerFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/SFoliageEdit.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/SFoliagePalette.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Public/FoliageEditModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Public/FoliageEditUtility.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Public/FoliageType_ActorThumbnailRenderer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Public/FoliageType_ISMThumbnailRenderer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Private/FontEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Private/FontFaceDetailsCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Private/SCompositeFontEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Private/SFontEditorViewport.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Public/FontEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Public/IFontEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/EnvironmentQueryEditor/Classes/EdGraphSchema_EnvironmentQuery.h" \
 	"$$unrealRootPath/Engine/Source/Editor/EnvironmentQueryEditor/Classes/EnvironmentQueryFactory.h" \
 	"$$unrealRootPath/Engine/Source/Editor/EnvironmentQueryEditor/Classes/EnvironmentQueryGraph.h" \
@@ -1918,6 +1029,25 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/EnvironmentQueryEditor/Private/DetailCustomizations/EnvTraceDataCustomization.h" \
 	"$$unrealRootPath/Engine/Source/Editor/EnvironmentQueryEditor/Public/EnvironmentQueryEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/EnvironmentQueryEditor/Public/IEnvironmentQueryEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Clip.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Create.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Delete.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Edit.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Extrude.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Flip.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Lathe.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Optimize.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Pen.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Split.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Triangulate.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Turn.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Weld.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Private/GeometryMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Public/EditorGeometry.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Public/GeometryEdMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameplayTasksEditor/Classes/K2Node_LatentGameplayTaskCall.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameplayTasksEditor/Public/GameplayTasksEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/GraphEditor/Private/DragConnection.h" \
 	"$$unrealRootPath/Engine/Source/Editor/GraphEditor/Private/DragNode.h" \
 	"$$unrealRootPath/Engine/Source/Editor/GraphEditor/Private/GraphActionNode.h" \
@@ -1991,56 +1121,23 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/GraphEditor/Public/KismetPins/SGraphPinVector.h" \
 	"$$unrealRootPath/Engine/Source/Editor/GraphEditor/Public/KismetPins/SGraphPinVector2D.h" \
 	"$$unrealRootPath/Engine/Source/Editor/GraphEditor/Public/KismetPins/SGraphPinVector4.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Classes/DefaultTemplateProjectDefs.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Classes/TemplateProjectDefs.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/GameProjectGenerationLog.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SGameProjectDialog.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SGetSuggestedIDEWidget.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SNewClassDialog.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SNewProjectWizard.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SProjectBrowser.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SVerbChoiceDialog.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/TemplateCategory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/TemplateItem.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Public/AddToProjectConfig.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Public/GameProjectGenerationModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Public/GameProjectUtils.h" \
 	"$$unrealRootPath/Engine/Source/Editor/HardwareTargeting/Public/HardwareTargetingModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/HardwareTargeting/Public/HardwareTargetingSettings.h" \
 	"$$unrealRootPath/Engine/Source/Editor/HardwareTargeting/Public/SDecoratedEnumCombo.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameplayTasksEditor/Classes/K2Node_LatentGameplayTaskCall.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameplayTasksEditor/Public/GameplayTasksEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/ActorFactoryProceduralFoliage.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageEdMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageEdModeToolkit.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageEditActions.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliagePaletteCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliagePaletteItem.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageTypeCustomizationHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageTypeDetails.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageTypeFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageTypeObjectCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageTypePaintingCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/FoliageType_InstancedStaticMeshPaintingCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/LandscapeGrassTypeFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/ProceduralFoliageComponentDetails.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/ProceduralFoliageComponentVisualizer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/ProceduralFoliageSpawnerFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/SFoliageEdit.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Private/SFoliagePalette.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Public/FoliageEditModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Public/FoliageEditUtility.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Public/FoliageType_ActorThumbnailRenderer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FoliageEdit/Public/FoliageType_ISMThumbnailRenderer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Clip.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Create.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Delete.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Edit.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Extrude.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Flip.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Lathe.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Optimize.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Pen.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Split.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Triangulate.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Turn.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Classes/GeomModifier_Weld.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Private/GeometryMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Public/EditorGeometry.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GeometryMode/Public/GeometryEdMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Private/FontEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Private/FontFaceDetailsCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Private/SCompositeFontEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Private/SFontEditorViewport.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Public/FontEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/FontEditor/Public/IFontEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/HierarchicalLODOutliner/Private/HLODOutliner.h" \
 	"$$unrealRootPath/Engine/Source/Editor/HierarchicalLODOutliner/Private/HLODOutlinerDragDrop.h" \
 	"$$unrealRootPath/Engine/Source/Editor/HierarchicalLODOutliner/Private/HLODTreeWidgetItem.h" \
@@ -2056,19 +1153,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/InputBindingEditor/Private/Widgets/SChordEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/InputBindingEditor/Public/InputBindingEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/InputBindingEditor/Public/Interfaces/IInputBindingEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/InternationalizationSettings/Classes/InternationalizationSettingsModel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/InternationalizationSettings/Public/InternationalizationSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/InternationalizationSettings/Public/InternationalizationSettingsModelDetails.h" \
-	"$$unrealRootPath/Engine/Source/Editor/InternationalizationSettings/Public/InternationalizationSettingsModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/InternationalizationSettings/Public/SCulturePicker.h" \
-	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/CreateBlueprintFromActorDialog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/KismetWidgets.h" \
-	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SKismetLinearExpression.h" \
-	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SLevelOfDetailBranchNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SPinTypeSelector.h" \
-	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SScrubControlPanel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SScrubWidget.h" \
-	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SSingleObjectDetailsPanel.h" \
 	"$$unrealRootPath/Engine/Source/Editor/KismetCompiler/Private/AnimBlueprintCompiler.h" \
 	"$$unrealRootPath/Engine/Source/Editor/KismetCompiler/Private/KismetCompilerBackend.h" \
 	"$$unrealRootPath/Engine/Source/Editor/KismetCompiler/Public/BPTerminal.h" \
@@ -2080,6 +1164,48 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/KismetCompiler/Public/KismetCompilerMisc.h" \
 	"$$unrealRootPath/Engine/Source/Editor/KismetCompiler/Public/KismetCompilerModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/KismetCompiler/Public/UserDefinedStructureCompilerUtils.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEdMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEdModeTools.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_AlphaBrush.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_Base.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_CopyPaste.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_Layers.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_LayersBrushStack.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_MiscTools.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_NewLandscape.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_ResizeLandscape.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_TargetLayers.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomizations.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailWidgets.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetails.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeFileFormatPng.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeFileFormatRaw.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeSplineDetails.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeSplineImportExport.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/SFlattenHeightEyeDropperButton.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/SLandscapeEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/Classes/ActorFactoryLandscape.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/Classes/LandscapePlaceholder.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/LandscapeEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/LandscapeEditorObject.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/LandscapeEditorUtils.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/LandscapeFileFormatInterface.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/LandscapeToolInterface.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/NewLandscapeUtils.h" \
+	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/CreateBlueprintFromActorDialog.h" \
+	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/KismetWidgets.h" \
+	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SKismetLinearExpression.h" \
+	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SLevelOfDetailBranchNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SPinTypeSelector.h" \
+	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SScrubControlPanel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SScrubWidget.h" \
+	"$$unrealRootPath/Engine/Source/Editor/KismetWidgets/Public/SSingleObjectDetailsPanel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/InternationalizationSettings/Classes/InternationalizationSettingsModel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/InternationalizationSettings/Public/InternationalizationSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/InternationalizationSettings/Public/InternationalizationSettingsModelDetails.h" \
+	"$$unrealRootPath/Engine/Source/Editor/InternationalizationSettings/Public/InternationalizationSettingsModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/InternationalizationSettings/Public/SCulturePicker.h" \
 	"$$unrealRootPath/Engine/Source/Editor/IntroTutorials/Private/ClassTypeActions_EditorTutorial.h" \
 	"$$unrealRootPath/Engine/Source/Editor/IntroTutorials/Private/EditorTutorialDetailsCustomization.h" \
 	"$$unrealRootPath/Engine/Source/Editor/IntroTutorials/Private/EditorTutorialFactory.h" \
@@ -2174,8 +1300,21 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp/WorkflowTabFactory.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp/WorkflowTabManager.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp/WorkflowUObjectDocuments.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditorUtilities/Public/LandscapeBlueprintBrush.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditorUtilities/Public/LandscapeEditorUtilitiesModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/ActorLayerCollectionViewModel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/ActorLayerViewModel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/ActorsAssignedToSpecificLayersFilter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/LayerCollectionViewCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/LayerCollectionViewModel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/LayerViewModel.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SActorLayerCloud.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SLayerBrowser.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SLayerStats.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SLayersCommandsMenu.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SLayersView.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SLayersViewRow.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SceneOutlinerLayerContentsColumn.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Public/LayersDragDropOp.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Layers/Public/LayersModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/LevelEditor/Private/HighresScreenshotUI.h" \
 	"$$unrealRootPath/Engine/Source/Editor/LevelEditor/Private/LevelEditorContextMenu.h" \
 	"$$unrealRootPath/Engine/Source/Editor/LevelEditor/Private/LevelEditorCreateActorMenu.h" \
@@ -2211,21 +1350,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/LevelEditor/Public/LightmapResRatioAdjust.h" \
 	"$$unrealRootPath/Engine/Source/Editor/LevelEditor/Public/SLevelViewport.h" \
 	"$$unrealRootPath/Engine/Source/Editor/LevelEditor/Public/ViewportTypeDefinition.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/ActorLayerCollectionViewModel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/ActorLayerViewModel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/ActorsAssignedToSpecificLayersFilter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/LayerCollectionViewCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/LayerCollectionViewModel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/LayerViewModel.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SActorLayerCloud.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SLayerBrowser.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SLayerStats.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SLayersCommandsMenu.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SLayersView.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SLayersViewRow.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Private/SceneOutlinerLayerContentsColumn.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Public/LayersDragDropOp.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Layers/Public/LayersModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/MainFrame/Private/MainFrameLog.h" \
 	"$$unrealRootPath/Engine/Source/Editor/MainFrame/Private/MainFrameModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/MainFrame/Private/Frame/MainFrameActions.h" \
@@ -2255,16 +1379,32 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/LocalizationDashboard/Private/SLocalizationTargetStatusButton.h" \
 	"$$unrealRootPath/Engine/Source/Editor/LocalizationDashboard/Private/TargetsTableEntry.h" \
 	"$$unrealRootPath/Engine/Source/Editor/LocalizationDashboard/Public/ILocalizationDashboardModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/SMergeActorsToolbar.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MergeProxyUtils/Utils.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshInstancingTool/MeshInstancingTool.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshInstancingTool/SMeshInstancingDialog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshMergingTool/MeshMergingTool.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshMergingTool/SMeshMergingDialog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshProxyTool/MeshProxyTool.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshProxyTool/SMeshProxyDialog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Public/IMergeActorsModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Public/IMergeActorsTool.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditorUtilities/Public/LandscapeBlueprintBrush.h" \
+	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditorUtilities/Public/LandscapeEditorUtilitiesModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialEditorDetailCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialEditorInstanceDetailCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialExpressionClasses.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialInstanceEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialLayersFunctionsCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialStats.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialStatsGrid.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialEditorStatsWidget.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialEditorTitleBar.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialEditorViewport.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialEditorViewportToolBar.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialLayersFunctionsTree.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialPalette.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialParametersOverviewWidget.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/FindInMaterial.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/IMaterialEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialEditingLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialEditorActions.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialEditorSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialEditorUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialPropertyHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialStatsCommon.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Matinee/Classes/InterpTrackHelper.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Matinee/Classes/MatineeOptions.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Matinee/Classes/MatineeTrackAnimControlHelper.h" \
@@ -2312,30 +1452,17 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/MeshPaint/Public/MeshPainterCommands.h" \
 	"$$unrealRootPath/Engine/Source/Editor/MeshPaint/Public/TMeshPaintOctree.h" \
 	"$$unrealRootPath/Engine/Source/Editor/MeshPaint/Public/TexturePaintHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Classes/DefaultTemplateProjectDefs.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Classes/TemplateProjectDefs.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/GameProjectGenerationLog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SGameProjectDialog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SGetSuggestedIDEWidget.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SNewClassDialog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SNewProjectWizard.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SProjectBrowser.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/SVerbChoiceDialog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/TemplateCategory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Private/TemplateItem.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Public/AddToProjectConfig.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Public/GameProjectGenerationModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/GameProjectGeneration/Public/GameProjectUtils.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/MeshPaintModeToolKit.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/PaintModeCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/PaintModePainter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/PaintModeSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/PaintModeSettingsCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/SPaintModeWidget.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Public/MeshPaintEdMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Public/MeshPaintModeModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/SMergeActorsToolbar.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MergeProxyUtils/Utils.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshInstancingTool/MeshInstancingTool.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshInstancingTool/SMeshInstancingDialog.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshMergingTool/MeshMergingTool.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshMergingTool/SMeshMergingDialog.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshProxyTool/MeshProxyTool.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Private/MeshProxyTool/SMeshProxyDialog.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Public/IMergeActorsModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MergeActors/Public/IMergeActorsTool.h" \
 	"$$unrealRootPath/Engine/Source/Editor/NewLevelDialog/Public/NewLevelDialogModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MovieSceneCaptureDialog/Public/MovieSceneCaptureDialogModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/MovieSceneTools/Private/MovieSceneBuiltInEasingFunctionCustomization.h" \
 	"$$unrealRootPath/Engine/Source/Editor/MovieSceneTools/Private/MovieSceneEventBlueprintExtension.h" \
 	"$$unrealRootPath/Engine/Source/Editor/MovieSceneTools/Private/MovieSceneToolsProjectSettingsCustomization.h" \
@@ -2422,90 +1549,17 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors/SpawnTrackEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors/SubTrackEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/MovieSceneTools/Public/TrackEditors/PropertyTrackEditors/BoolPropertyTrackEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEdMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEdModeTools.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_AlphaBrush.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_Base.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_CopyPaste.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_Layers.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_LayersBrushStack.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_MiscTools.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_NewLandscape.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_ResizeLandscape.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomization_TargetLayers.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailCustomizations.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetailWidgets.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeEditorDetails.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeFileFormatPng.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeFileFormatRaw.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeSplineDetails.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/LandscapeSplineImportExport.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/SFlattenHeightEyeDropperButton.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/SLandscapeEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/Classes/ActorFactoryLandscape.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Private/Classes/LandscapePlaceholder.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/LandscapeEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/LandscapeEditorObject.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/LandscapeEditorUtils.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/LandscapeFileFormatInterface.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/LandscapeToolInterface.h" \
-	"$$unrealRootPath/Engine/Source/Editor/LandscapeEditor/Public/NewLandscapeUtils.h" \
-	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Private/OverlayEditorPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Private/Factories/BasicOverlaysFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Private/Factories/BasicOverlaysFactoryNew.h" \
-	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Private/Factories/LocalizedOverlaysFactoryNew.h" \
-	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Private/Factories/ReimportBasicOverlaysFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Public/IOverlayEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewDevice.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewWindow.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewWindowCoreStyle.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewWindowStyle.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewWindowTitleBar.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Public/PIEPreviewDeviceEnumeration.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Public/PIEPreviewDeviceProfileSelectorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/MeshPaintModeToolKit.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/PaintModeCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/PaintModePainter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/PaintModeSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/PaintModeSettingsCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Private/SPaintModeWidget.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Public/MeshPaintEdMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MeshPaintMode/Public/MeshPaintModeModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/MovieSceneCaptureDialog/Public/MovieSceneCaptureDialogModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PackagesDialog/Private/SPackagesDialog.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PackagesDialog/Public/PackagesDialog.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetDetailsCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorActions.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorAnimInstance.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorAnimInstanceProxy.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorEditMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorHitProxies.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorProfilesSummoner.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorSharedData.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorSkeletalMeshComponent.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorSkeletonTreeBuilder.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorToolsSummoner.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/SkeletonTreePhysicsBodyItem.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/SkeletonTreePhysicsConstraintItem.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/SkeletonTreePhysicsShapeItem.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetConnectionDrawingPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphNode_Bone.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphNode_Constraint.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphPanelNodeFactory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphSchema.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphSummoner.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/SBoneNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/SConstraintNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/SPhysicsAssetGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/SPhysicsAssetGraphNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Public/IPhysicsAssetEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Public/PhysicsAssetEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNodeArray.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNodeBoolean.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNodeDictionary.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNodeFile.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNodeString.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Public/PListEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Public/SPlistEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceSpecification/Public/PIEPreviewDeviceSpecification.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Persona/Private/AnimGraphNodeDetails.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Persona/Private/AnimInstanceDetails.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Persona/Private/AnimNotifyDetails.h" \
@@ -2610,17 +1664,65 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/Persona/Public/SSkinWeightProfileImportOptions.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Persona/Public/SkinWeightProfileHelpers.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Persona/Public/SocketDragDropOp.h" \
+	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Private/OverlayEditorPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Private/Factories/BasicOverlaysFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Private/Factories/BasicOverlaysFactoryNew.h" \
+	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Private/Factories/LocalizedOverlaysFactoryNew.h" \
+	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Private/Factories/ReimportBasicOverlaysFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/OverlayEditor/Public/IOverlayEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNodeArray.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNodeBoolean.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNodeDictionary.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNodeFile.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Private/PListNodeString.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Public/PListEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PListEditor/Public/SPlistEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceSpecification/Public/PIEPreviewDeviceSpecification.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetDetailsCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorActions.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorAnimInstance.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorAnimInstanceProxy.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorEditMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorHitProxies.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorProfilesSummoner.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorSharedData.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorSkeletalMeshComponent.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorSkeletonTreeBuilder.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetEditorToolsSummoner.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/SkeletonTreePhysicsBodyItem.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/SkeletonTreePhysicsConstraintItem.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/SkeletonTreePhysicsShapeItem.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetConnectionDrawingPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphNode_Bone.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphNode_Constraint.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphPanelNodeFactory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphSchema.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/PhysicsAssetGraphSummoner.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/SBoneNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/SConstraintNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/SPhysicsAssetGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Private/PhysicsAssetGraph/SPhysicsAssetGraphNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Public/IPhysicsAssetEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PhysicsAssetEditor/Public/PhysicsAssetEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewDevice.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewWindow.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewWindowCoreStyle.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewWindowStyle.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Private/PIEPreviewWindowTitleBar.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Public/PIEPreviewDeviceEnumeration.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PIEPreviewDeviceProfileSelector/Public/PIEPreviewDeviceProfileSelectorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PixelInspector/Private/PixelInspector.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PixelInspector/Private/PixelInspectorDetailsCustomization.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PixelInspector/Private/PixelInspectorResult.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PixelInspector/Private/PixelInspectorStyle.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PixelInspector/Private/PixelInspectorView.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PixelInspector/Public/PixelInspectorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PinnedCommandList/Private/PinnedCommandListSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PinnedCommandList/Private/SPinnedCommandList.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PinnedCommandList/Public/IPinnedCommandList.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PinnedCommandList/Public/IPinnedCommandListModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/PinnedCommandList/Public/UICommandList_Pinnable.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PlacementMode/Private/PlacementMode.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PlacementMode/Private/PlacementModeToolkit.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PlacementMode/Private/SPlacementModeTools.h" \
@@ -2628,10 +1730,30 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/PlacementMode/Public/IPlacementMode.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PlacementMode/Public/IPlacementModeModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PlacementMode/Public/PlacementModeModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PinnedCommandList/Private/PinnedCommandListSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PinnedCommandList/Private/SPinnedCommandList.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PinnedCommandList/Public/IPinnedCommandList.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PinnedCommandList/Public/IPinnedCommandListModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/PinnedCommandList/Public/UICommandList_Pinnable.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PluginWarden/Private/PluginWardenAuthorizer.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PluginWarden/Private/PluginWardenModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PluginWarden/Private/SAuthorizingPlugin.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PluginWarden/Public/IPluginWardenModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMCompiler/RigVMCompiler.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMController.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMControllerActions.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMGraph.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMGraphUtils.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMLink.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMNotifications.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMPin.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/Nodes/RigVMCommentNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/Nodes/RigVMParameterNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/Nodes/RigVMRerouteNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/Nodes/RigVMStructNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/Nodes/RigVMVariableNode.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PropertyEditor/Private/CategoryPropertyNode.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PropertyEditor/Private/CustomChildBuilder.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PropertyEditor/Private/DetailAdvancedDropdownNode.h" \
@@ -2771,24 +1893,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/PropertyEditor/Public/PropertyRestriction.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PropertyEditor/Public/SPerPlatformPropertiesWidget.h" \
 	"$$unrealRootPath/Engine/Source/Editor/PropertyEditor/Public/SResetToDefaultMenu.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ProjectTargetPlatformEditor/Private/Widgets/SProjectTargetPlatformSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ProjectTargetPlatformEditor/Public/ProjectTargetPlatformEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/ProjectTargetPlatformEditor/Public/Interfaces/IProjectTargetPlatformEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMCompiler/RigVMCompiler.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMController.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMControllerActions.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMGraph.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMGraphUtils.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMLink.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMNotifications.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/RigVMPin.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/Nodes/RigVMCommentNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/Nodes/RigVMParameterNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/Nodes/RigVMRerouteNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/Nodes/RigVMStructNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/RigVMEditor/Public/RigVMModel/Nodes/RigVMVariableNode.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SceneOutliner/Private/SSocketChooser.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SceneOutliner/Private/SceneOutlinerActorInfoColumn.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SceneOutliner/Private/SceneOutlinerGutter.h" \
@@ -2846,32 +1950,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/SequenceRecorder/Public/SequenceRecorderSettings.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SequenceRecorder/Public/SequenceRecorderUtils.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SequenceRecorder/Public/SequenceRecordingBase.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialEditorDetailCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialEditorInstanceDetailCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialExpressionClasses.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialInstanceEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialLayersFunctionsCustomization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialStats.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/MaterialStatsGrid.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialEditorStatsWidget.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialEditorTitleBar.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialEditorViewport.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialEditorViewportToolBar.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialLayersFunctionsTree.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialPalette.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Private/SMaterialParametersOverviewWidget.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/FindInMaterial.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/IMaterialEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialEditingLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialEditorActions.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialEditorSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialEditorUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialPropertyHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Editor/MaterialEditor/Public/MaterialStatsCommon.h" \
-	"$$unrealRootPath/Engine/Source/Editor/SceneDepthPickerMode/Private/EditorModeSceneDepthPicker.h" \
-	"$$unrealRootPath/Engine/Source/Editor/SceneDepthPickerMode/Public/SceneDepthPickerMode.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SequenceRecorderSections/Public/MovieScene3DAttachSectionRecorder.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SequenceRecorderSections/Public/MovieSceneParticleTrackSectionRecorder.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SequenceRecorderSections/Public/MovieSceneSpawnSectionRecorder.h" \
@@ -2975,6 +2053,11 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/Sequencer/Public/SequencerTrackFilterBase.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Sequencer/Public/SequencerTrackFilterExtension.h" \
 	"$$unrealRootPath/Engine/Source/Editor/Sequencer/Public/SequencerUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Editor/SceneDepthPickerMode/Private/EditorModeSceneDepthPicker.h" \
+	"$$unrealRootPath/Engine/Source/Editor/SceneDepthPickerMode/Public/SceneDepthPickerMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ProjectTargetPlatformEditor/Private/Widgets/SProjectTargetPlatformSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ProjectTargetPlatformEditor/Public/ProjectTargetPlatformEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/ProjectTargetPlatformEditor/Public/Interfaces/IProjectTargetPlatformEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SequencerWidgets/Private/SSequencerTimeSlider.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SequencerWidgets/Private/STimeRange.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SequencerWidgets/Private/STimeRangeSlider.h" \
@@ -2998,10 +2081,15 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/SerializedRecorderInterface/Public/Serializers/MovieSceneSerializedType.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SerializedRecorderInterface/Public/Serializers/MovieSceneSpawnSerialization.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SerializedRecorderInterface/Public/Serializers/MovieSceneTransformSerialization.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StringTableEditor/Private/AssetTypeActions_StringTable.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StringTableEditor/Private/StringTableEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StringTableEditor/Public/IStringTableEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StringTableEditor/Public/StringTableEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/SStaticMeshEditorViewport.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/SStaticMeshEditorViewportToolBar.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/StaticMeshEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/StaticMeshEditorTools.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/StaticMeshEditorViewportClient.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/StaticMeshViewportLODCommands.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Public/IStaticMeshEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Public/StaticMeshEditorActions.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Public/StaticMeshEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SkeletonEditor/Private/BoneProxyDetailsCustomization.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SkeletonEditor/Private/EditableSkeleton.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SkeletonEditor/Private/SBlendProfilePicker.h" \
@@ -3028,22 +2116,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/SkeletonEditor/Public/SkeletonTreeBuilder.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SkeletonEditor/Public/SkeletonTreeItem.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SkeletonEditor/Public/SkeletonTreeSelection.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/SStaticMeshEditorViewport.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/SStaticMeshEditorViewportToolBar.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/StaticMeshEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/StaticMeshEditorTools.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/StaticMeshEditorViewportClient.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Private/StaticMeshViewportLODCommands.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Public/IStaticMeshEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Public/StaticMeshEditorActions.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StaticMeshEditor/Public/StaticMeshEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StructViewer/Private/SStructViewer.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StructViewer/Private/StructViewerNode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StructViewer/Public/StructViewerFilter.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StructViewer/Public/StructViewerModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/StructViewer/Public/StructViewerProjectSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/SourceControlWindows/Private/SSourceControlSubmit.h" \
-	"$$unrealRootPath/Engine/Source/Editor/SourceControlWindows/Public/SourceControlWindows.h" \
 	"$$unrealRootPath/Engine/Source/Editor/StatsViewer/Classes/CookerStats.h" \
 	"$$unrealRootPath/Engine/Source/Editor/StatsViewer/Classes/LightingBuildInfo.h" \
 	"$$unrealRootPath/Engine/Source/Editor/StatsViewer/Classes/PrimitiveStats.h" \
@@ -3066,24 +2138,20 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/StatsViewer/Public/StatsPage.h" \
 	"$$unrealRootPath/Engine/Source/Editor/StatsViewer/Public/StatsViewerModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/StatsViewer/Public/StatsViewerUtils.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TextureAlignMode/Public/TextureAlignEdMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TextureAlignMode/Public/TextureAlignMode.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TimeManagementEditor/Private/STimecodeProviderTab.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TimeManagementEditor/Public/STimecodeProvider.h" \
+	"$$unrealRootPath/Engine/Source/Editor/SourceControlWindows/Private/SSourceControlSubmit.h" \
+	"$$unrealRootPath/Engine/Source/Editor/SourceControlWindows/Public/SourceControlWindows.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StringTableEditor/Private/AssetTypeActions_StringTable.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StringTableEditor/Private/StringTableEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StringTableEditor/Public/IStringTableEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StringTableEditor/Public/StringTableEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StructViewer/Private/SStructViewer.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StructViewer/Private/StructViewerNode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StructViewer/Public/StructViewerFilter.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StructViewer/Public/StructViewerModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/StructViewer/Public/StructViewerProjectSettings.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SwarmInterface/Private/SwarmMessages.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SwarmInterface/Public/SwarmDefines.h" \
 	"$$unrealRootPath/Engine/Source/Editor/SwarmInterface/Public/SwarmInterface.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/CustomFontColumn.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/InternationalizationExportSettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationDataManager.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationPickerEditWindow.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationPickerFloatingWindow.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationPickerWidget.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationUnit.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Public/ITranslationEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Public/TranslationEditorMenu.h" \
-	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Public/TranslationEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/TextureEditor/Classes/TextureEditorSettings.h" \
 	"$$unrealRootPath/Engine/Source/Editor/TextureEditor/Private/TextureEditorConstants.h" \
 	"$$unrealRootPath/Engine/Source/Editor/TextureEditor/Private/TextureEditorToolkit.h" \
@@ -3097,17 +2165,13 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/TextureEditor/Public/TextureEditor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/TextureEditor/Public/Interfaces/ITextureEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/TextureEditor/Public/Interfaces/ITextureEditorToolkit.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TextureAlignMode/Public/TextureAlignEdMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TextureAlignMode/Public/TextureAlignMode.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TimeManagementEditor/Private/STimecodeProviderTab.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TimeManagementEditor/Public/STimecodeProvider.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ToolMenusEditor/Private/SEditToolMenuDialog.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ToolMenusEditor/Public/IToolMenusEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ToolMenusEditor/Public/ToolMenusEditor.h" \
-	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Private/Classes/UndoHistorySettings.h" \
-	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Private/Widgets/SUndoHistory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Private/Widgets/SUndoHistoryTableRow.h" \
-	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Private/Widgets/UndoHistoryUtils.h" \
-	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Public/UndoHistory.h" \
-	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Public/UndoHistoryModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Public/Interfaces/IUndoHistoryModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Public/Widgets/SUndoHistoryDetails.h" \
 	"$$unrealRootPath/Engine/Source/Editor/UMGEditor/Classes/K2Node_WidgetAnimationEvent.h" \
 	"$$unrealRootPath/Engine/Source/Editor/UMGEditor/Classes/WidgetBlueprintFactory.h" \
 	"$$unrealRootPath/Engine/Source/Editor/UMGEditor/Classes/WidgetGraphSchema.h" \
@@ -3192,6 +2256,25 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/UMGEditor/Public/Components/PropertyViewBase.h" \
 	"$$unrealRootPath/Engine/Source/Editor/UMGEditor/Public/Components/SinglePropertyView.h" \
 	"$$unrealRootPath/Engine/Source/Editor/UMGEditor/Public/Settings/WidgetDesignerSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/CustomFontColumn.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/InternationalizationExportSettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationDataManager.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationPickerEditWindow.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationPickerFloatingWindow.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationPickerWidget.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Private/TranslationUnit.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Public/ITranslationEditor.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Public/TranslationEditorMenu.h" \
+	"$$unrealRootPath/Engine/Source/Editor/TranslationEditor/Public/TranslationEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Private/Classes/UndoHistorySettings.h" \
+	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Private/Widgets/SUndoHistory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Private/Widgets/SUndoHistoryTableRow.h" \
+	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Private/Widgets/UndoHistoryUtils.h" \
+	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Public/UndoHistory.h" \
+	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Public/UndoHistoryModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Public/Interfaces/IUndoHistoryModule.h" \
+	"$$unrealRootPath/Engine/Source/Editor/UndoHistory/Public/Widgets/SUndoHistoryDetails.h" \
 	"$$unrealRootPath/Engine/Source/Editor/UATHelper/UATHelperModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/UATHelper/Public/IUATHelperModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/UnrealEdMessages/Classes/AssetEditorMessages.h" \
@@ -3789,8 +2872,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/VirtualTexturingEditor/Private/RuntimeVirtualTextureBuild.h" \
 	"$$unrealRootPath/Engine/Source/Editor/VirtualTexturingEditor/Private/RuntimeVirtualTextureThumbnailRenderer.h" \
 	"$$unrealRootPath/Engine/Source/Editor/VirtualTexturingEditor/Public/VirtualTexturingEditorModule.h" \
-	"$$unrealRootPath/Engine/Source/Editor/WorkspaceMenuStructure/Public/WorkspaceMenuStructure.h" \
-	"$$unrealRootPath/Engine/Source/Editor/WorkspaceMenuStructure/Public/WorkspaceMenuStructureModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/WorldBrowser/Private/LevelCollectionCommands.h" \
 	"$$unrealRootPath/Engine/Source/Editor/WorldBrowser/Private/LevelCollectionModel.h" \
 	"$$unrealRootPath/Engine/Source/Editor/WorldBrowser/Private/LevelFolders.h" \
@@ -3819,7 +2900,215 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/WorldBrowser/Private/Tiles/WorldTileThumbnails.h" \
 	"$$unrealRootPath/Engine/Source/Editor/WorldBrowser/Public/IWorldTreeItem.h" \
 	"$$unrealRootPath/Engine/Source/Editor/WorldBrowser/Public/WorldBrowserModule.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private/BootstrapPackagedGame.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AllDesktopTargetPlatform/Private/AllDesktopTargetPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Editor/WorkspaceMenuStructure/Public/WorkspaceMenuStructure.h" \
+	"$$unrealRootPath/Engine/Source/Editor/WorkspaceMenuStructure/Public/WorkspaceMenuStructureModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/MockAI.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/MockAI_BT.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/MockGameplayTasks.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/Actions/TestPawnAction_CallFunction.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/Actions/TestPawnAction_Log.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTDecorator_CantExecute.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTDecorator_DelayedAbort.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTService_Log.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTTask_LatentWithFlags.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTTask_Log.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTTask_SetFlag.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Classes/BehaviorTree/TestBTTask_SetValue.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Public/AITestSuite.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Public/AITestsCommon.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Public/BTBuilder.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AITestSuite/Public/TestLogger.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AudioFormatADPCM/Private/AudioFormatADPCM.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AudioFormatOgg/Private/AudioFormatOgg.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetFixUpRedirectors.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetRenameManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTools.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetToolsConsoleCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetToolsLog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetVtConversion.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/SAdvancedCopyReportDialog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/SDiscoveringAssetsDialog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/SPackageReportDialog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_ActorFoliageSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AimOffset.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AimOffset1D.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimBlueprint.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimComposite.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimCurveCompressionSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimMontage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimSequence.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimStreamable.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_AnimationAsset.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_BlendSpace.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_BlendSpace1D.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CameraAnim.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CanvasRenderTarget2D.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Class.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CompositeCurveTable.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CompositeDataTable.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Curve.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CurveFloat.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CurveLinearColor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CurveLinearColorAtlas.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CurveTable.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_CurveVector.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_DataAsset.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_DataTable.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Enum.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_FbxSceneImportData.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Font.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_FontFace.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_ForceFeedbackEffect.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_HLODProxy.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_InstancedFoliageSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_InterpData.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_LandscapeGrassType.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_LandscapeLayer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Material.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_MaterialFunction.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_MaterialFunctionInstance.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_MaterialInstanceConstant.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_MaterialInterface.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_MaterialParameterCollection.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_NodeMappingContainer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_ObjectLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_ParticleSystem.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_PhysicalMaterial.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_PhysicsAsset.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_PoseAsset.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_PreviewMeshCollection.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_ProceduralFoliageSpawner.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Redirector.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Rig.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_SkeletalMesh.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Skeleton.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_SlateBrush.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_SlateWidgetStyle.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_StaticMesh.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Struct.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_SubsurfaceProfile.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Texture.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Texture2D.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_Texture2DArray.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TextureCube.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TextureLightProfile.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TextureRenderTarget.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TextureRenderTarget2D.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TextureRenderTargetCube.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_TouchInterface.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_VectorField.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_VectorFieldAnimated.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_VectorFieldStatic.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_VolumeTexture.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/AssetTypeActions_World.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Private/AssetTypeActions/Experimental/AssetTypeActions_ChaosPhysicalMaterial.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AdvancedCopyCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetToolsModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetToolsSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetTypeActions_Base.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetTypeActions_CSVAssetBase.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetTypeCategories.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/ClassTypeActions_Base.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/IAssetTools.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/IAssetTypeActions.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/IClassTypeActions.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetTypeActions/AssetTypeActions_Blueprint.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AssetTools/Public/AssetTypeActions/AssetTypeActions_ClassTypeBase.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AudioFormatOpus/Private/AudioFormatOpus.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AudioSettingsEditor/Public/TargetPlatformAudioCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Private/AutomationControllerManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Private/AutomationControllerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Private/AutomationDeviceClusterManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Private/AutomationReport.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Private/AutomationReportManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Public/AutomationControllerSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Public/IAutomationControllerManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Public/IAutomationControllerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationController/Public/IAutomationReport.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/AutomatedApplication.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/AutomationDriver.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/AutomationDriverLogging.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/DriverElement.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/DriverSequence.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/IApplicationElement.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/IStepExecutor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/PassThroughMessageHandler.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/SlateWidgetElement.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/StepExecutor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/Locators/SlateWidgetLocatorByDelegate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/Locators/SlateWidgetLocatorByPath.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/Locators/SlateWidgetLocatorByUniqueTag.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/MetaData/DriverUniqueTagMetaData.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/Specs/AutomationDriverSpecSuiteViewModel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Private/Specs/SAutomationDriverSpecSuite.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/AutomationDriverCommon.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/AutomationDriverTypeDefs.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/DriverConfiguration.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/IAutomationDriver.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/IAutomationDriverModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/IDriverElement.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/IDriverSequence.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/IElementLocator.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/LocateBy.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationDriver/Public/WaitUntil.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/AutomationFilter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/AutomationPresetManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationExportMenu.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationGraphicalResultBox.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationTestItem.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationTestItemContextMenu.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationTestTreeView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationWindow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Private/SAutomationWindowCommandBar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/AutomationWindow/Public/IAutomationWindowModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/BlueprintCompilerCppBackend/Private/BlueprintCompilerCppBackend.h" \
+	"$$unrealRootPath/Engine/Source/Developer/BlueprintCompilerCppBackend/Private/BlueprintCompilerCppBackendBase.h" \
+	"$$unrealRootPath/Engine/Source/Developer/BlueprintCompilerCppBackend/Private/BlueprintCompilerCppBackendUtils.h" \
+	"$$unrealRootPath/Engine/Source/Developer/BlueprintCompilerCppBackend/Public/BlueprintCompilerCppBackendGatherDependencies.h" \
+	"$$unrealRootPath/Engine/Source/Developer/BlueprintCompilerCppBackend/Public/IBlueprintCompilerCppBackendModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/BlankModule/Public/BlankModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/CollisionAnalyzer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/CollisionAnalyzerLog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/CollisionAnalyzerStyle.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/SCAQueryDetails.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/SCAQueryTableRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Private/SCollisionAnalyzer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Public/CollisionAnalyzerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollisionAnalyzer/Public/ICollisionAnalyzer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Private/Collection.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Private/CollectionManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Private/CollectionManagerConsoleCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Private/CollectionManagerLog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Public/CollectionManagerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Public/CollectionManagerTypes.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CollectionManager/Public/ICollectionManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/BlueprintNativeCodeGen/Private/BlueprintNativeCodeGenManifest.h" \
+	"$$unrealRootPath/Engine/Source/Developer/BlueprintNativeCodeGen/Private/BlueprintNativeCodeGenUtils.h" \
+	"$$unrealRootPath/Engine/Source/Developer/BlueprintNativeCodeGen/Public/BlueprintNativeCodeGenModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/BlueprintNativeCodeGen/Public/NativeCodeGenerationTool.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/CrashDebugHelperPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/IOS/CrashDebugHelperIOS.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/Linux/CrashDebugHelperLinux.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/Mac/CrashDebugHelperMac.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/Windows/CrashDebugHelperWindows.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Private/Windows/WindowsPlatformStackWalkExt.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Public/CrashDebugHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Public/CrashDebugHelperModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/CrashDebugHelper/Public/CrashDebugPDBCache.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/DerivedDataBackendAsyncPutWrapper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/DerivedDataBackendCorruptionWrapper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/DerivedDataBackendVerifyWrapper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/DerivedDataLimitKeyLengthWrapper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/HierarchicalDerivedDataBackend.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/MemoryDerivedDataBackend.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Private/PakFileDerivedDataBackend.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DDCCleanup.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DerivedDataBackendInterface.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DerivedDataCacheInterface.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DerivedDataCacheUsageStats.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DerivedDataPluginInterface.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DerivedDataCache/Public/DerivedDataUtilsInterface.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ViewportInteraction/ViewportInteractionInputProcessor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ViewportInteraction/ViewportInteractionModule.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ViewportInteraction/ViewportInteractorData.h" \
@@ -3846,6 +3135,245 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/ViewportInteraction/Public/ViewportTransformable.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ViewportInteraction/Public/ViewportTransformer.h" \
 	"$$unrealRootPath/Engine/Source/Editor/ViewportInteraction/Public/ViewportWorldInteraction.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/DesktopPlatformBase.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/DesktopPlatformPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/DesktopPlatformStub.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Linux/DesktopPlatformLinux.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Mac/DesktopPlatformMac.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Mac/MacNativeFeedbackContext.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Windows/DesktopPlatformWindows.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Windows/WindowsNativeFeedbackContext.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Private/Windows/WindowsRegistry.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Public/DesktopPlatformModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Public/IDesktopPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Public/PlatformInfo.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopPlatform/Public/TargetReceipt.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Models/DeviceBrowserFilter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Models/DeviceDetailsCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Models/DeviceDetailsFeature.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Models/DeviceManagerModel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/SDeviceManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Apps/SDeviceApps.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Apps/SDeviceAppsAppListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowser.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowserContextMenu.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowserDeviceAdder.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowserDeviceListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowserFilterBar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Browser/SDeviceBrowserTooltip.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Details/SDeviceDetails.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Details/SDeviceDetailsFeatureListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Processes/SDeviceProcesses.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Processes/SDeviceProcessesProcessListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Processes/SDeviceProcessesProcessTreeNode.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Shared/SDeviceQuickInfo.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Private/Widgets/Toolbar/SDeviceToolbar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DeviceManager/Public/IDeviceManagerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopWidgets/Public/Widgets/Input/SDirectoryPicker.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DesktopWidgets/Public/Widgets/Input/SFilePathPicker.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/DirectoryWatcherPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/DirectoryWatcherProxy.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Linux/DirectoryWatchRequestLinux.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Linux/DirectoryWatcherLinux.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Mac/DirectoryWatchRequestMac.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Mac/DirectoryWatcherMac.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Windows/DirectoryWatchRequestWindows.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Private/Windows/DirectoryWatcherWindows.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Public/DirectoryWatcherModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Public/FileCache.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Public/FileCacheUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Developer/DirectoryWatcher/Public/IDirectoryWatcher.h" \
+	"$$unrealRootPath/Engine/Source/Developer/EditorAnalyticsSession/Public/EditorAnalyticsSession.h" \
+	"$$unrealRootPath/Engine/Source/Developer/EditorAnalyticsSession/Public/EditorSessionSummarySender.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ExternalImagePicker/Private/SExternalImagePicker.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ExternalImagePicker/Public/IExternalImagePickerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FuncTestRenderingComponent.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalAITest.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTest.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTestBase.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTestGameMode.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTestLevelScript.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTestUtilityLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalTestingManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/FunctionalUIScreenshotTest.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/ScreenshotFunctionalTest.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/ScreenshotFunctionalTestBase.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/TestPhaseComponent.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Classes/TraceQueryTestResults.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/AutomationBlueprintFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/AutomationScreenshotOptions.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/AutomationViewSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/DelayForFramesLatentAction.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/FunctionalTestingHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/FunctionalTestingModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/GroundTruthData.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FunctionalTesting/Public/TakeScreenshotAfterTimeLatentAction.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/appconst.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graph.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphColorVertices.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphColorVertices.private.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphExtensions.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphExtensions.private.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphFunctionTable.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/graphStructures.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/listcoll.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Private/stack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GraphColor/Public/GraphColor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/GameplayDebuggerAddonManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/GameplayDebuggerCompat.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/GameplayDebuggerExtension_HUD.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/GameplayDebuggerExtension_Spectator.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/Editor/GameplayDebuggerCategoryConfigCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/Editor/GameplayDebuggerEdMode.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/Editor/GameplayDebuggerExtensionConfigCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/Editor/GameplayDebuggerInputConfigCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Private/Editor/GameplayDebuggerToolkit.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebugger.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerAddonBase.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerCategory.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerCategoryReplicator.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerConfig.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerExtension.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerLocalController.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerPlayerManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerRenderingComponent.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GameplayDebugger/Public/GameplayDebuggerTypes.h" \
+	"$$unrealRootPath/Engine/Source/Developer/FileUtilities/Public/FileUtilities/ZipArchiveWriter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GammaUI/Private/GammaUIPanel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/GammaUI/Public/GammaUI.h" \
+	"$$unrealRootPath/Engine/Source/Developer/HierarchicalLODUtilities/Public/HierarchicalLODProxyProcessor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/HierarchicalLODUtilities/Public/HierarchicalLODUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Developer/HierarchicalLODUtilities/Public/HierarchicalLODUtilitiesModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/HierarchicalLODUtilities/Public/IHierarchicalLODUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Developer/HotReload/Private/HotReloadClassReinstancer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/HotReload/Private/HotReloadLog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/HotReload/Public/IHotReload.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/Launcher.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherProjectPath.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherTask.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherTaskChainState.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherUATCommand.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherUATTask.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherVerifyProfileTask.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Launcher/LauncherWorker.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Profiles/LauncherDeviceGroup.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Profiles/LauncherProfile.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Profiles/LauncherProfileLaunchRole.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Private/Profiles/LauncherProfileManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/GameProjectHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncher.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherDeviceGroup.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherProfile.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherProfileLaunchRole.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherProfileManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherServicesModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherTask.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LauncherServices/Public/ILauncherWorker.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocTextHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocalizationConfigurationScript.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocalizationModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocalizationSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocalizationSourceControlUtil.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/LocalizationTargetTypes.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/PortableObjectFormatDOM.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/PortableObjectPipeline.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/TextLocalizationResourceGenerator.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/Serialization/JsonInternationalizationArchiveSerializer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/Serialization/JsonInternationalizationManifestSerializer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Localization/Public/Serialization/JsonInternationalizationMetadataSerializer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Private/DefaultLocalizationServiceProvider.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Private/LocalizationServiceModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Private/LocalizationServiceSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ILocalizationServiceModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ILocalizationServiceOperation.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ILocalizationServiceProvider.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ILocalizationServiceRevision.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ILocalizationServiceState.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/LocalizationServiceHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/LocalizationServiceOperations.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LocalizationService/Public/ScopedLocalizationServiceProgress.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/LogVisualizer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/LogVisualizerPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/LogVisualizerStyle.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SFilterCheckBox.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SFilterWidget.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLogger.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerFilters.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerLogsList.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerReport.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerSectionOverlay.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerStatusView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerTimeSlider.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerTimeline.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerTimelineBar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerTimelinesContainer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerToolbar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/SVisualLoggerView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerCameraController.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerCanvasRenderer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerDatabase.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerHUD.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerRenderingActor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerRenderingComponent.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Private/VisualLoggerTimeSliderController.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Public/ILogVisualizer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Public/LogVisualizerSessionSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/LogVisualizer/Public/LogVisualizerSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/ExportMaterialProxy.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/MaterialBakingModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/MaterialOptionsCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/MaterialOptionsWindow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/MaterialRenderItem.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Private/MaterialRenderItemData.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Public/IMaterialBakingModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Public/MaterialBakingHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Public/MaterialBakingModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Public/MaterialBakingStructures.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialBaking/Public/MaterialOptions.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialUtilities/Public/MaterialUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MaterialUtilities/Public/MeshRendering.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/BlueprintMergeData.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/MergeUtils.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/SBlueprintMerge.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/SMergeAssetPickerView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/SMergeDetailsView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/SMergeGraphView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Merge/Private/SMergeTreeView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Merge/Public/Merge.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshBoneReduction/Public/MeshBoneReduction.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Private/BuildOptimizationHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Private/BuildStatisticManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Private/MeshDescriptionHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Public/IMeshBuilderModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Public/MeshBuilder.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Public/SkeletalMeshBuilder.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshBuilder/Public/StaticMeshBuilder.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshBuilderCommon/Public/IMeshBuilderCommonModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshBuilderCommon/Public/ThirdPartyBuildOptimizationHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshDescriptionOperations/Public/MeshDescriptionOperations.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshDescriptionOperations/Public/UVMapSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshReductionInterface/Private/MeshReductionManagerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshReductionInterface/Public/IMeshReductionInterfaces.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshReductionInterface/Public/IMeshReductionManagerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshReductionInterface/Public/MeshReductionModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshUtilities/Private/MeshUtilitiesPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshUtilities/Private/SkeletalMeshTools.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshUtilities/Public/MeshUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Private/MeshMergeEditorExtensions.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Private/MeshMergeHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Private/MeshMergeUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Private/ProxyGenerationProcessor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Private/ProxyMaterialUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/IMaterialBakingAdapter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/IMeshMergeExtension.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/IMeshMergeUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/MeshMergeData.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/MeshMergeDataTracker.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/MeshMergeModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/SkeletalMeshAdapter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/StaticMeshAdapter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshMergeUtilities/Public/StaticMeshComponentAdapter.h" \
 	"$$unrealRootPath/Engine/Source/Editor/VREditor/VREditorActions.h" \
 	"$$unrealRootPath/Engine/Source/Editor/VREditor/VREditorAvatarActor.h" \
 	"$$unrealRootPath/Engine/Source/Editor/VREditor/VREditorBaseActor.h" \
@@ -3872,7 +3400,637 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Editor/VREditor/UI/VREditorRadialFloatingUI.h" \
 	"$$unrealRootPath/Engine/Source/Editor/VREditor/UI/VREditorUISystem.h" \
 	"$$unrealRootPath/Engine/Source/Editor/VREditor/UI/VRRadialMenuHandler.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ALAudio/Public/ALAudioDevice.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshSimplifier/Private/Cache.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshSimplifier/Private/MeshSimplify.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshSimplifier/Private/MeshSimplifyElements.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshSimplifier/Private/Quadric.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshSimplifier/Private/UnrolledLinkList.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshUtilitiesCommon/Public/Allocator2D.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshUtilitiesCommon/Public/DisjointSet.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshUtilitiesCommon/Public/LayoutUV.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshUtilitiesCommon/Public/MeshUtilitiesCommon.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MeshUtilitiesCommon/Public/OverlappingCorners.h" \
+	"$$unrealRootPath/Engine/Source/Developer/OutputLog/Private/SDebugConsole.h" \
+	"$$unrealRootPath/Engine/Source/Developer/OutputLog/Private/SDeviceOutputLog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/OutputLog/Private/SOutputLog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/OutputLog/Public/OutputLogModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ModuleUI/Private/SModuleUI.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ModuleUI/Public/ModuleUIInterface.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/MessageFilter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/Model/MessageLogListingModel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/Model/MessageLogModel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/Presentation/MessageLogListingViewModel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/Presentation/MessageLogViewModel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/UserInterface/SMessageLog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/UserInterface/SMessageLogCategoryListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/UserInterface/SMessageLogListing.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Private/UserInterface/SMessageLogMessageListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Public/IMessageLogListing.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Public/MessageLogInitializationOptions.h" \
+	"$$unrealRootPath/Engine/Source/Developer/MessageLog/Public/MessageLogModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerDataProvider.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerDataSource.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerFPSAnalyzer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerRawStatsForMemory.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerRawStatsForThreadView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerSample.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerSession.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/ProfilerStream.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SDataGraph.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SEventGraph.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SEventGraphTooltip.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SFiltersAndPresets.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SHistogram.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SMultiDumpBrowser.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerFPSChartPanel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerGraphPanel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerMiniView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerThreadView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerToolbar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/SProfilerWindow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Private/Widgets/StatDragDropOp.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Public/IProfilerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Profiler/Public/ProfilerCommon.h" \
+	"$$unrealRootPath/Engine/Source/Developer/PakFileUtilities/Private/SignedArchiveWriter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/PakFileUtilities/Public/PakFileUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProfilerClient/Private/ProfilerClientManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProfilerClient/Public/IProfilerClient.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProfilerClient/Public/IProfilerClientModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/ProjectLauncherHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Models/ProjectLauncherCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Models/ProjectLauncherModel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/SProjectLauncher.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Archive/SProjectLauncherArchivePage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Build/SProjectLauncherBuildPage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Build/SProjectLauncherBuildTaskSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherCookByTheBookSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherCookOnTheFlySettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherCookPage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherCookedPlatforms.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherCultureListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherMapListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherPlatformListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Cook/SProjectLauncherSimpleCookPage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployFileServerSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployPage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployRepositorySettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployTargetListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployTargets.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployTaskSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeployToDeviceSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherDeviceGroupSelector.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherSimpleDeviceListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Deploy/SProjectLauncherSimpleDeviceListView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Launch/SProjectLauncherLaunchCustomRoles.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Launch/SProjectLauncherLaunchPage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Launch/SProjectLauncherLaunchRoleEditor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Launch/SProjectLauncherLaunchTaskSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Package/SProjectLauncherPackagePage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Package/SProjectLauncherPackagingSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Preview/SProjectLauncherPreviewPage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Profile/SProjectLauncherProfileListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Profile/SProjectLauncherProfileListView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Progress/SProjectLauncherMessageListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Progress/SProjectLauncherProgress.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Progress/SProjectLauncherTaskListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Project/SProjectLauncherProjectPage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Project/SProjectLauncherProjectPicker.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Settings/SProjectLauncherSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/ProjectLauncherDelegates.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherBuildConfigurationSelector.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherCookModeSelector.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherFormLabel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherInstanceTypeSelector.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherProfileLaunchButton.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherProfileNameDescEditor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherValidation.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Private/Widgets/Shared/SProjectLauncherVariantSelector.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProjectLauncher/Public/IProjectLauncherModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProfilerMessages/Public/ProfilerServiceMessages.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProfilerService/Private/ProfilerServiceManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProfilerService/Public/IProfilerServiceManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ProfilerService/Public/IProfilerServiceModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/RealtimeProfiler/Private/RealtimeProfiler.h" \
+	"$$unrealRootPath/Engine/Source/Developer/RealtimeProfiler/Private/SRealtimeProfilerFrame.h" \
+	"$$unrealRootPath/Engine/Source/Developer/RealtimeProfiler/Private/SRealtimeProfilerLineGraph.h" \
+	"$$unrealRootPath/Engine/Source/Developer/RealtimeProfiler/Private/SRealtimeProfilerTimeline.h" \
+	"$$unrealRootPath/Engine/Source/Developer/RealtimeProfiler/Private/SRealtimeProfilerVisualizer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparisonTools/Private/ScreenShotManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparisonTools/Public/ImageComparer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparisonTools/Public/ScreenShotComparisonTools.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparisonTools/Public/Interfaces/IScreenShotManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparisonTools/Public/Interfaces/IScreenShotToolsModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/RawMesh/Public/RawMesh.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Models/ScreenComparisonModel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Models/ScreenShotComparisonFilter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Widgets/SAsyncImage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Widgets/SScreenComparisonRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Widgets/SScreenShotBrowser.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Private/Widgets/SScreenShotImagePopup.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Public/ScreenShotComparison.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScreenShotComparison/Public/Interfaces/IScreenShotComparisonModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionBrowserOwnerFilter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionBrowserTreeItems.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionConsoleCategoryFilter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionConsoleCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionConsoleLogMessage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Models/SessionConsoleVerbosityFilter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/SSessionFrontend.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Browser/SSessionBrowser.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Browser/SSessionBrowserCommandBar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Browser/SSessionBrowserTreeGroupRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Browser/SSessionBrowserTreeInstanceRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Browser/SSessionBrowserTreeSessionRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsole.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsoleCommandBar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsoleFilterBar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsoleLogTableRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsoleShortcutWindow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Private/Widgets/Console/SSessionConsoleToolbar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SessionFrontend/Public/ISessionFrontendModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ScriptDisassembler/Public/ScriptDisassembler.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Settings/Private/SettingsCategory.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Settings/Private/SettingsContainer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Settings/Private/SettingsSection.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Settings/Public/ISettingsCategory.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Settings/Public/ISettingsContainer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Settings/Public/ISettingsModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Settings/Public/ISettingsSection.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Settings/Public/ISettingsViewer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SettingsEditor/Private/Models/SettingsEditorModel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SettingsEditor/Private/Widgets/SSettingsEditor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SettingsEditor/Private/Widgets/SSettingsSectionHeader.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SettingsEditor/Public/ISettingsEditorModel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SettingsEditor/Public/ISettingsEditorModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderFormatOpenGL/Public/GlslBackend.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderFormatOpenGL/Public/ShaderFormatOpenGL.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderFormatVectorVM/Private/VectorVMBackend.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderFormatVectorVM/Public/ShaderFormatVectorVM.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Private/CCIR.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Private/HlslAST.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Private/HlslLexer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Private/HlslParser.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Private/HlslUtils.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Public/CrossCompiler.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderCompilerCommon/Public/ShaderCompilerCommon.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/ManifestUpdateHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/PlatformIconInfo.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/SExternalImageReference.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/SHyperlinkLaunchURL.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/SPlatformSetupMessage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/SSettingsEditorCheckoutNotice.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SharedSettingsWidgets/Public/ShaderFormatsPropertyDetails.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderPreprocessor/Private/PreprocessorPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ShaderPreprocessor/Public/ShaderPreprocessor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SkeletalMeshUtilitiesCommon/Public/LODUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateFileDialogs/Private/SlateFileDialogsPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateFileDialogs/Private/SlateFileDlgWindow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateFileDialogs/Public/ISlateFileDialogModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateFileDialogs/Public/SlateFileDialogs.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateFileDialogs/Public/SlateFileDialogsStyles.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlackIntegrations/Private/SlackIncomingWebhookInterface.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlackIntegrations/Public/ISlackIncomingWebhookInterface.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlackIntegrations/Public/SlackIntegrations.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlackIntegrations/Public/SlackIntegrationsModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/DefaultSourceControlProvider.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/SSourceControlLogin.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/SSourceControlPicker.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/SourceControlModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/SourceControlPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Private/SourceControlSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlLabel.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlOperation.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlProvider.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlRevision.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ISourceControlState.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/ScopedSourceControlProgress.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/SourceControlHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/SourceControlOperationBase.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/SourceControlOperations.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceControl/Public/Tests/SourceControlAutomationCommon.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/VisualTreeCapture.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/WidgetSnapshotMessages.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/WidgetSnapshotService.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Models/WidgetReflectorNode.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SAtlasVisualizer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SWidgetEventLog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SWidgetReflector.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SWidgetReflectorToolTipWidget.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SWidgetReflectorTreeWidgetItem.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Private/Widgets/SWidgetSnapshotVisualizer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SlateReflector/Public/ISlateReflectorModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceCodeAccess/Private/DefaultSourceCodeAccessor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceCodeAccess/Private/SourceCodeAccessModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceCodeAccess/Private/SourceCodeAccessSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceCodeAccess/Public/ISourceCodeAccessModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/SourceCodeAccess/Public/ISourceCodeAccessor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/StandaloneRendererLog.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/StandaloneRendererPlatformHeaders.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/StandaloneRendererPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Mac/OpenGL/SlateOpenGLMac.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLExtensions.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLIndexBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLRenderer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLRenderingPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLShaders.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLTextureManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLTextures.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/OpenGL/SlateOpenGLVertexBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DConstantBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DIndexBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DRenderer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DRenderingPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DShaders.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DTextureManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DTextures.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Private/Windows/D3D/SlateD3DVertexBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Public/StandaloneRenderer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/StandaloneRenderer/Public/IOS/SlateOpenGLESView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Private/TargetDeviceServicesPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Private/Proxies/TargetDeviceProxy.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Private/Proxies/TargetDeviceProxyManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Private/Services/TargetDeviceService.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Private/Services/TargetDeviceServiceManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/ITargetDeviceProxy.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/ITargetDeviceProxyManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/ITargetDeviceService.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/ITargetDeviceServiceManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/ITargetDeviceServicesModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetDeviceServices/Public/TargetDeviceServiceMessages.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TextureCompressor/Public/TextureCompressorModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Private/SProfileVisualizer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Private/TaskGraphStyle.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/SBarVisualizer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/SEventsTree.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/SGraphBar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/STaskGraph.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/STimeline.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TaskGraph/Public/VisualizerEvents.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Private/DeviceBrowserDefaultPlatformWidgetCreator.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Private/SDeviceBrowserDefaultPlatformAddWidget.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/InstalledPlatformInfo.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/TargetPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Common/TargetPlatformBase.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IAudioFormat.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IAudioFormatModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IDeviceManagerCustomPlatformWidgetCreator.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IProjectBuildMutatorFeature.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IShaderFormat.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IShaderFormatArchive.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/IShaderFormatModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetDevice.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetDeviceOutput.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetPlatformManagerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITargetPlatformModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITextureFormat.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/ITextureFormatModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TargetPlatform/Public/Interfaces/TargetDeviceId.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Private/ToolMenusBlueprintLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/IToolMenusModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenu.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuContext.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuDelegates.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuEntry.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuEntryScript.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuMisc.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuOwner.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenuSection.h" \
+	"$$unrealRootPath/Engine/Source/Developer/ToolMenus/Public/ToolMenus.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/InsightsCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/InsightsManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/InsightsSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/InsightsStyle.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/TimingProfilerCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/TimingProfilerManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Common/FixedCircularBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Common/PaintUtils.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Common/Stopwatch.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Common/TimeUtils.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/LoadingProfiler/LoadingProfilerCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/LoadingProfiler/LoadingProfilerManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/LoadingProfiler/Widgets/SLoadingProfilerToolbar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/LoadingProfiler/Widgets/SLoadingProfilerWindow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/NetworkingProfilerCommands.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/NetworkingProfilerManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/NetEventGroupingAndSorting.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/NetEventNode.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/NetEventNodeHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/NetStatsViewColumnFactory.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/PacketContentViewDrawHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/PacketContentViewport.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/PacketViewDrawHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/ViewModels/PacketViewport.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetStatsTableCell.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetStatsTableRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetStatsView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetStatsViewTooltip.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetworkingProfilerToolbar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SNetworkingProfilerWindow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SPacketContentView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/NetworkingProfiler/Widgets/SPacketView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/BaseTreeNode.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/Table.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableCellValue.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableCellValueFormatter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableCellValueGetter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableCellValueSorter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableColumn.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TableTreeNode.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TreeNodeGrouping.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/ViewModels/TreeNodeSorting.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/Widgets/STableTreeView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/Widgets/STableTreeViewCell.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/Widgets/STableTreeViewRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Table/Widgets/STableTreeViewTooltip.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/AxisViewportDouble.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/AxisViewportInt32.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/BaseTimingTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/DrawHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/FileActivityTimingTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/FrameTrackHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/FrameTrackViewport.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/GraphTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/LoadingTimingTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/LogFilter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/LogMessage.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/MarkersTimingTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/StatsNode.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/StatsNodeHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/StatsViewColumn.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/StatsViewColumnFactory.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/ThreadTimingTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimeRulerTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimerGroupingAndSorting.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimerNode.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimerNodeHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimersViewColumn.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimersViewColumnFactory.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimingEvent.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimingEventsTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimingGraphTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimingTrackViewport.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TimingViewDrawHelper.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/ViewModels/TooltipDrawState.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SFrameTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SGraphTrack.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SInsightsSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SLogView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SStartPageWindow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SStatsTableCell.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SStatsTableRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SStatsView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/SStatsViewTooltip.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimerTableCell.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimerTableRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimerTreeView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimersView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimersViewTooltip.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimingProfilerToolbar.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimingProfilerWindow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Private/Insights/Widgets/STimingView.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Public/Insights/IUnrealInsightsModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Public/Insights/TimingProfilerCommon.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceInsights/Public/Insights/Version.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/Common.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/DataStream.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/Analysis/Engine.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/Analysis/Processor.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/Analysis/Transport/TlsTransport.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Private/Analysis/Transport/Transport.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/Analysis.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/Analyzer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/ControlClient.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/DataStream.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/Recorder.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceAnalysis/Public/Trace/Store.h" \
+	"$$unrealRootPath/Engine/Source/Developer/VulkanShaderFormat/Private/VulkanBackend.h" \
+	"$$unrealRootPath/Engine/Source/Developer/VulkanShaderFormat/Private/VulkanShaderFormat.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/AnalysisServicePrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/ModuleServicePrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/SessionServicePrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/CountersTraceAnalysis.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/CpuProfilerTraceAnalysis.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/CsvProfilerTraceAnalysis.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/GpuProfilerTraceAnalysis.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/LoadTimeTraceAnalysis.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/LogTraceAnalysis.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/MiscTraceAnalysis.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/NetTraceAnalyzer.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/PlatformFileTraceAnalysis.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Analyzers/StatsTraceAnalysis.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/FormatArgs.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/PagedArray.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/SlabAllocator.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/StringStore.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/TimelineStatistics.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Common/Utils.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/BookmarksPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/CountersPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/CsvProfilerPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/FileActivity.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/FramesPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/IntervalTimeline.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/LoadTimeProfilerPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/LogPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/MonotonicTimeline.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/NetProfilerProvider.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/Tables.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/ThreadsPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Model/TimingProfilerPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/CountersModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/CsvProfilerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/LoadTimeProfilerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/NetProfilerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/StatsModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Private/Modules/TimingProfilerModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/AnalysisService.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/ITraceServicesModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/ModuleService.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/SessionService.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Containers/Allocators.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Containers/Tables.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Containers/Timelines.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/AnalysisSession.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Bookmarks.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Counters.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/CsvProfiler.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Frames.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/LoadTimeProfiler.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Log.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/NetProfiler.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/Threads.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TraceServices/Public/TraceServices/Model/TimingProfiler.h" \
+	"$$unrealRootPath/Engine/Source/Developer/XGEController/Public/XGEControllerInterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Windows/BootstrapPackagedGame/Private/BootstrapPackagedGame.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TreeMap/TreeMapModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TreeMap/Public/ITreeMap.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TreeMap/Public/ITreeMapCustomization.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TreeMap/Public/STreeMap.h" \
+	"$$unrealRootPath/Engine/Source/Developer/TreeMap/Public/TreeMapStyle.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithCADWorker/Private/DatasmithCADWorker.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithCADWorker/Private/DatasmithCADWorkerImpl.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeCSharp.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private/DatasmithSDK.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpCamera.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpComponent.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpDialogs.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterDLL.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterInterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMaterial.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMesh.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMetadata.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpOptions.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKBegins.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKCeases.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpString.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSummary.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Resources/Windows/resource.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpCamera.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpComponent.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpDialogs.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterDLL.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterInterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMaterial.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMesh.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMetadata.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpOptions.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKBegins.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKCeases.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpString.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSummary.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Resources/Windows/resource.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpCamera.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpComponent.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpDialogs.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterDLL.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterInterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMaterial.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMesh.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMetadata.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpOptions.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKBegins.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKCeases.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpString.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSummary.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Resources/Windows/resource.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxAttributes.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxTexmapParser.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/VRayLights.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxScanlineMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxTexmapToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVRayTexmapToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVrayMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxCameraExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxClassIDs.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporterDefines.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxHelper.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxLogger.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxMeshExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxProgressManager.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneParser.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxWriter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Resources/Windows/resource.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/forestitreesinterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/ircinterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxAttributes.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxTexmapParser.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/VRayLights.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxScanlineMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxTexmapToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVRayTexmapToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVrayMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxCameraExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxClassIDs.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporterDefines.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxHelper.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxLogger.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxMeshExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxProgressManager.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneParser.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxWriter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Resources/Windows/resource.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/forestitreesinterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/ircinterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxAttributes.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxTexmapParser.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/VRayLights.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxScanlineMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxTexmapToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVRayTexmapToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVrayMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxCameraExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxClassIDs.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporterDefines.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxHelper.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxLogger.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxMeshExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxProgressManager.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneParser.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxWriter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Resources/Windows/resource.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/forestitreesinterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/ircinterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxAttributes.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxTexmapParser.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/VRayLights.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxScanlineMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxTexmapToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVRayTexmapToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVrayMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxCameraExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxClassIDs.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporterDefines.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxHelper.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxLogger.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxMeshExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxProgressManager.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneParser.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxWriter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Resources/Windows/resource.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/forestitreesinterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/ircinterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxAttributes.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxTexmapParser.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/VRayLights.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxScanlineMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxTexmapToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVRayTexmapToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVrayMaterialsToUEPbr.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxCameraExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxClassIDs.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporterDefines.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxHelper.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxLogger.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxMeshExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxProgressManager.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneExporter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneParser.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxWriter.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Resources/Windows/resource.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/forestitreesinterface.h" \
+	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/ircinterface.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AIModule/Classes/AIController.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AIModule/Classes/AIResourceInterface.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AIModule/Classes/AIResources.h" \
@@ -4068,9 +4226,25 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/AIModule/Public/DefaultManagerInstanceTracker.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AIModule/Public/GraphAStar.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AIModule/Public/SimpleCellGrid.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ALAudio/Public/ALAudioDevice.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AVIWriter/Private/CapturePin.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AVIWriter/Private/CaptureSource.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AVIWriter/Public/AVIWriter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Private/AnimationCoreUtil.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/AngularLimit.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/AnimationCore.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/AnimationCoreLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/AnimationDataSource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/BoneIndices.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/CCDIK.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/CommonAnimTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/Constraint.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/EulerTransform.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/FABRIK.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/NodeChain.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/NodeHierarchy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/SplineIK.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/TwoBoneIK.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimCustomInstance.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimSequencerInstance.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AnimGraphRuntime/Public/AnimSequencerInstanceProxy.h" \
@@ -4134,21 +4308,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/AnimGraphRuntime/Public/BoneControllers/AnimNode_TwistCorrectiveNode.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AnimGraphRuntime/Public/BoneControllers/AnimNode_TwoBoneIK.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AnimGraphRuntime/Public/RBF/RBFSolver.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Private/AnimationCoreUtil.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/AngularLimit.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/AnimationCore.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/AnimationCoreLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/AnimationDataSource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/BoneIndices.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/CCDIK.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/CommonAnimTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/Constraint.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/EulerTransform.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/FABRIK.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/NodeChain.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/NodeHierarchy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/SplineIK.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AnimationCore/Public/TwoBoneIK.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AppFramework/Private/Framework/Testing/SLayoutExample.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AppFramework/Private/Framework/Testing/STableViewTesting.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AppFramework/Private/Framework/Testing/SUserWidgetTest.h" \
@@ -4165,54 +4324,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/AppFramework/Public/Widgets/Testing/STestSuite.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AppFramework/Public/Widgets/Views/SMultipleOptionTable.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AppFramework/Public/Widgets/Workflow/SWizard.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Classes/Generators/AudioGenerator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Classes/SubmixEffects/AudioMixerSubmixEffectDynamicsProcessor.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Classes/SubmixEffects/AudioMixerSubmixEffectEQ.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Classes/SubmixEffects/AudioMixerSubmixEffectReverb.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Classes/SubmixEffects/AudioMixerSubmixEffectReverbFast.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerEffectsManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerSource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerSourceBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerSourceDecode.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerSourceManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerSourceVoice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/SoundFileIO/SoundFile.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/SoundFileIO/SoundFileIOEnums.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/SoundFileIO/SoundFileIOManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/SoundFileIO/SoundFileIOManagerImpl.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/AudioMixerBlueprintLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/AudioMixerBus.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/AudioMixerDevice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/AudioMixerModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/AudioMixerSubmix.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/FileDecoder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/SoundWaveDecoder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/Components/SynthComponent.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/DSP/ConstantQ.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/DSP/InterpolatedOnePole.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/DSP/MelScale.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/DSP/VolumeFader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/SoundFileIO/SoundFileIO.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/AssetDataGatherer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/AssetRegistry.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/AssetRegistryConsoleCommands.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/AssetRegistryPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/BackgroundGatherResults.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/DependsNode.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/DiskCachedAssetData.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/NameTableArchive.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/PackageDependencyData.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/PackageReader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/PathTree.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/ARFilter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetBundleData.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetData.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetDataTagMap.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistryHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistryModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistryState.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/IAssetRegistry.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ApplicationCore/Private/HoloLens/WindowsGamingInputInterface.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ApplicationCore/Private/IOS/IOSWindow.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ApplicationCore/Private/Lumin/LuminGamepadInterface.h" \
@@ -4314,23 +4425,62 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/ApplicationCore/Public/Windows/Accessibility/WindowsUIAManager.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ApplicationCore/Public/Windows/Accessibility/WindowsUIAPropertyGetters.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ApplicationCore/Public/Windows/Accessibility/WindowsUIAWidgetProvider.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureCore/Private/AudioCaptureInternal.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureCore/Public/AudioCaptureCore.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureCore/Public/AudioCaptureDeviceInterface.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/AssetDataGatherer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/AssetRegistry.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/AssetRegistryConsoleCommands.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/AssetRegistryPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/BackgroundGatherResults.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/DependsNode.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/DiskCachedAssetData.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/NameTableArchive.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/PackageDependencyData.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/PackageReader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Private/PathTree.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/ARFilter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetBundleData.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetData.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetDataTagMap.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistryHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistryModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/AssetRegistryState.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AssetRegistry/Public/IAssetRegistry.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AudioAnalyzer/Classes/AudioAnalyzerAsset.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AudioAnalyzer/Classes/AudioAnalyzerNRT.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AudioAnalyzer/Public/AudioAnalyzerModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AudioAnalyzer/Public/AudioAnalyzerNRTFacade.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AudioAnalyzer/Public/IAudioAnalyzerNRTInterface.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixerCore/Public/AudioMixer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixerCore/Public/AudioMixerCoreModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixerCore/Public/AudioMixerLog.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixerCore/Public/AudioMixerNullDevice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioMixerCore/Public/AudioMixerTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AutomationMessages/Public/AutomationWorkerMessages.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioPlatformConfiguration/Public/AudioCompressionSettings.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioPlatformConfiguration/Public/AudioPlatformConfigurationModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioPlatformConfiguration/Public/AudioResampler.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureCore/Private/AudioCaptureInternal.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureCore/Public/AudioCaptureCore.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureCore/Public/AudioCaptureDeviceInterface.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Classes/Generators/AudioGenerator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Classes/SubmixEffects/AudioMixerSubmixEffectDynamicsProcessor.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Classes/SubmixEffects/AudioMixerSubmixEffectEQ.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Classes/SubmixEffects/AudioMixerSubmixEffectReverb.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Classes/SubmixEffects/AudioMixerSubmixEffectReverbFast.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerEffectsManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerSource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerSourceBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerSourceDecode.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerSourceManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/AudioMixerSourceVoice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/SoundFileIO/SoundFile.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/SoundFileIO/SoundFileIOEnums.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/SoundFileIO/SoundFileIOManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Private/SoundFileIO/SoundFileIOManagerImpl.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/AudioMixerBlueprintLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/AudioMixerBus.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/AudioMixerDevice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/AudioMixerModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/AudioMixerSubmix.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/FileDecoder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/SoundWaveDecoder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/Components/SynthComponent.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/DSP/ConstantQ.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/DSP/InterpolatedOnePole.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/DSP/MelScale.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/DSP/VolumeFader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixer/Public/SoundFileIO/SoundFileIO.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AugmentedReality/Private/ARDebugDrawHelpers.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AugmentedReality/Private/AugmentedRealityModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AugmentedReality/Public/ARBlueprintLibrary.h" \
@@ -4351,13 +4501,22 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/AugmentedReality/Public/ARTrackable.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AugmentedReality/Public/ARTrackableNotifyComponent.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AugmentedReality/Public/ARTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/BlueprintRuntime/Public/BlueprintRuntime.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/BlueprintRuntime/Public/BlueprintRuntimeSettings.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AutomationMessages/Public/AutomationWorkerMessages.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixerCore/Public/AudioMixer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixerCore/Public/AudioMixerCoreModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixerCore/Public/AudioMixerLog.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixerCore/Public/AudioMixerNullDevice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioMixerCore/Public/AudioMixerTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AutomationWorker/Private/AutomationAnalyticParams.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AutomationWorker/Private/AutomationAnalytics.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AutomationWorker/Private/AutomationWorkerModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AutomationWorker/Private/AutomationWorkerPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/AutomationWorker/Public/IAutomationWorkerModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioPlatformConfiguration/Public/AudioCompressionSettings.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioPlatformConfiguration/Public/AudioPlatformConfigurationModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioPlatformConfiguration/Public/AudioResampler.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/BlueprintRuntime/Public/BlueprintRuntime.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/BlueprintRuntime/Public/BlueprintRuntimeSettings.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/CEF3Utils/Private/CEF3UtilsLog.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/CEF3Utils/Public/CEF3Utils.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/BuildSettings/Public/BuildSettings.h" \
@@ -4371,173 +4530,10 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Cbor/Public/CborReader.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Cbor/Public/CborTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Cbor/Public/CborWriter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClientPilot/Public/ClientPilotBlackboard.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClientPilot/Public/ClientPilotBlackboardManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClientPilot/Public/ClientPilotComponent.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeCommon/Public/ClothLODData.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeCommon/Public/ClothingAsset.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeCommon/Public/ClothingSystemRuntimeCommonModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeCommon/Public/Utils/ClothingMeshUtils.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CookedIterativeFile/Public/CookedIterativeNetworkFile.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Private/ClothingSystemRuntimePrivatePCH.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothConfigNv.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothLODDataNv.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothParameterMask_PhysMesh.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothPhysicalMeshDataNv.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothingActor.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothingSimulationFactoryNv.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothingSimulationInteractorNv.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothingSimulationNv.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothingSystemRuntimeModuleNv.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/NvClothIncludes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/NvClothSupport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/Assets/ClothingAssetNv.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/CoreUObjectPrivatePCH.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/ArchiveDescribeReference.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/ArchiveFindAllRefs.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/AsyncLoading.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/AsyncLoading2.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/AsyncLoadingPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/AsyncLoadingThread.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/AsyncPackage.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/LoadTimeTracePrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/Zenaphore.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/FindStronglyConnected.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/GCScopeLock.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/GarbageCollectionVerification.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/LinkerManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/LinkerPlaceholderBase.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/LinkerPlaceholderClass.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/LinkerPlaceholderExportObject.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/LinkerPlaceholderFunction.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/PropertyHelper.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/StructScriptLoader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/CoreUObject.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Blueprint/BlueprintSupport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/IPackageLocalizationCache.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/PackageLocalizationCache.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/PackageLocalizationManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/PackageLocalizationUtil.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/StabilizeLocalizationKeys.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/TextPackageNamespaceUtil.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/AssetRegistryInterface.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/ExclusiveLoadPackageTimeTracker.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/HotReloadInterface.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/NotifyHook.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/PackageName.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/RedirectCollector.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/StringAssetReference.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/StringClassReference.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/TextBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/UObjectToken.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/WorldCompositionUtility.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveCountMem.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveFindCulprit.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveHasReferences.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveObjectCrc32.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveObjectGraph.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveObjectPropertyMapper.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveReferenceMarker.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveReplaceObjectRef.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveReplaceOrClearExternalReferences.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveScriptReferenceCollector.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveShowReferences.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveStackTrace.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveTraceRoute.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveUObject.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveUObjectBase.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveUObjectFromStructuredArchive.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/AsyncPackageLoader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkData.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkData2.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkDataReader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkDataWriter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/DeferredMessageLog.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/DuplicatedDataReader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/DuplicatedDataWriter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/DuplicatedObject.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/FindObjectReferencers.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/FindReferencersArchive.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ObjectAndNameAsStringProxyArchive.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ObjectReader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ObjectWriter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/PropertyLocalizationDataGathering.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/SerializedPropertyScope.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/TextReferenceCollector.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/TraceReferences.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters/JsonArchiveInputFormatter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters/JsonArchiveOutputFormatter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Templates/SubclassOf.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/AssetPtr.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ClassTree.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNative.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNet.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNetTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreOnline.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreRedirects.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/EnumProperty.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ErrorException.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/FastReferenceCollector.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/GCObject.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/GCObjectScopeGuard.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/GarbageCollection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Interface.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/LazyObjectPtr.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/LevelGuids.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Linker.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/LinkerLoad.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/LinkerSave.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/MetaData.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/NoExportTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectKey.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectMacros.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectMemoryAnalyzer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectRedirector.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectResource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Package.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PackageFileSummary.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PackageReload.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PersistentObjectPtr.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PrimaryAssetId.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyTag.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyTempVal.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PurgingReferenceCollector.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ReferenceChainSearch.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ReflectedTypeAccessors.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/SavePackage.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Script.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptInterface.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptMacros.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptSerialization.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptStackTracker.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPath.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/SparseDelegate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Stack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/StrongObjectPtr.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/StructOnScope.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/TextProperty.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObject.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectAllocator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectAnnotation.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectArray.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBase.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBaseUtility.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectClusters.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectHash.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectIterator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectMarks.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectThreadContext.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/WeakInterfacePtr.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/WeakObjectPtr.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public/ClothCollisionData.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public/ClothCollisionPrim.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public/ClothConfig.h" \
@@ -4552,20 +4548,9 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public/ClothingSystemRuntimeInterfaceModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public/ClothingSystemRuntimeTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeInterface/Public/PointWeightMap.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Private/CrashReportUtil.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Private/PendingReports.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashDescription.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashReportAnalytics.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashReportCoreConfig.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashReportCoreModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashReportCoreUnattended.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashUpload.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/GenericErrorReport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/PlatformErrorReport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/IOS/IOSErrorReport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/Linux/LinuxErrorReport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/Mac/MacErrorReport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/Windows/WindowsErrorReport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClientPilot/Public/ClientPilotBlackboard.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClientPilot/Public/ClientPilotBlackboardManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClientPilot/Public/ClientPilotComponent.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Core/Private/CorePrivatePCH.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Core/Private/Features/ModularFeatures.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Core/Private/HAL/LowLevelMemoryUtils.h" \
@@ -5457,7 +5442,188 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Core/Public/Windows/WindowsPlatformTLS.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Core/Public/Windows/WindowsPlatformTime.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Core/Public/Windows/WindowsSystemIncludes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Private/ClothingSystemRuntimePrivatePCH.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothConfigNv.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothLODDataNv.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothParameterMask_PhysMesh.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothPhysicalMeshDataNv.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothingActor.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothingSimulationFactoryNv.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothingSimulationInteractorNv.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothingSimulationNv.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/ClothingSystemRuntimeModuleNv.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/NvClothIncludes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/NvClothSupport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ClothingSystemRuntimeNv/Public/Assets/ClothingAssetNv.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/CrunchCompression/Public/CrunchCompression.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CookedIterativeFile/Public/CookedIterativeNetworkFile.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Private/EmptyGlobalUniformBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Private/EmptyRHIPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Public/EmptyRHI.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Public/EmptyResources.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Public/EmptyShaderResources.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Public/EmptyState.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Public/EmptyViewport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/CoreUObjectPrivatePCH.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/ArchiveDescribeReference.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/ArchiveFindAllRefs.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/AsyncLoading.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/AsyncLoading2.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/AsyncLoadingPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/AsyncLoadingThread.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/AsyncPackage.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/LoadTimeTracePrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/Serialization/Zenaphore.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/FindStronglyConnected.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/GCScopeLock.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/GarbageCollectionVerification.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/LinkerManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/LinkerPlaceholderBase.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/LinkerPlaceholderClass.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/LinkerPlaceholderExportObject.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/LinkerPlaceholderFunction.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/PropertyHelper.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Private/UObject/StructScriptLoader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/CoreUObject.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Blueprint/BlueprintSupport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/IPackageLocalizationCache.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/PackageLocalizationCache.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/PackageLocalizationManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/PackageLocalizationUtil.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/StabilizeLocalizationKeys.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Internationalization/TextPackageNamespaceUtil.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/AssetRegistryInterface.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/ExclusiveLoadPackageTimeTracker.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/HotReloadInterface.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/NotifyHook.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/PackageName.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/RedirectCollector.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/StringAssetReference.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/StringClassReference.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/TextBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/UObjectToken.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Misc/WorldCompositionUtility.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveCountMem.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveFindCulprit.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveHasReferences.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveObjectCrc32.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveObjectGraph.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveObjectPropertyMapper.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveReferenceMarker.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveReplaceObjectRef.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveReplaceOrClearExternalReferences.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveScriptReferenceCollector.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveShowReferences.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveStackTrace.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveTraceRoute.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveUObject.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveUObjectBase.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ArchiveUObjectFromStructuredArchive.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/AsyncPackageLoader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkData.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkData2.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkDataReader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/BulkDataWriter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/DeferredMessageLog.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/DuplicatedDataReader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/DuplicatedDataWriter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/DuplicatedObject.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/FindObjectReferencers.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/FindReferencersArchive.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ObjectAndNameAsStringProxyArchive.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ObjectReader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/ObjectWriter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/PropertyLocalizationDataGathering.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/SerializedPropertyScope.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/TextReferenceCollector.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/TraceReferences.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters/JsonArchiveInputFormatter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Serialization/Formatters/JsonArchiveOutputFormatter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Templates/Casts.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/Templates/SubclassOf.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/AssetPtr.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ClassTree.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNative.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNet.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreNetTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreOnline.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/CoreRedirects.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/EnumProperty.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ErrorException.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/FastReferenceCollector.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/GCObject.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/GCObjectScopeGuard.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/GarbageCollection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Interface.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/LazyObjectPtr.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/LevelGuids.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Linker.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/LinkerLoad.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/LinkerSave.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/MetaData.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/NoExportTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectKey.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectMacros.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectMemoryAnalyzer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectRedirector.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectResource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Package.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PackageFileSummary.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PackageReload.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PersistentObjectPtr.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PrimaryAssetId.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyTag.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PropertyTempVal.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/PurgingReferenceCollector.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ReferenceChainSearch.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ReflectedTypeAccessors.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/SavePackage.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Script.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptInterface.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptMacros.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptSerialization.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/ScriptStackTracker.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPath.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/SparseDelegate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/Stack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/StrongObjectPtr.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/StructOnScope.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/TextProperty.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObject.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectAllocator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectAnnotation.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectArray.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBase.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBaseUtility.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectClusters.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectGlobals.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectHash.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectIterator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectMarks.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectThreadContext.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/UnrealType.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/WeakInterfacePtr.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CoreUObject/Public/UObject/WeakObjectPtr.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Private/CrashReportUtil.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Private/PendingReports.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashDescription.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashReportAnalytics.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashReportCoreConfig.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashReportCoreModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashReportCoreUnattended.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/CrashUpload.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/GenericErrorReport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/PlatformErrorReport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/IOS/IOSErrorReport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/Linux/LinuxErrorReport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/Mac/MacErrorReport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/CrashReportCore/Public/Windows/WindowsErrorReport.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/D3D12RHI/Private/D3D12Adapter.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/D3D12RHI/Private/D3D12Allocation.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/D3D12RHI/Private/D3D12CommandContext.h" \
@@ -5491,19 +5657,7 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/D3D12RHI/Public/D3D12State.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/D3D12RHI/Public/D3D12Util.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/D3D12RHI/Public/D3D12Viewport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Private/EmptyGlobalUniformBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Private/EmptyRHIPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Public/EmptyRHI.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Public/EmptyResources.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Public/EmptyShaderResources.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Public/EmptyState.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EmptyRHI/Public/EmptyViewport.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/EngineMessages/Public/EngineServiceMessages.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ExternalRPCRegistry/Public/ExternalRpcRegistry.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EyeTracker/Public/EyeTrackerFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EyeTracker/Public/EyeTrackerTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EyeTracker/Public/IEyeTracker.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/EyeTracker/Public/IEyeTrackerModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Engine/Classes/AI/AISystemBase.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Engine/Classes/AI/NavigationSystemBase.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Engine/Classes/AI/NavigationSystemConfig.h" \
@@ -6951,6 +7105,10 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Engine/Public/VisualLogger/VisualLogger.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Engine/Public/VisualLogger/VisualLoggerDebugSnapshotInterface.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Engine/Public/VisualLogger/VisualLoggerTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EyeTracker/Public/EyeTrackerFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EyeTracker/Public/EyeTrackerTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EyeTracker/Public/IEyeTracker.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/EyeTracker/Public/IEyeTrackerModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/EngineSettings/Classes/ConsoleSettings.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/EngineSettings/Classes/GameMapsSettings.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/EngineSettings/Classes/GameNetworkManagerSettings.h" \
@@ -6959,6 +7117,7 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/EngineSettings/Classes/GeneralProjectSettings.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/EngineSettings/Classes/HudSettings.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/EngineSettings/Public/EngineSettings.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ExternalRPCRegistry/Public/ExternalRpcRegistry.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Foliage/Private/FoliageActor.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Foliage/Private/InteractiveFoliageComponent.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Foliage/Public/FoliageHelper.h" \
@@ -6980,16 +7139,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Foliage/Public/ProceduralFoliageSpawner.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Foliage/Public/ProceduralFoliageTile.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Foliage/Public/ProceduralFoliageVolume.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithCADWorker/Private/DatasmithCADWorker.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithCADWorker/Private/DatasmithCADWorkerImpl.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuBuilder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuBuilderModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuBuilderStyle.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuItem.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuPage.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuWidgetStyle.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/SGameMenuItemWidget.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/SGameMenuPageWidget.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/FriendsAndChat/Public/FriendsAndChat.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/FriendsAndChat/Public/FriendsAndChatStyle.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/FriendsAndChat/Public/FriendsChatChromeStyle.h" \
@@ -7052,13 +7201,14 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/GameplayMediaEncoder/Private/Microsoft/Windows/NvEncoder/nvEncodeAPI.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/GameplayMediaEncoder/Public/GameplayMediaEncoder.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/GameplayMediaEncoder/Public/GameplayMediaEncoderSample.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Classes/BlueprintGameplayTagLibrary.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagAssetInterface.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagContainer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagsManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagsSettings.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Public/GameplayTags.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Public/GameplayTagsModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuBuilder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuBuilderModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuBuilderStyle.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuItem.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuPage.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/GameMenuWidgetStyle.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/SGameMenuItemWidget.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameMenuBuilder/Public/SGameMenuPageWidget.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTask.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTaskOwnerInterface.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/GameplayTasks/Classes/GameplayTaskResource.h" \
@@ -7070,9 +7220,18 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/GameplayTasks/Private/GameplayTasksPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/GameplayTasks/Public/GameplayTaskTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/GameplayTasks/Public/GameplayTasksModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Classes/BlueprintGameplayTagLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagAssetInterface.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagContainer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagsManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Classes/GameplayTagsSettings.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Public/GameplayTags.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/GameplayTags/Public/GameplayTagsModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/HardwareSurvey/Public/HardwareSurvey.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/HardwareSurvey/Public/IHardwareSurveyModule.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithFacadeCSharp/Private/DatasmithFacadeCSharp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/IPC/Public/IPC.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/IPC/Public/IPCModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/ImageCore/Public/ImageCore.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/HeadMountedDisplay/Public/DefaultSpectatorScreenController.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/HeadMountedDisplay/Public/DefaultStereoLayers.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/HeadMountedDisplay/Public/DefaultXRCamera.h" \
@@ -7108,10 +7267,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/HeadMountedDisplay/Public/XRSwapChain.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/HeadMountedDisplay/Public/XRThreadUtils.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/HeadMountedDisplay/Public/XRTrackingSystemBase.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/IPC/Public/IPC.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/IPC/Public/IPCModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/ImageCore/Public/ImageCore.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSDK/Private/DatasmithSDK.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ImageWriteQueue/Public/ImagePixelData.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ImageWriteQueue/Public/ImageWriteBlueprintLibrary.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ImageWriteQueue/Public/ImageWriteQueue.h" \
@@ -7129,136 +7284,22 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/ImageWrapper/Public/BmpImageSupport.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ImageWrapper/Public/IImageWrapper.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/ImageWrapper/Public/IImageWrapperModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputDevice/Public/IHapticDevice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputDevice/Public/IInputDevice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputDevice/Public/IInputDeviceModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputDevice/Public/InputDevice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Classes/InputCoreTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/InputCore.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/InputCoreModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/Android/AndroidPlatformInput.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/GenericPlatform/GenericPlatformInput.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/HAL/PlatformInput.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/HoloLens/HoloLensPlatformInput.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/IOS/IOSPlatformInput.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/Linux/LinuxPlatformInput.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/Lumin/LuminPlatformInput.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/Mac/MacPlatformInput.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/Windows/WindowsPlatformInput.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Json.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/JsonGlobals.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Dom/JsonObject.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Dom/JsonValue.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Policies/CondensedJsonPrintPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Policies/JsonPrintPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Policies/PrettyJsonPrintPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Serialization/JsonReader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Serialization/JsonSerializer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Serialization/JsonSerializerMacros.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Serialization/JsonTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Serialization/JsonWriter.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/InstallBundleManager/Private/InstallBundleManagerPrivatePCH.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/InstallBundleManager/Public/BundlePrereqCombinedStatusHelper.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/InstallBundleManager/Public/InstallBundleManagerInterface.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/InstallBundleManager/Public/InstallBundleManagerModule.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxAttributes.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxTexmapParser.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/VRayLights.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxScanlineMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxTexmapToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVRayTexmapToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVrayMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxCameraExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxClassIDs.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporterDefines.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxHelper.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxLogger.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxMeshExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxProgressManager.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneParser.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxWriter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Resources/Windows/resource.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/forestitreesinterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/ircinterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxAttributes.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxTexmapParser.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/VRayLights.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxScanlineMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxTexmapToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVRayTexmapToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVrayMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxCameraExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxClassIDs.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporterDefines.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxHelper.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxLogger.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxMeshExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxProgressManager.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneParser.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxWriter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Resources/Windows/resource.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/forestitreesinterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/ircinterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxAttributes.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxTexmapParser.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/VRayLights.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxScanlineMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxTexmapToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVRayTexmapToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVrayMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxCameraExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxClassIDs.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporterDefines.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxHelper.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxLogger.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxMeshExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxProgressManager.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneParser.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxWriter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Resources/Windows/resource.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/forestitreesinterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/ircinterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxAttributes.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxTexmapParser.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/VRayLights.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxScanlineMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxTexmapToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVRayTexmapToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVrayMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxCameraExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxClassIDs.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporterDefines.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxHelper.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxLogger.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxMeshExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxProgressManager.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneParser.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxWriter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Resources/Windows/resource.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/forestitreesinterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/ircinterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxAttributes.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/DatasmithMaxTexmapParser.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/VRayLights.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxScanlineMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxTexmapToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVRayTexmapToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Private/MaxMaterialsToUEPbr/DatasmithMaxVrayMaterialsToUEPbr.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxCameraExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxClassIDs.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxExporterDefines.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxHelper.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxLogger.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxMeshExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxProgressManager.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxSceneParser.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Public/DatasmithMaxWriter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/Resources/Windows/resource.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/forestitreesinterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithMaxExporter/ThirdParty/Itoo/ircinterface.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Landscape/Classes/ControlPointMeshActor.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Landscape/Classes/ControlPointMeshComponent.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Landscape/Classes/Landscape.h" \
@@ -7300,31 +7341,26 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Landscape/Public/LandscapeRenderMobile.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Landscape/Public/LandscapeSettings.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Landscape/Public/LandscapeSplineProxies.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Classes/InputCoreTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/InputCore.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/InputCoreModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/Android/AndroidPlatformInput.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/GenericPlatform/GenericPlatformInput.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/HAL/PlatformInput.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/HoloLens/HoloLensPlatformInput.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/IOS/IOSPlatformInput.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/Linux/LinuxPlatformInput.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/Lumin/LuminPlatformInput.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/Mac/MacPlatformInput.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputCore/Public/Windows/WindowsPlatformInput.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputDevice/Public/IHapticDevice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputDevice/Public/IInputDevice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputDevice/Public/IInputDeviceModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/InputDevice/Public/InputDevice.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/JsonUtilities/Public/JsonDomBuilder.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/JsonUtilities/Public/JsonObjectConverter.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/JsonUtilities/Public/JsonObjectWrapper.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/JsonUtilities/Public/JsonUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Json.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/JsonGlobals.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Dom/JsonObject.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Dom/JsonValue.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Policies/CondensedJsonPrintPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Policies/JsonPrintPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Policies/PrettyJsonPrintPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Serialization/JsonReader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Serialization/JsonSerializer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Serialization/JsonSerializerMacros.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Serialization/JsonTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Json/Public/Serialization/JsonWriter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Launch/Private/IOS/GameLaunchDaemonMessageHandler.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Launch/Private/IOS/IOSAppDelegateConsoleHandling.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Launch/Private/IOS/TcpConsoleListener.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Launch/Public/LaunchEngineLoop.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Launch/Public/RequiredProgramMainCPPInclude.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Launch/Public/Android/AndroidEventManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Launch/Public/Android/AndroidJNI.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Launch/Resources/Version.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Launch/Resources/Windows/resource.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/LevelSequence/Private/LevelSequenceModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/LevelSequence/Public/DefaultLevelSequenceInstanceData.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/LevelSequence/Public/ILevelSequenceMetaData.h" \
@@ -7339,51 +7375,15 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/LevelSequence/Public/LevelSequenceObject.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/LevelSequence/Public/LevelSequencePlayer.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/LevelSequence/Public/LevelSequenceSpawnRegister.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpCamera.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpComponent.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpDialogs.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterDLL.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterInterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMaterial.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMesh.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMetadata.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpOptions.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKBegins.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKCeases.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpString.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSummary.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Resources/Windows/resource.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpCamera.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpComponent.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpDialogs.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterDLL.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterInterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMaterial.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMesh.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMetadata.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpOptions.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKBegins.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKCeases.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpString.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSummary.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Resources/Windows/resource.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpCamera.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpComponent.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpDialogs.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporter.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterDLL.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpExporterInterface.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMaterial.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMesh.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpMetadata.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpOptions.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKBegins.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSDKCeases.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpString.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Private/DatasmithSketchUpSummary.h" \
-	"$$unrealRootPath/Engine/Source/Programs/Enterprise/Datasmith/DatasmithSketchUpExporter/Resources/Windows/resource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Launch/Private/IOS/GameLaunchDaemonMessageHandler.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Launch/Private/IOS/IOSAppDelegateConsoleHandling.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Launch/Private/IOS/TcpConsoleListener.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Launch/Public/LaunchEngineLoop.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Launch/Public/RequiredProgramMainCPPInclude.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Launch/Public/Android/AndroidEventManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Launch/Public/Android/AndroidJNI.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Launch/Resources/Version.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Launch/Resources/Windows/resource.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/LiveLinkInterface/Private/LiveLinkPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/LiveLinkInterface/Public/ILiveLinkClient.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/LiveLinkInterface/Public/ILiveLinkSource.h" \
@@ -7436,6 +7436,24 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/MediaAssets/Public/StreamMediaSource.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MediaAssets/Public/TimeSynchronizableMediaSource.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MediaAssets/Public/Misc/MediaBlueprintFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Private/LinearEase.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Private/MediaUtilsPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/AppMediaTimeSource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaAudioResampler.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaCaptureSupport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaDelegates.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaHelpers.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaObjectPool.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaPlayerFacade.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaPlayerOptions.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaRecorder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleCache.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleQueue.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleQueueDepths.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleSink.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleSinks.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleSource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSamples.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MaterialShaderQualitySettings/Classes/MaterialShaderQualitySettings.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MaterialShaderQualitySettings/Classes/MaterialShaderQualitySettingsCustomization.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MaterialShaderQualitySettings/Classes/ShaderPlatformQualitySettings.h" \
@@ -7497,29 +7515,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Messaging/Public/IMessagingModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Messaging/Public/IMutableMessageContext.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Messaging/Public/INetworkMessagingExtension.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Private/LinearEase.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Private/MediaUtilsPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/AppMediaTimeSource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaAudioResampler.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaCaptureSupport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaDelegates.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaHelpers.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaObjectPool.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaPlayerFacade.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaPlayerOptions.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaRecorder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleCache.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleQueue.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleQueueDepths.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleSink.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleSinks.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSampleSource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MediaUtils/Public/MediaSamples.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MessagingCommon/Public/FileMessageAttachment.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MessagingCommon/Public/MessageBridgeBuilder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MessagingCommon/Public/MessageEndpoint.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MessagingCommon/Public/MessageEndpointBuilder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MessagingCommon/Public/MessageHandlers.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MessagingRpc/Private/MessageRpcClient.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MessagingRpc/Private/MessageRpcDefines.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MessagingRpc/Public/IMessageRpcCall.h" \
@@ -7531,105 +7526,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/MessagingRpc/Public/MessageRpcMessages.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MessagingRpc/Public/MessageRpcServer.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MessagingRpc/Public/RpcMessage.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MoviePlayer/Private/DefaultGameMoviePlayer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MoviePlayer/Private/MoviePlayerThreading.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MoviePlayer/Private/NullMoviePlayer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MoviePlayer/Public/MoviePlayer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MoviePlayer/Public/MoviePlayerSettings.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieScene3DAttachTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieScene3DPathTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneActorReferenceTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneAudioTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneCameraAnimTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneCameraCutTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneColorTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneEventTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneFadeTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneLevelVisibilityTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneMaterialParameterCollectionTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneObjectPropertyTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneParticleParameterTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneParticleTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieScenePrimitiveMaterialTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieScenePropertyTemplates.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneSkeletalAnimationTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneSlomoTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneTemplateCommon.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneVisibilityTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/IMovieSceneTracksModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/MovieSceneHitProxy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Channels/MovieSceneEvent.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Channels/MovieSceneEventChannel.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation/MovieScene3DTransformTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation/MovieSceneParameterTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation/MovieSceneSpawnTemplate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieScene3DAttachSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieScene3DConstraintSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieScene3DPathSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieScene3DTransformSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneActorReferenceSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneAudioSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneBoolSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneByteSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneCameraAnimSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneCameraCutSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneCameraShakeSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneCinematicShotSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneColorSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneEnumSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneEventRepeaterSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneEventSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneEventSectionBase.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneEventTriggerSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneFadeSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneFloatSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneIntegerSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneLevelVisibilitySection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneObjectPropertySection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneParameterSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneParticleSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieScenePrimitiveMaterialSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneSkeletalAnimationSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneSlomoSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneSpawnSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneStringChannel.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneStringSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneVectorSection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/IMovieSceneTransformOrigin.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScene3DAttachTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScene3DConstraintTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScene3DPathTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScene3DTransformTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneActorReferenceTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneAudioTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneBoolTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneByteTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneCameraAnimTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneCameraCutTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneCameraShakeTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneCinematicShotTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneColorTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneEnumTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneEulerTransformTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneEventTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneFadeTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneFloatTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneIntegerTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneLevelVisibilityTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneMaterialParameterCollectionTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneMaterialTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneObjectPropertyTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneParticleParameterTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneParticleTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScenePrimitiveMaterialTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScenePropertyTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneSkeletalAnimationTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneSlomoTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneSpawnTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneStringTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneTransformTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneVectorTrack.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneVisibilityTrack.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieScene/Private/Evaluation/MovieSceneEvalTemplateSerializer.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieScene/Private/Evaluation/MovieSceneMotionVectorSimulation.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieScene/Private/Tests/MovieSceneTestObjects.h" \
@@ -7727,6 +7623,16 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieScene/Public/Generators/MovieSceneEasingFunction.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieScene/Public/Sections/MovieSceneSubSection.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieScene/Public/Tracks/MovieSceneSubTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MessagingCommon/Public/FileMessageAttachment.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MessagingCommon/Public/MessageBridgeBuilder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MessagingCommon/Public/MessageEndpoint.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MessagingCommon/Public/MessageEndpointBuilder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MessagingCommon/Public/MessageHandlers.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MoviePlayer/Private/DefaultGameMoviePlayer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MoviePlayer/Private/MoviePlayerThreading.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MoviePlayer/Private/NullMoviePlayer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MoviePlayer/Public/MoviePlayer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MoviePlayer/Public/MoviePlayerSettings.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneCapture/Private/ActiveMovieSceneCaptures.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneCapture/Public/ErrorCodes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneCapture/Public/FrameGrabber.h" \
@@ -7744,6 +7650,109 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/ImageSequenceProtocol.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/UserDefinedCaptureProtocol.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneCapture/Public/Protocols/VideoCaptureProtocol.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieScene3DAttachTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieScene3DPathTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneActorReferenceTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneAudioTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneCameraAnimTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneCameraCutTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneColorTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneEventTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneFadeTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneLevelVisibilityTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneMaterialParameterCollectionTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneObjectPropertyTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneParticleParameterTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneParticleTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieScenePrimitiveMaterialTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieScenePropertyTemplates.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneSkeletalAnimationTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneSlomoTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneTemplateCommon.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Private/Evaluation/MovieSceneVisibilityTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/IMovieSceneTracksModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/MovieSceneHitProxy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Channels/MovieSceneEvent.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Channels/MovieSceneEventChannel.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation/MovieScene3DTransformTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation/MovieSceneParameterTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Evaluation/MovieSceneSpawnTemplate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieScene3DAttachSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieScene3DConstraintSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieScene3DPathSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieScene3DTransformSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneActorReferenceSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneAudioSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneBoolSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneByteSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneCameraAnimSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneCameraCutSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneCameraShakeSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneCinematicShotSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneColorSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneEnumSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneEventRepeaterSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneEventSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneEventSectionBase.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneEventTriggerSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneFadeSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneFloatSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneIntegerSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneLevelVisibilitySection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneObjectPropertySection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneParameterSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneParticleSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieScenePrimitiveMaterialSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneSkeletalAnimationSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneSlomoSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneSpawnSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneStringChannel.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneStringSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Sections/MovieSceneVectorSection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/IMovieSceneTransformOrigin.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScene3DAttachTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScene3DConstraintTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScene3DPathTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScene3DTransformTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneActorReferenceTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneAudioTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneBoolTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneByteTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneCameraAnimTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneCameraCutTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneCameraShakeTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneCinematicShotTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneColorTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneEnumTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneEulerTransformTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneEventTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneFadeTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneFloatTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneIntegerTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneLevelVisibilityTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneMaterialParameterCollectionTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneMaterialTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneObjectPropertyTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneParticleParameterTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneParticleTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScenePrimitiveMaterialTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieScenePropertyTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneSkeletalAnimationTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneSlomoTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneSpawnTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneStringTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneTransformTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneVectorTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/MovieSceneVisibilityTrack.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkFile/Private/ITransport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkFile/Private/TCPTransport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkFile/Public/NetworkPlatformFile.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Private/NetworkFileServer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Private/NetworkFileServerConnection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Private/NetworkFileServerHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Private/NetworkFileSystemLog.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Public/INetworkFileServer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Public/INetworkFileSystemModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/NavigationSystem/Private/NavGraph/NavGraphGenerator.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/NavigationSystem/Public/AbstractNavData.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/NavigationSystem/Public/CrowdManagerBase.h" \
@@ -7796,16 +7805,7 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/NavigationSystem/Public/NavMesh/RecastNavMeshGenerator.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/NavigationSystem/Public/NavMesh/RecastQueryFilter.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/NavigationSystem/Public/NavMesh/RecastVersion.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkFile/Private/ITransport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkFile/Private/TCPTransport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkFile/Public/NetworkPlatformFile.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/NonRealtimeAudioRenderer/Private/AudioMixerPlatformNonRealtime.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Private/NetworkFileServer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Private/NetworkFileServerConnection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Private/NetworkFileServerHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Private/NetworkFileSystemLog.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Public/INetworkFileServer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkFileSystem/Public/INetworkFileSystemModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Networking/Private/NetworkingModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Networking/Public/Networking.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Networking/Public/Common/TcpListener.h" \
@@ -7819,30 +7819,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Networking/Public/Interfaces/IPv4/IPv4Subnet.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Networking/Public/Interfaces/IPv4/IPv4SubnetMask.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Networking/Public/Interfaces/Steam/SteamEndpoint.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DebugUtils/DebugDraw.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DebugUtils/DetourDebugDraw.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DebugUtils/RecastDebugDraw.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DebugUtils/RecastDump.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourAlloc.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourAssert.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourCommon.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourNavMesh.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourNavMeshBuilder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourNavMeshQuery.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourNode.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourStatus.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourCrowd.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourLocalBoundary.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourObstacleAvoidance.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourPathCorridor.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourPathQueue.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourProximityGrid.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourSharedBoundary.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourTileCache/DetourTileCache.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourTileCache/DetourTileCacheBuilder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Recast/Recast.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Recast/RecastAlloc.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Recast/RecastAssert.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/NullDrv/Public/NullDrv.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/NullDrv/Public/NullRHI.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/OpenGLDrv/Private/OpenGLDrvPrivate.h" \
@@ -7867,17 +7843,69 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/OpenGLDrv/Public/OpenGLShaders.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/OpenGLDrv/Public/OpenGLState.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/OpenGLDrv/Public/OpenGLUtil.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PerfCounters/Private/PerfCounters.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PerfCounters/Private/ZeroLoad.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PerfCounters/Public/PerfCountersModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DebugUtils/DebugDraw.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DebugUtils/DetourDebugDraw.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DebugUtils/RecastDebugDraw.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DebugUtils/RecastDump.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourAlloc.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourAssert.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourCommon.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourNavMesh.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourNavMeshBuilder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourNavMeshQuery.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourNode.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Detour/DetourStatus.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourCrowd.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourLocalBoundary.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourObstacleAvoidance.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourPathCorridor.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourPathQueue.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourProximityGrid.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourCrowd/DetourSharedBoundary.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourTileCache/DetourTileCache.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/DetourTileCache/DetourTileCacheBuilder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Recast/Recast.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Recast/RecastAlloc.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Navmesh/Public/Recast/RecastAssert.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PhysXCooking/Public/PhysXCooking.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PakFile/Private/SignedArchiveReader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PakFile/Public/IPlatformFilePak.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Overlay/Private/OverlayPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Overlay/Public/BasicOverlays.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Overlay/Public/IOverlayModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Overlay/Public/LocalizedOverlays.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Overlay/Public/Overlays.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Overlay/Public/OverlaysImporter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PakFile/Private/SignedArchiveReader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PakFile/Public/IPlatformFilePak.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PerfCounters/Private/PerfCounters.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PerfCounters/Private/ZeroLoad.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PerfCounters/Public/PerfCountersModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Private/SceneQueryPhysXImp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Private/Experimental/SceneQueryChaosImp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Public/PhysicsSQ.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Public/PhysicsSQModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Public/SQAccelerator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Public/SQVerifier.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/BoundShaderStateCache.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/DynamicRHI.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/GPUDefragAllocator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/GPUProfiler.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/GpuProfilerTrace.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/MultiGPU.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/PipelineFileCache.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/PipelineStateCache.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/PsoLruCache.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHI.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHICommandList.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIContext.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIDefinitions.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIGPUReadback.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIResources.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIStaticStates.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHISurfaceDataConversion.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIValidation.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIValidationCommon.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIValidationContext.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PhysicsCore/Public/ChaosInterfaceWrapperCore.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PhysicsCore/Public/ChaosSQTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PhysicsCore/Public/CollisionQueryFilterCallbackCore.h" \
@@ -7902,13 +7930,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/PhysicsCore/Public/PhysicsInterfaceWrapperShared.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PhysicsCore/Public/PhysicsPublicCore.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PhysicsCore/Public/SQCapture.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PhysXCooking/Public/PhysXCooking.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Private/SceneQueryPhysXImp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Private/Experimental/SceneQueryChaosImp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Public/PhysicsSQ.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Public/PhysicsSQModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Public/SQAccelerator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PhysicsSQ/Public/SQVerifier.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PreLoadScreen/Public/BuildPatchServicesPreLoadManager.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PreLoadScreen/Public/PreLoadScreen.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PreLoadScreen/Public/PreLoadScreenBase.h" \
@@ -7928,30 +7949,9 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Projects/Public/Projects.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Projects/Public/Interfaces/IPluginManager.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Projects/Public/Interfaces/IProjectManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/BoundShaderStateCache.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/DynamicRHI.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/GPUDefragAllocator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/GPUProfiler.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/GpuProfilerTrace.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/MultiGPU.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/PipelineFileCache.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/PipelineStateCache.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/PsoLruCache.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHI.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHICommandList.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIContext.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIDefinitions.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIGPUReadback.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIResources.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIStaticStates.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHISurfaceDataConversion.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIValidation.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIValidationCommon.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RHI/Public/RHIValidationContext.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RSA/Public/RSA.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PropertyPath/Public/PropertyPathHelpers.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PropertyPath/Public/PropertyTypeCompatibility.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RSA/Public/RSA.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/RenderCore/Private/RenderGraphBarrierBatcher.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/RenderCore/Private/RenderGraphResourcePool.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/RenderCore/Public/BuiltInRayTracingShaders.h" \
@@ -8009,6 +8009,19 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/RigVM/Public/RigVMCore/RigVMExecuteContext.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/RigVM/Public/RigVMCore/RigVMMemory.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/RigVM/Public/RigVMCore/RigVMRegistry.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCache.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheAsyncWorker.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheBackend.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheBucket.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheBucketScopeLock.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheEntryMetadata.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheFilesystemBackend.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCachePrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Public/RuntimeAssetCacheBPHooks.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Public/RuntimeAssetCacheBuilders.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Public/RuntimeAssetCacheInterface.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Public/RuntimeAssetCacheModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Public/RuntimeAssetCachePluginInterface.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Renderer/Private/AmbientCubemapParameters.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Renderer/Private/AtmosphereRendering.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Renderer/Private/AtmosphereTextures.h" \
@@ -8189,20 +8202,8 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Renderer/Public/SceneRenderTargetParameters.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Renderer/Public/VolumeRendering.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Renderer/Public/VT/RuntimeVirtualTextureRender.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SessionMessages/Public/SessionServiceMessages.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SandboxFile/Public/IPlatformFileSandboxWrapper.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCache.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheAsyncWorker.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheBackend.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheBucket.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheBucketScopeLock.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheEntryMetadata.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCacheFilesystemBackend.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Private/RuntimeAssetCachePrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Public/RuntimeAssetCacheBPHooks.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Public/RuntimeAssetCacheBuilders.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Public/RuntimeAssetCacheInterface.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Public/RuntimeAssetCacheModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/RuntimeAssetCache/Public/RuntimeAssetCachePluginInterface.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Serialization/Private/Backends/StructDeserializerBackendUtilities.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Serialization/Private/Tests/StructSerializerTestTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Serialization/Public/IStructDeserializerBackend.h" \
@@ -8213,7 +8214,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Serialization/Public/Backends/CborStructSerializerBackend.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Serialization/Public/Backends/JsonStructDeserializerBackend.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Serialization/Public/Backends/JsonStructSerializerBackend.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SessionMessages/Public/SessionServiceMessages.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SessionServices/Private/SessionInfo.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SessionServices/Private/SessionInstanceInfo.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SessionServices/Private/SessionManager.h" \
@@ -8224,65 +8224,9 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/SessionServices/Public/ISessionService.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SessionServices/Public/ISessionServicesModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SessionServices/Public/SessionLogMessage.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/SampleBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/SignalProcessingModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/AlignedBlockBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/AllPassFilter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/AllPassFractionalDelay.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Amp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/AudioDebuggingUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/AudioFFT.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/BiQuadFilter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/BitCrusher.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/BufferOnePoleLPF.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/BufferVectorOperations.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Chorus.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/DeinterleaveView.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Delay.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/DelayStereo.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Dsp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/DynamicDelayAPF.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/DynamicsProcessor.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/EQ.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/EarlyReflectionsFast.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Envelope.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/EnvelopeFollower.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/EventQuantizer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/FeedbackDelayNetwork.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/FileEncoder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Filter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Flanger.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/FloatArrayMath.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/FoldbackDistortion.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Granulator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/IntegerDelay.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/LFO.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/LateReflectionsFast.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/LinearInterpFractionalDelay.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/LongDelayAPF.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/ModulationMatrix.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/MultithreadedPatching.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Noise.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/OnePole.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Osc.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/ParamInterpolator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/PassiveFilter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Phaser.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Reverb.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/ReverbFast.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/RingModulation.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/SampleBufferReader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/SampleRateConverter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/SinOsc.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/SlidingWindow.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/SpectrumAnalyzer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/VoiceProcessing.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/WaveShaper.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/WaveTableOsc.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Encoders/IAudioEncoder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Encoders/OggVorbisEncoder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Encoders/OpusEncoder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Encoders/WavEncoder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateNullRenderer/Private/SlateNullRenderer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateNullRenderer/Private/SlateNullRendererPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateNullRenderer/Public/Interfaces/ISlateNullRendererModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Slate/Private/Framework/Application/Menu.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Slate/Private/Framework/Docking/FDockingDragOperation.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Slate/Private/Framework/Docking/SDockingArea.h" \
@@ -8522,6 +8466,65 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableViewBase.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Slate/Public/Widgets/Views/STileView.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Slate/Public/Widgets/Views/STreeView.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/SampleBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/SignalProcessingModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/AlignedBlockBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/AllPassFilter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/AllPassFractionalDelay.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Amp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/AudioDebuggingUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/AudioFFT.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/BiQuadFilter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/BitCrusher.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/BufferOnePoleLPF.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/BufferVectorOperations.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Chorus.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/DeinterleaveView.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Delay.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/DelayStereo.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Dsp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/DynamicDelayAPF.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/DynamicsProcessor.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/EQ.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/EarlyReflectionsFast.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Envelope.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/EnvelopeFollower.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/EventQuantizer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/FeedbackDelayNetwork.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/FileEncoder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Filter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Flanger.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/FloatArrayMath.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/FoldbackDistortion.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Granulator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/IntegerDelay.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/LFO.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/LateReflectionsFast.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/LinearInterpFractionalDelay.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/LongDelayAPF.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/ModulationMatrix.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/MultithreadedPatching.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Noise.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/OnePole.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Osc.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/ParamInterpolator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/PassiveFilter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Phaser.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Reverb.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/ReverbFast.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/RingModulation.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/SampleBufferReader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/SampleRateConverter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/SinOsc.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/SlidingWindow.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/SpectrumAnalyzer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/VoiceProcessing.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/WaveShaper.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/WaveTableOsc.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Encoders/IAudioEncoder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Encoders/OggVorbisEncoder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Encoders/OpusEncoder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SignalProcessing/Public/DSP/Encoders/WavEncoder.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SlateCore/Private/Application/ActiveTimerHandle.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SlateCore/Private/Debugging/ConsoleSlateDebugger.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SlateCore/Private/Fonts/FontCacheCompositeFont.h" \
@@ -8641,28 +8644,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/SlateCore/Public/Widgets/Accessibility/SlateCoreAccessibleWidgets.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SlateCore/Public/Widgets/Accessibility/SlateWidgetAccessibleTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SlateCore/Public/Widgets/Images/SImage.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateNullRenderer/Private/SlateNullRenderer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateNullRenderer/Private/SlateNullRendererPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateNullRenderer/Public/Interfaces/ISlateNullRendererModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/Slate3DRenderer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateAtlasedTextureResource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateElementIndexBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateElementVertexBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateMaterialResource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateMaterialShader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateNativeTextureResource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlatePostProcessResource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlatePostProcessor.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHIFontTexture.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHIRenderer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHIRenderingPolicy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHIResourceManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHITextureAtlas.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateShaders.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateUTextureResource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateUpdatableBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Public/Interfaces/ISlate3DRenderer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Public/Interfaces/ISlateRHIRendererModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Sockets/Private/SocketsPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Sockets/Private/Android/SocketSubsystemAndroid.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Sockets/Private/BSDIPv6Sockets/IPAddressBSDIPv6.h" \
@@ -8697,9 +8678,61 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/StaticMeshDescription/Public/StaticMeshAttributes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/StaticMeshDescription/Public/StaticMeshDescription.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/StaticMeshDescription/Public/StaticMeshOperations.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/Slate3DRenderer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateAtlasedTextureResource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateElementIndexBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateElementVertexBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateMaterialResource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateMaterialShader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateNativeTextureResource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlatePostProcessResource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlatePostProcessor.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHIFontTexture.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHIRenderer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHIRenderingPolicy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHIResourceManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateRHITextureAtlas.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateShaders.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateUTextureResource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Private/SlateUpdatableBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Public/Interfaces/ISlate3DRenderer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/SlateRHIRenderer/Public/Interfaces/ISlateRHIRendererModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/StreamingPauseRendering/Public/StreamingPauseRendering.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/StreamingFile/Public/StreamingNetworkPlatformFile.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/SynthBenchmark/Public/SynthBenchmark.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/StreamingPauseRendering/Public/StreamingPauseRendering.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioDecode.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioDeviceFormat.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioEmitterInternal.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioEmitterManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioEntityManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioHandles.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioPitchManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioSampleRateConverter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioSoundFileInternal.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioSoundFileManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioThread.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioUtilities.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioVoiceInternal.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioVoiceManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioVoiceMixer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioVolumeManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/Tests/UnrealAudioTestGenerators.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioDeviceModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioEmitter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioSoundFile.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioTests.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioVoice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Private/Trace/Platform.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Config.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Trace.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Atomic.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/EventDef.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Field.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Trace.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Toolbox/Public/ToolboxModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/TimeManagement/Public/CommonFrameRates.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/TimeManagement/Public/FixedFrameRateCustomTimeStep.h" \
@@ -8712,13 +8745,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/TimeManagement/Public/Widgets/SFrameRateEntryBox.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/TimeManagement/Public/Widgets/SFrameRatePicker.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/TimeManagement/Public/Widgets/STimecode.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Private/Trace/Platform.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Config.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Trace.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Atomic.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/EventDef.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Field.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/TraceLog/Public/Trace/Detail/Trace.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/UMG/Private/UMGPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/UMG/Private/Animation/MovieScene2DTransformTemplate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/UMG/Private/Animation/MovieSceneMarginTemplate.h" \
@@ -8848,82 +8874,9 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/UMG/Public/Slate/UMGDragDropOp.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/UMG/Public/Slate/WidgetRenderer.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/UMG/Public/Slate/WidgetTransform.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioDecode.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioDeviceFormat.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioEmitterInternal.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioEmitterManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioEntityManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioHandles.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioPitchManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioSampleRateConverter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioSoundFileInternal.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioSoundFileManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioThread.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioUtilities.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioVoiceInternal.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioVoiceManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioVoiceMixer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/UnrealAudioVolumeManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Private/Tests/UnrealAudioTestGenerators.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioDeviceModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioEmitter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioSoundFile.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioTests.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/UnrealAudio/Public/UnrealAudioVoice.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/VectorVM/Private/VectorVMPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/VectorVM/Public/VectorVM.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/VectorVM/Public/VectorVMDataObject.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanCommandBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanCommandWrappers.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanCommandsDirect.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanContext.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanDescriptorSets.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanGenericPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanGlobalUniformBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanLLM.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanLoader.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanPendingState.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanPipeline.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanPipelineState.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanQueue.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHIPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanResources.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanState.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanSwapChain.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanViewport.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Android/VulkanAndroidPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Android/VulkanPlatformDefines.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Linux/VulkanLinuxPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Linux/VulkanPlatformDefines.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Lumin/VulkanLuminPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Lumin/VulkanPlatformDefines.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Mac/VulkanPlatformDefines.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Windows/VulkanPlatformDefines.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Windows/VulkanWindowsPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanCommon.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanConfiguration.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanDynamicRHI.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanGlobals.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanMemory.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanRHIBridge.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanShaderResources.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanUtil.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/SCarouselNavigationBar.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/SCarouselNavigationButton.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/SWidgetCarousel.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/SWidgetCarouselWithNavigation.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/WidgetCarouselModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/WidgetCarouselStyle.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/WebBrowserTexture/Public/WebBrowserTexture.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/WebBrowserTexture/Public/WebBrowserTextureModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/WebBrowserTexture/Public/WebBrowserTextureResource.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/WebBrowserTexture/Public/WebBrowserTextureSample.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/WebBrowser/Private/WebBrowserLog.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/WebBrowser/Private/WebBrowserSingleton.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/WebBrowser/Private/WebJSScripting.h" \
@@ -8966,17 +8919,66 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/WebBrowser/Public/WebBrowserModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/WebBrowser/Public/WebBrowserViewport.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/WebBrowser/Public/WebJSFunction.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanCommandBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanCommandWrappers.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanCommandsDirect.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanContext.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanDescriptorSets.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanDevice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanGenericPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanGlobalUniformBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanLLM.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanLoader.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanPendingState.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanPipeline.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanPipelineState.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanQueue.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanRHIPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanResources.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanState.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanSwapChain.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/VulkanViewport.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Android/VulkanAndroidPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Android/VulkanPlatformDefines.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Linux/VulkanLinuxPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Linux/VulkanPlatformDefines.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Lumin/VulkanLuminPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Lumin/VulkanPlatformDefines.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Mac/VulkanPlatformDefines.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Windows/VulkanPlatformDefines.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Private/Windows/VulkanWindowsPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanCommon.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanConfiguration.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanDynamicRHI.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanGlobals.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanMemory.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanRHIBridge.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanShaderResources.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/VulkanRHI/Public/VulkanUtil.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/WebBrowserTexture/Public/WebBrowserTexture.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/WebBrowserTexture/Public/WebBrowserTextureModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/WebBrowserTexture/Public/WebBrowserTextureResource.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/WebBrowserTexture/Public/WebBrowserTextureSample.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/SCarouselNavigationBar.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/SCarouselNavigationButton.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/SWidgetCarousel.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/SWidgetCarouselWithNavigation.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/WidgetCarouselModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/WidgetCarousel/Public/WidgetCarouselStyle.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/XmlParser/Public/FastXml.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/XmlParser/Public/XmlFile.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/XmlParser/Public/XmlNode.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/XmlParser/Public/XmlParser.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Experimental/EditorInteractiveToolsFramework/Public/EdModeInteractiveToolsContext.h" \
+	"$$unrealRootPath/Engine/Source/Editor/Experimental/EditorInteractiveToolsFramework/Public/EditorInteractiveToolsFrameworkModule.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/AndroidDeviceDetection.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces/IAndroidDeviceDetection.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces/IAndroidDeviceDetectionModule.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Apple/MetalShaderFormat/Private/MetalBackend.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Apple/MetalShaderFormat/Private/MetalDerivedData.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Apple/MetalShaderFormat/Private/MetalShaderFormat.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Apple/MetalShaderFormat/Private/MetalUtils.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/AndroidDeviceDetection.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces/IAndroidDeviceDetection.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Android/AndroidDeviceDetection/Public/Interfaces/IAndroidDeviceDetectionModule.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Android/AndroidPlatformEditor/Private/AndroidLicenseDialog.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Android/AndroidPlatformEditor/Private/AndroidSDKSettings.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Android/AndroidPlatformEditor/Private/AndroidSDKSettingsCustomization.h" \
@@ -9004,12 +9006,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithCore/Public/DatasmithUtils.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithCore/Public/DatasmithVariantElements.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithCore/Public/IDatasmithSceneElements.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithExportOptions.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithExporterManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithLogger.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithMeshExporter.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithProgressManager.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithSceneExporter.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithFacade/Public/DatasmithFacadeActor.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithFacade/Public/DatasmithFacadeActorCamera.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithFacade/Public/DatasmithFacadeActorLight.h" \
@@ -9019,25 +9015,31 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithFacade/Public/DatasmithFacadeMaterial.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithFacade/Public/DatasmithFacadeMesh.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithFacade/Public/DatasmithFacadeScene.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithExportOptions.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithExporterManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithLogger.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithMeshExporter.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithProgressManager.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Datasmith/DatasmithExporter/Public/DatasmithSceneExporter.h" \
 	"$$unrealRootPath/Engine/Source/Developer/IOS/IOSPlatformEditor/Private/IOSCustomIconProjectBuildMutatorFeature.h" \
 	"$$unrealRootPath/Engine/Source/Developer/IOS/IOSPlatformEditor/Private/IOSPlatformEditorModule.h" \
 	"$$unrealRootPath/Engine/Source/Developer/IOS/IOSPlatformEditor/Private/IOSTargetSettingsCustomization.h" \
 	"$$unrealRootPath/Engine/Source/Developer/IOS/IOSPlatformEditor/Private/SCertificateListRow.h" \
 	"$$unrealRootPath/Engine/Source/Developer/IOS/IOSPlatformEditor/Private/SProvisionListRow.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Lumin/LuminPlatformEditor/Private/LuminTargetSettingsDetails.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Lumin/LuminPlatformEditor/Private/MagicLeapSDKSettings.h" \
 	"$$unrealRootPath/Engine/Source/Developer/IOS/IOSTargetPlatform/Private/IOSDeviceHelper.h" \
 	"$$unrealRootPath/Engine/Source/Developer/IOS/IOSTargetPlatform/Private/IOSTargetDevice.h" \
 	"$$unrealRootPath/Engine/Source/Developer/IOS/IOSTargetPlatform/Private/IOSTargetDeviceOutput.h" \
 	"$$unrealRootPath/Engine/Source/Developer/IOS/IOSTargetPlatform/Private/IOSTargetPlatform.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Lumin/LuminTargetPlatform/Private/LuminTargetDevice.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Lumin/LuminTargetPlatform/Private/LuminTargetPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Lumin/LuminPlatformEditor/Private/LuminTargetSettingsDetails.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Lumin/LuminPlatformEditor/Private/MagicLeapSDKSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Mac/MacTargetPlatform/Classes/MacTargetSettings.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Mac/MacTargetPlatform/Private/GenericMacTargetPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Developer/Mac/MacTargetPlatform/Private/LocalMacTargetDevice.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Linux/LinuxTargetPlatform/Classes/LinuxTargetSettings.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Linux/LinuxTargetPlatform/Private/LinuxTargetDevice.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Linux/LinuxTargetPlatform/Private/LinuxTargetPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Mac/MacTargetPlatform/Classes/MacTargetSettings.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Mac/MacTargetPlatform/Private/GenericMacTargetPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Developer/Mac/MacTargetPlatform/Private/LocalMacTargetDevice.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Windows/LiveCoding/Private/LiveCodingLog.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Windows/LiveCoding/Private/LiveCodingModule.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Windows/LiveCoding/Private/LiveCodingSettings.h" \
@@ -9145,16 +9147,8 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Developer/Windows/WindowsTargetPlatform/Classes/WindowsTargetSettings.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Windows/WindowsTargetPlatform/Private/GenericWindowsTargetPlatform.h" \
 	"$$unrealRootPath/Engine/Source/Developer/Windows/WindowsTargetPlatform/Private/LocalPcTargetDevice.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Experimental/EditorInteractiveToolsFramework/Public/EdModeInteractiveToolsContext.h" \
-	"$$unrealRootPath/Engine/Source/Editor/Experimental/EditorInteractiveToolsFramework/Public/EditorInteractiveToolsFrameworkModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Advertising/Advertising/Public/Advertising.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Advertising/Advertising/Public/Interfaces/IAdvertisingProvider.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureImplementations/AudioCaptureRtAudio/Private/AudioCaptureRtAudio.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureImplementations/AudioCaptureRtAudio/Private/RtAudio.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Android/AndroidAudio/Public/AndroidAudioDevice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Android/AndroidLocalNotification/Public/AndroidLocalNotification.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Android/AudioMixerAndroid/Private/AudioMixerPlatformAndroid.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Android/AndroidRuntimeSettings/Classes/AndroidRuntimeSettings.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Analytics/Analytics/Public/Analytics.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Analytics/Analytics/Public/AnalyticsBuildType.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Analytics/Analytics/Public/AnalyticsConversion.h" \
@@ -9162,24 +9156,18 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Analytics/Analytics/Public/AnalyticsProviderConfigurationDelegate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Analytics/Analytics/Public/Interfaces/IAnalyticsProvider.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Analytics/Analytics/Public/Interfaces/IAnalyticsProviderModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Analytics/AnalyticsSwrve/Public/AnalyticsSwrve.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Analytics/AnalyticsVisualEditing/Classes/AnalyticsSettings.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Analytics/AnalyticsVisualEditing/Public/AnalyticsVisualEditing.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Analytics/AnalyticsET/Public/AnalyticsET.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Analytics/AnalyticsET/Public/IAnalyticsProviderET.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Apple/AudioMixerAudioUnit/Private/AudioMixerPlatformAudioUnit.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/ChaosCoreModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Array.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/ArrayCollection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/ArrayCollectionArray.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/ArrayCollectionArrayBase.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/ArrayFaceND.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/ArrayND.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Matrix.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Vector.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/VectorND.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Analytics/AnalyticsSwrve/Public/AnalyticsSwrve.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Android/AndroidLocalNotification/Public/AndroidLocalNotification.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Analytics/AnalyticsVisualEditing/Classes/AnalyticsSettings.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Analytics/AnalyticsVisualEditing/Public/AnalyticsVisualEditing.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Android/AndroidAudio/Public/AndroidAudioDevice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Android/AndroidRuntimeSettings/Classes/AndroidRuntimeSettings.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Analytics/QoSReporter/Private/QoSReporterPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Analytics/QoSReporter/Public/QoSReporter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Android/AudioMixerAndroid/Private/AudioMixerPlatformAndroid.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Apple/AudioMixerAudioUnit/Private/AudioMixerPlatformAudioUnit.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Apple/AudioMixerCoreAudio/Private/AudioMixerPlatformCoreAudio.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Apple/MetalRHI/Private/MetalBlitCommandEncoder.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Apple/MetalRHI/Private/MetalBuffer.h" \
@@ -9207,6 +9195,29 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Apple/MetalRHI/Public/MetalState.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Apple/MetalRHI/Public/MetalViewport.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Apple/MetalRHI/Public/ue4_stdlib.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureImplementations/AudioCaptureRtAudio/Private/AudioCaptureRtAudio.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureImplementations/AudioCaptureRtAudio/Private/RtAudio.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/IOS/IOSLocalNotification/Public/IOSLocalNotification.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/IOS/IOSAudio/Public/IOSAudioDevice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/IOS/IOSPlatformFeatures/Public/IOSSaveGameSystem.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Linux/AudioMixerSDL/Private/AudioMixerPlatformSDL.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Linux/AudioMixerSDL/Private/Linux/LinuxAudioMixerSDLDefines.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/IOS/IOSRuntimeSettings/Classes/IOSRuntimeSettings.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes/IOSMessageProtocol.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Public/LaunchDaemonMessages.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Mac/CoreAudio/Public/CoreAudioDevice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Mac/CoreAudio/Public/CoreAudioEffects.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Lumin/LuminRuntimeSettings/Classes/LuminRuntimeSettings.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/ChaosCoreModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Array.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/ArrayCollection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/ArrayCollectionArray.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/ArrayCollectionArrayBase.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/ArrayFaceND.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/ArrayND.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Matrix.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/Vector.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosCore/Public/Chaos/VectorND.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolverEngine/Private/Chaos/ChaosSolverEnginePluginPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolverEngine/Public/Chaos/ChaosDebugDrawComponent.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolverEngine/Public/Chaos/ChaosEventListenerComponent.h" \
@@ -9217,34 +9228,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolverEngine/Public/Chaos/ChaosSolverComponentTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolverEngine/Public/Chaos/ChaosSolverEnginePlugin.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolverEngine/Public/Chaos/ChaosSolverSettings.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Private/Framework/DispatcherImpl.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/BoneHierarchy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/ChaosSolversModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/EventDefaults.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/EventManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/EventsData.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PBDRigidActiveParticlesBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PBDRigidsSolver.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsObjectHelper.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsSolver.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/SolverEventFilters.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/CommandBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/DebugSolverTasks.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/Dispatcher.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/PersistentTask.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/PhysicsTickTask.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/ThreadCheckedData.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/Threading.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/TimeStep.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/TripleBufferedData.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/AnalyticImplicitGroup.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/FieldSystemPhysicsProxy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/GeometryCollectionPhysicsProxy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/PhysicsProxies.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/SingleParticlePhysicsProxy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/SingleParticlePhysicsProxyFwd.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/SkeletalMeshPhysicsProxy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/StaticMeshPhysicsProxy.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/Chaos/Private/kDOP.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/Chaos/Public/ChaosCheck.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/Chaos/Public/ChaosLog.h" \
@@ -9390,6 +9373,34 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/Framework/PhysicsProxy.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/Framework/PhysicsProxyBase.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/Framework/PhysicsSolverBase.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Private/Framework/DispatcherImpl.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/BoneHierarchy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/ChaosSolversModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/EventDefaults.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/EventManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/EventsData.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PBDRigidActiveParticlesBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PBDRigidsSolver.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsObjectHelper.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsSolver.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/SolverEventFilters.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/CommandBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/DebugSolverTasks.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/Dispatcher.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/PersistentTask.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/PhysicsTickTask.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/ThreadCheckedData.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/Threading.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/TimeStep.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/Framework/TripleBufferedData.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/AnalyticImplicitGroup.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/FieldSystemPhysicsProxy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/GeometryCollectionPhysicsProxy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/PhysicsProxies.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/SingleParticlePhysicsProxy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/SingleParticlePhysicsProxyFwd.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/SkeletalMeshPhysicsProxy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/ChaosSolvers/Public/PhysicsProxy/StaticMeshPhysicsProxy.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionCore/Public/GeometryCollection/GeometryCollection.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionCore/Public/GeometryCollection/GeometryCollectionAlgo.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionCore/Public/GeometryCollection/GeometryCollectionBoneNode.h" \
@@ -9431,6 +9442,13 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionEngine/Public/GeometryCollection/PhysicsAssetSimulation.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionEngine/Public/GeometryCollection/SkeletalMeshSimulationComponent.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionEngine/Public/GeometryCollection/StaticMeshSimulationComponent.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionSimulationCore/Public/GeometryCollection/GeometryCollectionCollisionStructureManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionSimulationCore/Public/GeometryCollection/GeometryCollectionPhysicsFieldCommands.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionSimulationCore/Public/GeometryCollection/GeometryCollectionSimulationCorePlugin.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionSimulationCore/Public/GeometryCollection/GeometryCollectionSimulationCoreTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionSimulationCore/Public/GeometryCollection/GeometryCollectionSimulationTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/Voronoi/Public/Voronoi/Voronoi.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/Voronoi/Public/Voronoi/VoronoiPlugin.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public/ComponentSourceInterfaces.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public/InputBehavior.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public/InputBehaviorSet.h" \
@@ -9486,65 +9504,69 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public/BaseTools/SingleClickTool.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public/Changes/ToolCommandChangeSequence.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/InteractiveToolsFramework/Public/Changes/TransformChange.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionSimulationCore/Public/GeometryCollection/GeometryCollectionCollisionStructureManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionSimulationCore/Public/GeometryCollection/GeometryCollectionPhysicsFieldCommands.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionSimulationCore/Public/GeometryCollection/GeometryCollectionSimulationCorePlugin.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionSimulationCore/Public/GeometryCollection/GeometryCollectionSimulationCoreTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/GeometryCollectionSimulationCore/Public/GeometryCollection/GeometryCollectionSimulationTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/IOS/IOSLocalNotification/Public/IOSLocalNotification.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/IOS/IOSAudio/Public/IOSAudioDevice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/Voronoi/Public/Voronoi/Voronoi.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/Voronoi/Public/Voronoi/VoronoiPlugin.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/IOS/IOSPlatformFeatures/Public/IOSSaveGameSystem.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Mac/CoreAudio/Public/CoreAudioDevice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Mac/CoreAudio/Public/CoreAudioEffects.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/IOS/IOSRuntimeSettings/Classes/IOSRuntimeSettings.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Linux/AudioMixerSDL/Private/AudioMixerPlatformSDL.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Linux/AudioMixerSDL/Private/Linux/LinuxAudioMixerSDLDefines.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Classes/IOSMessageProtocol.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/IOS/LaunchDaemonMessages/Public/LaunchDaemonMessages.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Lumin/LuminRuntimeSettings/Classes/LuminRuntimeSettings.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes/HandlerComponentFactory.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes/PacketHandlerProfileConfig.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public/EncryptionComponent.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public/PacketHandler.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Net/Core/Classes/Net/Core/Analytics/NetAnalyticsAggregatorConfig.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Net/Core/Private/Net/Core/Misc/NetCoreLog.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Net/Core/Public/Net/Core/Analytics/NetAnalytics.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Net/Core/Public/Net/Core/Misc/DDoSDetection.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Net/Core/Public/Net/Core/Misc/PacketAudit.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Net/Core/Public/Net/Core/Misc/PacketTraits.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkReplayStreaming/LocalFileNetworkReplayStreaming/Public/LocalFileNetworkReplayStreaming.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public/ReliabilityHandlerComponent.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkReplayStreaming/InMemoryNetworkReplayStreaming/Public/InMemoryNetworkReplayStreaming.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/NetworkReplayStreaming/HttpNetworkReplayStreaming/Public/HttpNetworkReplayStreaming.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public/NetworkReplayStreaming.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/NetworkReplayStreaming/NullNetworkReplayStreaming/Public/NullNetworkReplayStreaming.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherCheck/Public/ILauncherCheckModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Private/PortalServiceLocator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/IPortalService.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/IPortalServiceLocator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/IPortalServiceProvider.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/IPortalServicesModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/Account/IPortalUser.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/Account/IPortalUserLogin.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/Application/IPortalApplicationWindow.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/Package/IPortalPackageInstaller.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Private/LauncherPlatformPrivatePCH.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Private/Linux/LauncherPlatformLinux.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Private/Mac/LauncherPlatformMac.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Private/Windows/LauncherPlatformWindows.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Public/ILauncherPlatform.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Public/LauncherPlatformModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes/HandlerComponentFactory.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes/PacketHandlerProfileConfig.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public/EncryptionComponent.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public/PacketHandler.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkReplayStreaming/InMemoryNetworkReplayStreaming/Public/InMemoryNetworkReplayStreaming.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/NetworkReplayStreaming/SaveGameNetworkReplayStreaming/Public/SaveGameNetworkReplayStreaming.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Proxies/Private/Account/PortalUserLoginProxy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Proxies/Private/Account/PortalUserProxy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Proxies/Private/Application/PortalApplicationWindowProxy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Proxies/Private/Package/PortalPackageInstallerProxy.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Messages/Public/PortalApplicationWindowMessages.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Messages/Public/PortalPackageInstallerMessages.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Messages/Public/PortalUserLoginMessages.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Messages/Public/PortalUserMessages.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkReplayStreaming/NullNetworkReplayStreaming/Public/NullNetworkReplayStreaming.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkReplayStreaming/LocalFileNetworkReplayStreaming/Public/LocalFileNetworkReplayStreaming.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttpManagerImpl.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttpModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttpNotificationObject.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttpRequestImpl.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttpResponseImpl.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/PlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Android/AndroidPlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/GenericPlatform/GenericPlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/GenericPlatform/GenericPlatformBackgroundHttpManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/GenericPlatform/GenericPlatformBackgroundHttpRequest.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/GenericPlatform/GenericPlatformBackgroundHttpResponse.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/HoloLens/HoloLensPlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/IOS/ApplePlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/IOS/ApplePlatformBackgroundHttpManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/IOS/ApplePlatformBackgroundHttpRequest.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/IOS/ApplePlatformBackgroundHttpResponse.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/IOS/IOSPlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Interfaces/IBackgroundHttpManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Interfaces/IBackgroundHttpRequest.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Interfaces/IBackgroundHttpResponse.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Linux/LinuxPlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Lumin/LuminPlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Mac/MacPlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Unix/UnixPlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Windows/WindowsPlatformBackgroundHttp.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/NetworkReplayStreaming/NetworkReplayStreaming/Public/NetworkReplayStreaming.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpConnection.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpConnectionContext.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpConnectionRequestReadContext.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpConnectionResponseWriteContext.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpConnectionTypes.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpListener.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpRequestHandlerIterator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpRequestHandlerRegistrar.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpRouter.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpServerConstantsPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpPath.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpRequestHandler.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpResultCallback.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpRouteHandle.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpServerConstants.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpServerHttpVersion.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpServerModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpServerRequest.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpServerResponse.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/IHttpRouter.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchFileConstructor.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchGeneration.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchHash.h" \
@@ -9672,61 +9694,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/BuildPatchServices/Public/Interfaces/IBuildPatchServicesModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/BuildPatchServices/Public/Interfaces/IBuildStatistics.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/BuildPatchServices/Public/Interfaces/IPatchDataEnumeration.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Private/PortalRpcDefines.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Private/PortalRpcLocator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Private/PortalRpcMessages.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Private/PortalRpcResponder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Private/PortalRpcServer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Public/IPortalRpcLocator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Public/IPortalRpcModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Public/IPortalRpcResponder.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Public/IPortalRpcServer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttpManagerImpl.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttpModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttpNotificationObject.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttpRequestImpl.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/BackgroundHttpResponseImpl.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/PlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Android/AndroidPlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/GenericPlatform/GenericPlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/GenericPlatform/GenericPlatformBackgroundHttpManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/GenericPlatform/GenericPlatformBackgroundHttpRequest.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/GenericPlatform/GenericPlatformBackgroundHttpResponse.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/HoloLens/HoloLensPlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/IOS/ApplePlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/IOS/ApplePlatformBackgroundHttpManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/IOS/ApplePlatformBackgroundHttpRequest.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/IOS/ApplePlatformBackgroundHttpResponse.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/IOS/IOSPlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Interfaces/IBackgroundHttpManager.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Interfaces/IBackgroundHttpRequest.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Interfaces/IBackgroundHttpResponse.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Linux/LinuxPlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Lumin/LuminPlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Mac/MacPlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Unix/UnixPlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/BackgroundHTTP/Public/Windows/WindowsPlatformBackgroundHttp.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpConnection.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpConnectionContext.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpConnectionRequestReadContext.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpConnectionResponseWriteContext.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpConnectionTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpListener.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpRequestHandlerIterator.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpRequestHandlerRegistrar.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpRouter.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Private/HttpServerConstantsPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpPath.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpRequestHandler.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpResultCallback.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpRouteHandle.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpServerConstants.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpServerHttpVersion.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpServerModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpServerRequest.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/HttpServerResponse.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTPServer/Public/IHttpRouter.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTP/Private/HttpPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTP/Private/HttpTests.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/HTTP/Private/HttpThread.h" \
@@ -9763,17 +9730,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/ICMP/Private/IcmpPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/ICMP/Public/Icmp.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/ICMP/Public/IcmpModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/ImageDownload/Private/ImageDownloadPrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/ImageDownload/Public/WebImage.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/ImageDownload/Public/WebImageCache.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Private/StompClient.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Private/StompCommand.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Private/StompFrame.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Private/StompLog.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Private/StompMessage.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Public/IStompClient.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Public/IStompMessage.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Public/StompModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/SSL/Private/PlatformSslCertificateManager.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/SSL/Private/SslCertificateManager.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/SSL/Private/SslError.h" \
@@ -9785,6 +9741,27 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/SSL/Public/SslModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/SSL/Public/Interfaces/ISslCertificateManager.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/SSL/Public/Interfaces/ISslManager.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/ImageDownload/Private/ImageDownloadPrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/ImageDownload/Public/WebImage.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/ImageDownload/Public/WebImageCache.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Private/StompClient.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Private/StompCommand.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Private/StompFrame.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Private/StompLog.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Private/StompMessage.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Public/IStompClient.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Public/IStompMessage.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Stomp/Public/StompModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Private/VoiceCodecOpus.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Private/VoiceDelayBuffer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Private/VoicePrivate.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Private/Windows/VoiceCaptureWindows.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/Voice.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/VoiceModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/VoicePackage.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/Interfaces/VoiceCapture.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/Interfaces/VoiceChat.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/Interfaces/VoiceCodec.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/WebSockets/Private/PlatformWebSocket.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/WebSockets/Private/WebSocketsLog.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/WebSockets/Private/HoloLens/HoloLensWebSocket.h" \
@@ -9828,17 +9805,40 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/XMPP/Public/XmppPackage.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/XMPP/Public/XmppPresence.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Online/XMPP/Public/XmppPubSub.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Messages/Public/PortalApplicationWindowMessages.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Messages/Public/PortalPackageInstallerMessages.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Messages/Public/PortalUserLoginMessages.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Messages/Public/PortalUserMessages.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherCheck/Public/ILauncherCheckModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Proxies/Private/Account/PortalUserLoginProxy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Proxies/Private/Account/PortalUserProxy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Proxies/Private/Application/PortalApplicationWindowProxy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Proxies/Private/Package/PortalPackageInstallerProxy.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Private/PortalServiceLocator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/IPortalService.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/IPortalServiceLocator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/IPortalServiceProvider.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/IPortalServicesModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/Account/IPortalUser.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/Account/IPortalUserLogin.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/Application/IPortalApplicationWindow.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Services/Public/Package/IPortalPackageInstaller.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Private/PortalRpcDefines.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Private/PortalRpcLocator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Private/PortalRpcMessages.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Private/PortalRpcResponder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Private/PortalRpcServer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Public/IPortalRpcLocator.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Public/IPortalRpcModule.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Public/IPortalRpcResponder.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/Rpc/Public/IPortalRpcServer.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Private/LauncherPlatformPrivatePCH.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Private/Linux/LauncherPlatformLinux.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Private/Mac/LauncherPlatformMac.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Private/Windows/LauncherPlatformWindows.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Public/ILauncherPlatform.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Portal/LauncherPlatform/Public/LauncherPlatformModule.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Unix/UnixCommonStartup/Public/UnixCommonStartup.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Private/VoiceCodecOpus.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Private/VoiceDelayBuffer.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Private/VoicePrivate.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Private/Windows/VoiceCaptureWindows.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/Voice.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/VoiceModule.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/VoicePackage.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/Interfaces/VoiceCapture.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/Interfaces/VoiceChat.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Online/Voice/Public/Interfaces/VoiceCodec.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Windows/AudioMixerXAudio2/Private/AudioMixerPlatformXAudio2.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11RHIPrivate.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11StateCachePrivate.h" \
@@ -9867,12 +9867,12 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Windows/XAudio2/Private/XAudio2Support.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Windows/XAudio2/Public/XAudio2Device.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Windows/XAudio2/Public/XAudio2Effects.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Advertising/IOS/IOSAdvertising/Public/IOSAdvertising.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureImplementations/IOS/AudioCaptureAudioUnit/Private/AudioCaptureAudioUnit.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureImplementations/Android/AudioCaptureAndroid/Private/AudioCaptureAndroid.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Advertising/Android/AndroidAdvertising/Public/AndroidAdvertising.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/RSAKeyAESEncryption/Public/RSAKeyAESEncryptionHandlerComponent.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Advertising/IOS/IOSAdvertising/Public/IOSAdvertising.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureImplementations/Android/AudioCaptureAndroid/Private/AudioCaptureAndroid.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/AudioCaptureImplementations/IOS/AudioCaptureAudioUnit/Private/AudioCaptureAudioUnit.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/EncryptionHandlerComponent/Public/EncryptionHandlerComponent.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/RSAKeyAESEncryption/Public/RSAKeyAESEncryptionHandlerComponent.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/AsymmetricEncryption/RSAEncryptionHandlerComponent/Public/RSAEncryptionHandlerComponent.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemCore/Public/Field/FieldSystem.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemCore/Public/Field/FieldSystemCoreAlgo.h" \
@@ -9880,33 +9880,26 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemCore/Public/Field/FieldSystemNodes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemCore/Public/Field/FieldSystemNoiseAlgo.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemCore/Public/Field/FieldSystemTypes.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemSimulationCore/Public/Field/FieldSystemSimulationCoreAlgo.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemSimulationCore/Public/Field/FieldSystemSimulationCorePlugin.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemSimulationCore/Public/Field/FieldSystemSimulationCoreTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemEngine/Private/Field/FieldSystemSceneProxy.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemEngine/Public/Field/FieldSystemActor.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemEngine/Public/Field/FieldSystemAsset.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemEngine/Public/Field/FieldSystemComponent.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemEngine/Public/Field/FieldSystemComponentTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemEngine/Public/Field/FieldSystemObjects.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemSimulationCore/Public/Field/FieldSystemSimulationCoreAlgo.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemSimulationCore/Public/Field/FieldSystemSimulationCorePlugin.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/Experimental/FieldSystem/Source/FieldSystemSimulationCore/Public/Field/FieldSystemSimulationCoreTypes.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/SymmetricEncryption/StreamEncryption/StreamEncryptionHandlerComponent/Public/StreamEncryptionHandlerComponent.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/SymmetricEncryption/StreamEncryption/XORStreamEncryptor/Public/XORStreamEncryptor.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/SymmetricEncryption/BlockEncryption/AESBlockEncryptor/Public/AESBlockEncryptor.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/SymmetricEncryption/BlockEncryption/TwoFishBlockEncryptor/Public/TwoFishBlockEncryptor.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/SymmetricEncryption/StreamEncryption/XORStreamEncryptor/Public/XORStreamEncryptor.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/SymmetricEncryption/BlockEncryption/BlockEncryptionHandlerComponent/Public/BlockEncryptionHandlerComponent.h" \
-	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/SymmetricEncryption/BlockEncryption/BlowFishBlockEncryptor/Public/BlowFishBlockEncryptor.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/SymmetricEncryption/BlockEncryption/TwoFishBlockEncryptor/Public/TwoFishBlockEncryptor.h" \
 	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/SymmetricEncryption/BlockEncryption/XORBlockEncryptor/Public/XORBlockEncryptor.h" \
+	"$$unrealRootPath/Engine/Source/Runtime/PacketHandlers/EncryptionComponents/SymmetricEncryption/BlockEncryption/BlowFishBlockEncryptor/Public/BlowFishBlockEncryptor.h" \
 	"$$unrealRootPath/Engine/Platforms/XXX/Source/Developer/XXXTargetPlatform/Private/XXXPlatformProperties.h" \
 	"$$unrealRootPath/Engine/Platforms/XXX/Source/Developer/XXXTargetPlatform/Private/XXXTargetDevice.h" \
 	"$$unrealRootPath/Engine/Platforms/XXX/Source/Developer/XXXTargetPlatform/Private/XXXTargetDeviceOutput.h" \
 	"$$unrealRootPath/Engine/Platforms/XXX/Source/Developer/XXXTargetPlatform/Private/XXXTargetPlatform.h" \
-	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperJsonSpriteSheetImporter.h" \
-	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperSpriteSheet.h" \
-	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperSpriteSheetAssetTypeActions.h" \
-	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperSpriteSheetImportFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperSpriteSheetImporterLog.h" \
-	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperSpriteSheetReimportFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/SmartSnapping/Private/PlanarConstraintSnapPolicy.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2D/Classes/IntMargin.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2D/Classes/PaperCharacter.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2D/Classes/PaperFlipbook.h" \
@@ -9944,8 +9937,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2D/Public/AlphaBitmap.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2D/Public/MaterialExpressionSpriteTextureSampler.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2D/Public/Paper2DModule.h" \
-	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperTiledImporter/Classes/PaperTiledImporterFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperTiledImporter/Private/PaperTiledImporterLog.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2DEditor/Classes/PaperFlipbookActorFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2DEditor/Classes/PaperFlipbookFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2DEditor/Classes/PaperFlipbookThumbnailRenderer.h" \
@@ -10032,6 +10023,15 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2DEditor/Public/Paper2DEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2DEditor/Public/PaperFlipbookHelpers.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/Paper2DEditor/Public/PaperJSONHelpers.h" \
+	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperJsonSpriteSheetImporter.h" \
+	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperSpriteSheet.h" \
+	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperSpriteSheetAssetTypeActions.h" \
+	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperSpriteSheetImportFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperSpriteSheetImporterLog.h" \
+	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperSpriteSheetImporter/Private/PaperSpriteSheetReimportFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/SmartSnapping/Private/PlanarConstraintSnapPolicy.h" \
+	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperTiledImporter/Classes/PaperTiledImporterFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/PaperTiledImporter/Private/PaperTiledImporterLog.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/SpriterImporter/Private/PaperSpriterImportData.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/SpriterImporter/Private/SpriterDataModel.h" \
 	"$$unrealRootPath/Engine/Plugins/2D/Paper2D/Source/SpriterImporter/Private/SpriterImporterFactory.h" \
@@ -10046,15 +10046,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/AI/HTNPlanner/Source/HTNPlanner/Public/Debug/HTNDebug.h" \
 	"$$unrealRootPath/Engine/Plugins/AI/HTNPlanner/Source/HTNTestSuite/Private/MockHTN.h" \
 	"$$unrealRootPath/Engine/Plugins/AI/HTNPlanner/Source/HTNTestSuite/Public/HTNTestSuiteModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Private/LiveLinkComponentPrivate.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Public/LiveLinkComponentController.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Public/LiveLinkControllerBase.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Public/Controllers/LiveLinkCameraController.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Public/Controllers/LiveLinkLightController.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Public/Controllers/LiveLinkTransformController.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkGraphNode/Private/AnimGraphNode_LiveLinkPose.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkGraphNode/Private/K2Node_EvaluateLiveLinkCustom.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkGraphNode/Public/K2Node_EvaluateLiveLinkFrame.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLink/Private/ILiveLinkModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLink/Private/LiveLinkDebugCommand.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLink/Private/LiveLinkDebugView.h" \
@@ -10087,10 +10078,35 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLink/Public/InterpolationProcessor/LiveLinkBasicFrameInterpolateProcessor.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLink/Public/PreProcessor/LiveLinkAxisSwitchPreProcessor.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLink/Public/Translator/LiveLinkAnimationRoleToTransform.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkGraphNode/Private/AnimGraphNode_LiveLinkPose.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkGraphNode/Private/K2Node_EvaluateLiveLinkCustom.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkGraphNode/Public/K2Node_EvaluateLiveLinkFrame.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Private/LiveLinkMovieScenePrivate.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Private/MovieScene/MovieSceneLiveLinkSectionTemplate.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Private/MovieScene/MovieSceneLiveLinkSource.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/IMovieSceneLiveLinkPropertyHandler.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkBufferData.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkEnumHandler.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkPropertyHandler.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkSection.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkStructProperties.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkStructPropertyBindings.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkSubSection.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkSubSectionAnimation.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkSubSectionBasicRole.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkSubSectionProperties.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkTrack.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkTransformHandler.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkSequencer/Private/LiveLinkSequencerPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkSequencer/Private/Sequencer/LiveLinkPropertyTrackEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkSequencer/Private/TakeRecorderSource/TakeRecorderLiveLinkSource.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkSequencer/Public/MovieSceneLiveLinkTrackRecorder.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Private/LiveLinkComponentPrivate.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Public/LiveLinkComponentController.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Public/LiveLinkControllerBase.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Public/Controllers/LiveLinkCameraController.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Public/Controllers/LiveLinkLightController.h" \
+	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkComponents/Public/Controllers/LiveLinkTransformController.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkEditor/Private/LiveLinkClientCommands.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkEditor/Private/LiveLinkClientPanel.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkEditor/Private/LiveLinkClientPanelToolbar.h" \
@@ -10108,22 +10124,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkEditor/Private/SLiveLinkSubjectRepresentationGraphPin.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkEditor/Private/Sequencer/LiveLinkSequencerFilters.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkEditor/Public/SLiveLinkSubjectRepresentationPicker.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Private/LiveLinkMovieScenePrivate.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Private/MovieScene/MovieSceneLiveLinkSectionTemplate.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Private/MovieScene/MovieSceneLiveLinkSource.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/IMovieSceneLiveLinkPropertyHandler.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkBufferData.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkEnumHandler.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkPropertyHandler.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkSection.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkStructProperties.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkStructPropertyBindings.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkSubSection.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkSubSectionAnimation.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkSubSectionBasicRole.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkSubSectionProperties.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkTrack.h" \
-	"$$unrealRootPath/Engine/Plugins/Animation/LiveLink/Source/LiveLinkMovieScene/Public/MovieScene/MovieSceneLiveLinkTransformHandler.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLinkCurveDebugUI/Source/LiveLinkCurveDebugUI/Private/LiveLinkCurveDebugPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLinkCurveDebugUI/Source/LiveLinkCurveDebugUI/Public/ILiveLinkCurveDebugUIModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Animation/LiveLinkCurveDebugUI/Source/LiveLinkCurveDebugUI/Public/LiveLinkCurveDebugUIModule.h" \
@@ -10231,8 +10231,8 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Compositing/OpenCVLensDistortion/Source/OpenCVLensDistortion/Public/OpenCVLensDistortionParameters.h" \
 	"$$unrealRootPath/Engine/Plugins/Compositing/OpenCVLensDistortion/Source/OpenCVLensCalibration/Private/OpenCVLensCalibrator.h" \
 	"$$unrealRootPath/Engine/Plugins/Compositing/OpenCVLensDistortion/Source/OpenCVLensCalibration/Public/IOpenCVLensCalibrationModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Developer/ActorLayerUtilities/Source/ActorLayerUtilities/Public/ActorLayerUtilities.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/ActorLayerUtilities/Source/ActorLayerUtilitiesEditor/Private/ActorLayerPropertyTypeCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Developer/ActorLayerUtilities/Source/ActorLayerUtilities/Public/ActorLayerUtilities.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/AnimationSharing/Source/AnimationSharing/Public/AdditiveAnimationInstance.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/AnimationSharing/Source/AnimationSharing/Public/AnimationSharingInstances.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/AnimationSharing/Source/AnimationSharing/Public/AnimationSharingManager.h" \
@@ -10285,6 +10285,13 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public/IdentifierTable/ConcertTransportArchives.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public/Scratchpad/ConcertScratchpad.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertMain/Source/ConcertTransport/Public/Scratchpad/ConcertScratchpadPtr.h" \
+	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/ConcertFrontendStyle.h" \
+	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/ConcertFrontendUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/IConcertSyncUIModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/SConcertScrollBox.h" \
+	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/SConcertSessionActivities.h" \
+	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/SConcertSessionRecovery.h" \
+	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/SPackageDetails.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncClient/Private/ConcertAssetContainer.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncClient/Private/ConcertClientDataStore.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncClient/Private/ConcertClientLiveTransactionAuthors.h" \
@@ -10319,13 +10326,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncClient/Public/IConcertClientWorkspace.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncClient/Public/IConcertSyncClient.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncClient/Public/IConcertSyncClientModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/ConcertFrontendStyle.h" \
-	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/ConcertFrontendUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/IConcertSyncUIModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/SConcertScrollBox.h" \
-	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/SConcertSessionActivities.h" \
-	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/SConcertSessionRecovery.h" \
-	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Source/ConcertSyncUI/Public/SPackageDetails.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public/ConcertDataStore.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public/ConcertDataStoreMessages.h" \
 	"$$unrealRootPath/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncCore/Source/ConcertSyncCore/Public/ConcertFileCache.h" \
@@ -10647,22 +10647,27 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithC4DImporter/Source/DatasmithC4DTranslator/Private/DatasmithC4DTranslator.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithC4DImporter/Source/DatasmithC4DTranslator/Private/DatasmithC4DUtils.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithC4DImporter/Source/DatasmithC4DTranslator/Public/DatasmithC4DTranslatorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADLibrary/Private/MeshEditingWrapper.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADLibrary/Private/MeshOperator.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADLibrary/Public/CoreTechHelper.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADLibrary/Public/CoreTechMeshLoader.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADTools/Public/CADData.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADTools/Public/CADOptions.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADTools/Public/CADToolsModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCADTranslator/Private/DatasmithCADTranslator.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCADTranslator/Private/DatasmithMeshBuilder.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCADTranslator/Private/DatasmithSceneGraphBuilder.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCADTranslator/Public/DatasmithCADTranslatorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADLibrary/Private/MeshEditingWrapper.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADLibrary/Private/MeshOperator.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADLibrary/Public/CoreTechHelper.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADLibrary/Public/CoreTechMeshLoader.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADInterfaces/Public/CADInterfacesModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADInterfaces/Public/CADSceneGraph.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADInterfaces/Public/CTSession.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADInterfaces/Public/CoreTechFileParser.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADInterfaces/Public/CoreTechTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADTools/Public/CADData.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADTools/Public/CADOptions.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/CADTools/Public/CADToolsModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCoreTechExtension/Private/DataprepTessellationOperation.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCoreTechExtension/Public/CoreTechBlueprintLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCoreTechExtension/Public/CoreTechParametricSurfaceExtension.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCoreTechExtension/Public/DatasmithCoreTechExtensionModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCoreTechExtension/Public/DatasmithCoreTechTranslator.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithDispatcher/Public/DatasmithCommands.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithDispatcher/Public/DatasmithDispatcher.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithDispatcher/Public/DatasmithDispatcherConfig.h" \
@@ -10671,18 +10676,13 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithDispatcher/Public/DatasmithDispatcherNetworking.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithDispatcher/Public/DatasmithDispatcherTask.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithDispatcher/Public/DatasmithWorkerHandler.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithOpenNurbsTranslator/Private/DatasmithOpenNurbsTranslator.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithOpenNurbsTranslator/Private/RhinoCoretechWrapper.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithOpenNurbsTranslator/Public/DatasmithOpenNurbsTranslatorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithWireTranslator/Private/AliasCoretechWrapper.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithWireTranslator/Private/DatasmithWireTranslator.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithWireTranslator/Private/OpenModelUtils.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithWireTranslator/Public/DatasmithWireTranslatorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithOpenNurbsTranslator/Private/DatasmithOpenNurbsTranslator.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithOpenNurbsTranslator/Private/RhinoCoretechWrapper.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithOpenNurbsTranslator/Public/DatasmithOpenNurbsTranslatorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCoreTechExtension/Private/DataprepTessellationOperation.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCoreTechExtension/Public/CoreTechBlueprintLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCoreTechExtension/Public/CoreTechParametricSurfaceExtension.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCoreTechExtension/Public/DatasmithCoreTechExtensionModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithCADImporter/Source/DatasmithCoreTechExtension/Public/DatasmithCoreTechTranslator.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithContent/Source/DatasmithContent/Public/DatasmithAdditionalData.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithContent/Source/DatasmithContent/Public/DatasmithAreaLightActor.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithContent/Source/DatasmithContent/Public/DatasmithAssetImportData.h" \
@@ -10714,6 +10714,16 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithContent/Source/DatasmithContentEditor/Public/DatasmithContentEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithContent/Source/DatasmithContentEditor/Public/DatasmithContentEditorStyle.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithContent/Source/DatasmithContentEditor/Public/DatasmithSceneDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenImportData.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenImportOptions.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenImporter.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenImporterAuxFiles.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenImporterMaterialSelector.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenLog.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenSceneProcessor.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenTranslator.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenVariantConverter.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Public/DatasmithDeltaGenTranslatorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithVREDTranslator/Private/DatasmithVREDClipProcessor.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithVREDTranslator/Private/DatasmithVREDImportData.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithVREDTranslator/Private/DatasmithVREDImportOptions.h" \
@@ -10725,16 +10735,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithVREDTranslator/Private/DatasmithVREDTranslator.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithVREDTranslator/Private/DatasmithVREDVariantConverter.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithVREDTranslator/Public/DatasmithVREDTranslatorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenImportData.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenImportOptions.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenImporter.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenImporterAuxFiles.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenImporterMaterialSelector.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenLog.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenSceneProcessor.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenTranslator.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Private/DatasmithDeltaGenVariantConverter.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithDeltaGenTranslator/Public/DatasmithDeltaGenTranslatorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithFBXTranslator/Private/DatasmithFBXImporterLog.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithFBXTranslator/Public/DatasmithFBXFileImporter.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithFBXImporter/Source/DatasmithFBXTranslator/Public/DatasmithFBXHashUtils.h" \
@@ -10756,8 +10756,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithIFCImporter/Source/DatasmithIFCTranslator/Private/IFC/IFCReader.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithIFCImporter/Source/DatasmithIFCTranslator/Private/IFC/IFCStaticMeshFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithIFCImporter/Source/DatasmithIFCTranslator/Public/DatasmithIFCTranslatorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithImporter/Source/DatasmithNativeTranslator/Private/DatasmithNativeTranslator.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithImporter/Source/DatasmithNativeTranslator/Public/DatasmithNativeTranslatorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithImporter/Source/DatasmithImporter/Private/DatasmithConsumer.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithImporter/Source/DatasmithImporter/Private/DatasmithDataprepFetcher.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithImporter/Source/DatasmithImporter/Private/DatasmithDataprepOperation.h" \
@@ -10806,6 +10804,8 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithImporter/Source/DatasmithImporter/Public/Utility/DatasmithImporterUtils.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithImporter/Source/DatasmithImporter/Public/Utility/DatasmithMathUtils.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithImporter/Source/DatasmithImporter/Public/Utility/DatasmithTextureResize.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithImporter/Source/DatasmithNativeTranslator/Private/DatasmithNativeTranslator.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/DatasmithImporter/Source/DatasmithNativeTranslator/Public/DatasmithNativeTranslatorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/MDLImporter/Source/MDLImporter/Private/MDLImporter.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/MDLImporter/Source/MDLImporter/Private/MDLImporterFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/MDLImporter/Source/MDLImporter/Private/MDLImporterOptions.h" \
@@ -10897,6 +10897,14 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManager/Source/VariantManager/Public/VariantManager.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManager/Source/VariantManager/Public/VariantManagerBlueprintLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManager/Source/VariantManager/Public/VariantManagerModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Private/LevelVariantSetsActorCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Private/LevelVariantSetsAssetActions.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Private/SwitchActorCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Private/VariantManagerContentEditorLog.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Public/LevelVariantSetsActorFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Public/VariantManagerContentEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Public/VariantManagerFactoryNew.h" \
+	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Public/VariantManagerTestActor.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContent/Private/VariantManagerObjectVersion.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContent/Public/FunctionCaller.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContent/Public/LevelVariantSets.h" \
@@ -10911,14 +10919,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContent/Public/VariantManagerContentModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContent/Public/VariantObjectBinding.h" \
 	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContent/Public/VariantSet.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Private/LevelVariantSetsActorCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Private/LevelVariantSetsAssetActions.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Private/SwitchActorCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Private/VariantManagerContentEditorLog.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Public/LevelVariantSetsActorFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Public/VariantManagerContentEditorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Public/VariantManagerFactoryNew.h" \
-	"$$unrealRootPath/Engine/Plugins/Enterprise/VariantManagerContent/Source/VariantManagerContentEditor/Public/VariantManagerTestActor.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AlembicHairImporter/Source/AlembicHairTranslator/Private/AlembicHairTranslator.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AlembicHairImporter/Source/AlembicHairTranslator/Private/AlembicHairTranslatorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AlembicImporter/Source/AlembicImporter/Classes/AlembicImportFactory.h" \
@@ -10938,11 +10938,11 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AlembicImporter/Source/AlembicLibrary/Public/AbcPolyMesh.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AlembicImporter/Source/AlembicLibrary/Public/AbcTransform.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AlembicImporter/Source/AlembicLibrary/Public/AlembicLibraryModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/AppleVision/Source/AppleVisionBlueprintSupport/Classes/AppleVisionBlueprintSupport.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AppleVision/Source/AppleVision/Public/AppleVisionAvailability.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AppleVision/Source/AppleVision/Public/AppleVisionBlueprintProxy.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AppleVision/Source/AppleVision/Public/AppleVisionTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AppleVision/Source/AppleVision/Public/IAppleVisionPlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/AppleVision/Source/AppleVisionBlueprintSupport/Classes/AppleVisionBlueprintSupport.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AR/PointCloud/Source/PointCloud/Private/PointCloudBuffers.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AR/PointCloud/Source/PointCloud/Private/PointCloudSceneProxy.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/AR/PointCloud/Source/PointCloud/Private/PointCloudVertexFactory.h" \
@@ -10961,12 +10961,12 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/BackChannel/Source/BackChannel/Transport/IBackChannelConnection.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/BackChannel/Source/BackChannel/Transport/IBackChannelTransport.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/BackChannel/Source/BackChannel/Utils/BackChannelThreadedConnection.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/BlastPlugin/Source/BlastCore/Public/Blast/BlastCorePlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/BlastPlugin/Source/BlastAuthoring/Private/MeshUtility.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/BlastPlugin/Source/BlastAuthoring/Public/BlastLibraryModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/BlastPlugin/Source/BlastAuthoring/Public/FractureMesh.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/BlastPlugin/Source/BlastAuthoring/Public/GeneratedFracturedChunk.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/BlastPlugin/Source/BlastAuthoring/Public/MeshFractureSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/BlastPlugin/Source/BlastCore/Public/Blast/BlastCorePlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/BlueprintStats/Source/BlueprintStats/Private/BlueprintStats.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/BlueprintStats/Source/BlueprintStats/Public/IBlueprintStatsModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ChaosCloth/Source/Chaos/Private/ChaosCloth/ChaosClothPrivate.h" \
@@ -11023,85 +11023,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/CodeEditor/Source/CodeEditor/Private/SProjectViewItem.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/CodeEditor/Source/CodeEditor/Private/WhiteSpaceTextRun.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/CodeView/Source/CodeView/Private/SCodeView.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigManipulation/Private/ControlRigManipulationModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigManipulation/Public/ControlRigGizmoActor.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigManipulation/Public/DefaultControlRigManipulationLayer.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigManipulation/Public/IControlRigManipulationLayer.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigManipulation/Public/IControlRigManipulationModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Private/AnimGraphNode_ControlRig.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Private/SVariableMappingWidget.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigBlueprint.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigBlueprintCompiler.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigBlueprintUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigController.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigDAG.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigDeveloper.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigGraphTraverser.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigModel.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/Graph/ControlRigGraph.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/Graph/ControlRigGraphNode.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/Graph/ControlRigGraphSchema.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/AnimSequenceConverterFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigBlueprintActions.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigBlueprintCommands.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigBlueprintFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigComponentDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigEditorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigEditorPrivatePCH.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigEditorStyle.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigElementDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigGizmoLibraryActions.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigGizmoLibraryFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigHierarchyCommands.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigStackCommands.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigVariableDetailsCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/ControlRigEditMode.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/ControlRigEditModeCommands.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/ControlRigEditModeSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/ControlRigEditModeToolkit.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/ControlRigPickerWidget.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/SControlPicker.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/SControlRigEditModeTools.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/SEditorUserWidgetHost.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigEditor.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigEditorEditMode.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigEditorMode.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigSkeletalMeshComponent.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/RigCurveContainerCommands.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/RigCurveContainerTabSummoner.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/RigHierarchyTabSummoner.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/RigStackTabSummoner.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SControlRigGizmoNameList.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SControlRigProfilingView.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SControlRigStackView.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SControlRigUnitCombo.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SRigCurveContainer.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SRigHierarchy.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/ControlRigConnectionDrawingPolicy.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/ControlRigGraphPanelNodeFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/ControlRigGraphPanelPinFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/SControlRigGraphNode.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/SControlRigGraphNodeComment.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/SControlRigGraphPinCurveFloat.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/SControlRigGraphPinNameList.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/SControlRigGraphPinNameListValueWidget.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/NodeSpawners/ControlRigCommentNodeSpawner.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/NodeSpawners/ControlRigPropertyNodeSpawner.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/NodeSpawners/ControlRigUnitNodeSpawner.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/NodeSpawners/ControlRigVariableNodeSpawner.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigParameterTrackEditor.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigSequenceActions.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigSequenceExporter.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigSequenceExporterSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigSequenceExporterSettingsDetailsCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigSequenceFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/MovieSceneControlRigSectionDetailsCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Public/ControlRigEditorLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Public/IControlRigEditor.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Public/IControlRigEditorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Public/Units/RigUnitEditor_Base.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Public/Units/Deprecated/RigUnitEditor_TwoBoneIKFK.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Private/ControlRigModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Private/ControlRigPrivatePCH.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Private/ControlRigVM.h" \
@@ -11235,6 +11156,121 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Public/Units/Control/RigUnit_Control_StaticMesh.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/Public/Units/Deprecated/RigUnit_TwoBoneIKFK.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRig/ThirdParty/AHEasing/AHEasing/easing.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/AnimSequenceConverterFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigBlueprintActions.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigBlueprintCommands.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigBlueprintFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigComponentDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigEditorPrivatePCH.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigEditorStyle.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigElementDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigGizmoLibraryActions.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigGizmoLibraryFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigHierarchyCommands.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigStackCommands.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/ControlRigVariableDetailsCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/ControlRigEditMode.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/ControlRigEditModeCommands.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/ControlRigEditModeSettings.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/ControlRigEditModeToolkit.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/ControlRigPickerWidget.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/SControlPicker.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/SControlRigEditModeTools.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/EditMode/SEditorUserWidgetHost.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigEditor.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigEditorEditMode.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigEditorMode.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/ControlRigSkeletalMeshComponent.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/RigCurveContainerCommands.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/RigCurveContainerTabSummoner.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/RigHierarchyTabSummoner.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/RigStackTabSummoner.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SControlRigGizmoNameList.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SControlRigProfilingView.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SControlRigStackView.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SControlRigUnitCombo.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SRigCurveContainer.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Editor/SRigHierarchy.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/ControlRigConnectionDrawingPolicy.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/ControlRigGraphPanelNodeFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/ControlRigGraphPanelPinFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/SControlRigGraphNode.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/SControlRigGraphNodeComment.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/SControlRigGraphPinCurveFloat.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/SControlRigGraphPinNameList.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/SControlRigGraphPinNameListValueWidget.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/NodeSpawners/ControlRigCommentNodeSpawner.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/NodeSpawners/ControlRigPropertyNodeSpawner.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/NodeSpawners/ControlRigUnitNodeSpawner.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Graph/NodeSpawners/ControlRigVariableNodeSpawner.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigParameterTrackEditor.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigSequenceActions.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigSequenceExporter.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigSequenceExporterSettings.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigSequenceExporterSettingsDetailsCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/ControlRigSequenceFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Private/Sequencer/MovieSceneControlRigSectionDetailsCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Public/ControlRigEditorLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Public/IControlRigEditor.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Public/IControlRigEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Public/Units/RigUnitEditor_Base.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigEditor/Public/Units/Deprecated/RigUnitEditor_TwoBoneIKFK.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Private/AnimGraphNode_ControlRig.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Private/SVariableMappingWidget.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigBlueprint.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigBlueprintCompiler.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigBlueprintUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigController.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigDAG.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigDeveloper.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigGraphTraverser.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/ControlRigModel.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/Graph/ControlRigGraph.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/Graph/ControlRigGraphNode.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigDeveloper/Public/Graph/ControlRigGraphSchema.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigManipulation/Private/ControlRigManipulationModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigManipulation/Public/ControlRigGizmoActor.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigManipulation/Public/DefaultControlRigManipulationLayer.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigManipulation/Public/IControlRigManipulationLayer.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ControlRig/Source/ControlRigManipulation/Public/IControlRigManipulationModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/DataprepCoreLogCategory.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/DataprepCorePrivateUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/DataprepParameterizationArchive.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/Blueprint/K2Node_DataprepProducer.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/Parameterization/DataprepParameterization.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/SelectionSystem/DataprepSelectionSystemUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/AssetTypeActions_DataprepAssetInterface.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepAsset.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepContentConsumer.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepContentProducer.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepCoreModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepFactories.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepOperation.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepRecipe.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepActionAsset.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepAssetInstance.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepAssetInterface.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepAssetProducers.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepAssetUserData.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepCoreLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepCoreUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepParameterizableObject.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/IDataprepLogger.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/IDataprepProgressReporter.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/Blueprint/K2Node_DataprepActionCore.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/Parameterization/DataprepParameterizationUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepBoolFetcher.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepBoolFilter.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepFetcher.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepFilter.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepFloatFetcher.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepFloatFilter.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepStringFetcher.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepStringFilter.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepStringsArrayFetcher.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepStringsArrayFilter.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepEditor/Private/AssetTypeActions_DataPrep.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepEditor/Private/AssetTypeActions_DataPrepAsset.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepEditor/Private/DataPrepEditor.h" \
@@ -11272,42 +11308,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepEditor/Private/Widgets/Parameterization/SDataprepLinkToParameter.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepEditor/Private/Widgets/Parameterization/SDataprepParameterizationLinkIcon.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepEditor/Public/DataPrepEditorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/DataprepCoreLogCategory.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/DataprepCorePrivateUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/DataprepParameterizationArchive.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/Blueprint/K2Node_DataprepProducer.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/Parameterization/DataprepParameterization.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Private/SelectionSystem/DataprepSelectionSystemUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/AssetTypeActions_DataprepAssetInterface.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepAsset.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepContentConsumer.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepContentProducer.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepCoreModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepFactories.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepOperation.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataPrepRecipe.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepActionAsset.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepAssetInstance.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepAssetInterface.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepAssetProducers.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepAssetUserData.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepCoreLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepCoreUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/DataprepParameterizableObject.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/IDataprepLogger.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/IDataprepProgressReporter.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/Blueprint/K2Node_DataprepActionCore.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/Parameterization/DataprepParameterizationUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepBoolFetcher.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepBoolFilter.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepFetcher.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepFilter.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepFloatFetcher.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepFloatFilter.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepStringFetcher.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepStringFilter.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepStringsArrayFetcher.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepCore/Public/SelectionSystem/DataprepStringsArrayFilter.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepLibraries/Private/DataPrepFilterLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepLibraries/Private/DataPrepOperationsLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/DataPrepEditor/Source/DataPrepLibraries/Private/DataprepEditingOperations.h" \
@@ -11327,12 +11327,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/Gauntlet/Source/Gauntlet/Public/GauntletTestController.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/Gauntlet/Source/Gauntlet/Public/GauntletTestControllerBootTest.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/Gauntlet/Source/Gauntlet/Public/GauntletTestControllerErrorTest.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Classes/ActorFactoryGeometryCache.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Classes/AssetTypeActions_GeometryCache.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Classes/GeometryCacheAssetBroker.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Classes/GeometryCacheThumbnailRenderer.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Classes/GeometryCacheThumbnailScene.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Public/GeometryCacheEdModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCache/Classes/GeometryCache.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCache/Classes/GeometryCacheActor.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCache/Classes/GeometryCacheCodecBase.h" \
@@ -11363,16 +11357,16 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCache/Public/GeometryCacheModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheSequencer/Classes/GeometryCacheTrackEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheSequencer/Public/GeometryCacheSequencerModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Classes/ActorFactoryGeometryCache.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Classes/AssetTypeActions_GeometryCache.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Classes/GeometryCacheAssetBroker.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Classes/GeometryCacheThumbnailRenderer.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Classes/GeometryCacheThumbnailScene.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheEd/Public/GeometryCacheEdModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheTracks/Classes/MovieSceneGeometryCacheSection.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheTracks/Classes/MovieSceneGeometryCacheTrack.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheTracks/Private/MovieSceneGeometryCacheTemplate.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCache/Source/GeometryCacheTracks/Public/GeometryCacheTracksModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionTracks/Public/GeometryCollectionTracksModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionTracks/Public/MovieSceneGeometryCollectionSection.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionTracks/Public/MovieSceneGeometryCollectionTemplate.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionTracks/Public/MovieSceneGeometryCollectionTrack.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionSequencer/Public/GeometryCollectionSequencerModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionSequencer/Public/GeometryCollectionTrackEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionEditor/Private/GeometryCollection/ActorFactoryGeometryCollection.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionEditor/Private/GeometryCollection/GeometryCollectionEditorStyle.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionEditor/Private/GeometryCollection/GeometryCollectionSelectRigidBodyEdMode.h" \
@@ -11390,6 +11384,12 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionEditor/Public/GeometryCollection/GeometryCollectionThumbnailRenderer.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionEditor/Public/GeometryCollection/GeometryCollectionThumbnailScene.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionEditor/Public/GeometryCollection/DetailCustomizations/GeomComponentCacheCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionTracks/Public/GeometryCollectionTracksModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionTracks/Public/MovieSceneGeometryCollectionSection.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionTracks/Public/MovieSceneGeometryCollectionTemplate.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionTracks/Public/MovieSceneGeometryCollectionTrack.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionSequencer/Public/GeometryCollectionSequencerModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionSequencer/Public/GeometryCollectionTrackEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionExampleCore/Public/GeometryCollection/GeometryCollectionExample.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionExampleCore/Public/GeometryCollection/GeometryCollectionExampleBoneHierarchy.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionExampleCore/Public/GeometryCollection/GeometryCollectionExampleClean.h" \
@@ -11423,65 +11423,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionExampleCore/Resource/FracturedGeometry.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionExampleCore/Resource/SphereGeometry.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryCollectionPlugin/Source/GeometryCollectionExampleCore/Resource/TorusGeometry.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMesh3.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshAABBTree3.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshAttributeSet.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshChangeTracker.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshEditor.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshOctree3.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshOverlay.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshTriangleAttribute.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/EdgeLoop.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/EdgeSpan.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/GroupTopology.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshAdapterUtil.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshBoundaryLoops.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshConstraints.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshConstraintsUtil.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshIndexUtil.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshNormals.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshRefinerBase.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshRegionBoundaryLoops.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshSimplification.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshTangents.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshTransforms.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshWeights.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/ProjectionTargets.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Remesher.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/SubRegionRemesher.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/GridBoxMeshGenerator.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/MeshShapeGenerator.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/MinimalBoxMeshGenerator.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/PlanarPolygonMeshGenerator.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/RectangleMeshGenerator.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/SphereGenerator.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/SweepGenerator.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/EmbedSurfacePath.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/ExtrudeMesh.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/GroupTopologyDeformer.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/MergeCoincidentMeshEdges.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/MeshPlaneCut.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/PlanarHoleFiller.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/RepairOrientation.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/SimpleHoleFiller.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Selections/MeshEdgeSelection.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Selections/MeshFaceSelection.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Selections/MeshVertexSelection.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshConversion/Public/DynamicMeshToMeshDescription.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshConversion/Public/MeshConversionModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshConversion/Public/MeshConversionOptions.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshConversion/Public/MeshDescriptionBuilder.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshConversion/Public/MeshDescriptionToDynamicMesh.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/ConstrainedPoissonSolver.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/FSOAPositions.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/FSparseMatrixD.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/LaplacianMeshSmoother.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/LaplacianOperators.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/MatrixSolver.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/MeshElementLinearizations.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Public/MeshSmoothingUtilities.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Public/MeshSolverUtilitiesModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometricObjects/Public/BoxTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometricObjects/Public/CircleTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometricObjects/Public/FrameTypes.h" \
@@ -11546,6 +11487,20 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometricObjects/Public/Util/RefCountVector.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometricObjects/Public/Util/SmallListSet.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometricObjects/Public/Util/SparseIndexCollectionTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshConversion/Public/DynamicMeshToMeshDescription.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshConversion/Public/MeshConversionModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshConversion/Public/MeshConversionOptions.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshConversion/Public/MeshDescriptionBuilder.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshConversion/Public/MeshDescriptionToDynamicMesh.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/ConstrainedPoissonSolver.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/FSOAPositions.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/FSparseMatrixD.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/LaplacianMeshSmoother.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/LaplacianOperators.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/MatrixSolver.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Private/MeshElementLinearizations.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Public/MeshSmoothingUtilities.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/MeshSolverUtilities/Public/MeshSolverUtilitiesModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometryAlgorithms/Private/GteUtil.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometryAlgorithms/Private/ThirdParty/GTEngine/GTEngine.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometryAlgorithms/Private/ThirdParty/GTEngine/GTEngineDEF.h" \
@@ -11930,6 +11885,51 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometryAlgorithms/Public/ConstrainedDelaunay2.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometryAlgorithms/Public/GeometryAlgorithmsModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/GeometryAlgorithms/Public/Distance/DistLine3Circle3.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMesh3.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshAABBTree3.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshAttributeSet.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshChangeTracker.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshEditor.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshOctree3.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshOverlay.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/DynamicMeshTriangleAttribute.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/EdgeLoop.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/EdgeSpan.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/GroupTopology.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshAdapterUtil.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshBoundaryLoops.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshConstraints.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshConstraintsUtil.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshIndexUtil.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshNormals.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshRefinerBase.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshRegionBoundaryLoops.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshSimplification.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshTangents.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshTransforms.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/MeshWeights.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/ProjectionTargets.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Remesher.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/SubRegionRemesher.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/GridBoxMeshGenerator.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/MeshShapeGenerator.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/MinimalBoxMeshGenerator.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/PlanarPolygonMeshGenerator.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/RectangleMeshGenerator.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/SphereGenerator.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Generators/SweepGenerator.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/EmbedSurfacePath.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/ExtrudeMesh.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/GroupTopologyDeformer.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/MergeCoincidentMeshEdges.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/MeshPlaneCut.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/PlanarHoleFiller.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/RepairOrientation.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Operations/SimpleHoleFiller.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Selections/MeshEdgeSelection.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Selections/MeshFaceSelection.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/GeometryProcessing/Source/DynamicMesh/Public/Selections/MeshVertexSelection.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/HairStrands/Source/HairStrandsEditor/Private/FbxHairTranslator.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/HairStrands/Source/HairStrandsEditor/Private/GroomAssetImportData.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/HairStrands/Source/HairStrandsEditor/Private/GroomImportOptionsWindow.h" \
@@ -11956,9 +11956,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/HairStrands/Source/HairStrandsNiagara/Public/NiagaraDataInterfaceHairStrands.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/HairStrands/Source/HairStrandsNiagara/Public/NiagaraDataInterfacePhysicsAsset.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/HairStrands/Source/HairStrandsNiagara/Public/NiagaraDataInterfacePressureGrid.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlateEditor/Private/AssetTypeActions_ImagePlateFileSequence.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlateEditor/Private/ImagePlateFileSequenceFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlateEditor/Private/ImagePlateTrackEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlate/Private/ImagePlateFrustumComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlate/Private/MovieSceneImagePlateTemplate.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlate/Public/ImagePlate.h" \
@@ -11966,29 +11963,24 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlate/Public/ImagePlateFileSequence.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlate/Public/MovieSceneImagePlateSection.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlate/Public/MovieSceneImagePlateTrack.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/Landmass/Source/Editor/Public/LandmassActor.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/Landmass/Source/Editor/Public/LandmassBPEditorExtension.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/Landmass/Source/Editor/Public/LandmassEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlateEditor/Private/AssetTypeActions_ImagePlateFileSequence.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlateEditor/Private/ImagePlateFileSequenceFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/ImagePlate/Source/ImagePlateEditor/Private/ImagePlateTrackEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/Landmass/Source/Runtime/Public/BrushEffectsList.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/Landmass/Source/Runtime/Public/FalloffSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/Landmass/Source/Runtime/Public/LandmassModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/Landmass/Source/Runtime/Public/TerrainCarvingSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/BackgroundModelingComputeSource.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/ModelingOperators.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/ModelingOperatorsModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/ModelingTaskTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/CleaningOps/EditNormalsOp.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/CleaningOps/RemeshMeshOp.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/CuttingOps/PlaneCutOp.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/ParameterizationOps/UVProjectionOp.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SmoothingOps/CotanSmoothingOp.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SmoothingOps/IterativeSmoothingOp.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SmoothingOps/MeanValueSmoothingOp.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SmoothingOps/SmoothingOpBase.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SpaceDeformerOps/BendMeshOp.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SpaceDeformerOps/FlareMeshOp.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SpaceDeformerOps/MeshSpaceDeformerOp.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SpaceDeformerOps/TwistMeshOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/Landmass/Source/Editor/Public/LandmassActor.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/Landmass/Source/Editor/Public/LandmassBPEditorExtension.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/Landmass/Source/Editor/Public/LandmassEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/AttributeEditorTool.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/MergeMeshesTool.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/MeshModelingToolsEditorOnly.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/ParameterizeMeshTool.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/PolygonOnMeshTool.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/ShapeSprayTool.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/SimplifyMeshTool.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/VoxelCSGMeshesTool.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingComponents/Private/OctreeDynamicMeshSceneProxy.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingComponents/Private/SimpleDynamicMeshSceneProxy.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingComponents/Public/AssetGenerationUtil.h" \
@@ -12041,14 +12033,22 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingTools/Public/Properties/MeshAnalysisProperties.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingTools/Public/Properties/MeshMaterialProperties.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingTools/Public/Properties/MeshStatisticsProperties.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/AttributeEditorTool.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/MergeMeshesTool.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/MeshModelingToolsEditorOnly.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/ParameterizeMeshTool.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/PolygonOnMeshTool.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/ShapeSprayTool.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/SimplifyMeshTool.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/MeshModelingToolsEditorOnly/Public/VoxelCSGMeshesTool.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/BackgroundModelingComputeSource.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/ModelingOperators.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/ModelingOperatorsModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/ModelingTaskTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/CleaningOps/EditNormalsOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/CleaningOps/RemeshMeshOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/CuttingOps/PlaneCutOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/ParameterizationOps/UVProjectionOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SmoothingOps/CotanSmoothingOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SmoothingOps/IterativeSmoothingOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SmoothingOps/MeanValueSmoothingOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SmoothingOps/SmoothingOpBase.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SpaceDeformerOps/BendMeshOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SpaceDeformerOps/FlareMeshOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SpaceDeformerOps/MeshSpaceDeformerOp.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperators/Public/SpaceDeformerOps/TwistMeshOp.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperatorsEditorOnly/Public/ModelingOperatorsEditorOnlyModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperatorsEditorOnly/Public/CleaningOps/SimplifyMeshOp.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/MeshModelingToolset/Source/ModelingOperatorsEditorOnly/Public/CompositionOps/VoxelBooleanMeshesOp.h" \
@@ -12068,13 +12068,13 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/PanoramicCapture/Source/PanoramicCapture/Public/StereoPanorama.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/PlanarCutPlugin/Source/PlanarCut/Public/PlanarCut.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/PlanarCutPlugin/Source/PlanarCut/Public/PlanarCutPlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/PlatformCrypto/Source/PlatformCrypto/Public/IPlatformCrypto.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/PlatformCrypto/Source/PlatformCrypto/Public/PlatformCryptoIncludes.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/PlatformCrypto/Source/PlatformCryptoOpenSSL/Private/PlatformCryptoAesDecryptorsOpenSSL.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/PlatformCrypto/Source/PlatformCryptoOpenSSL/Private/PlatformCryptoAesEncryptorsOpenSSL.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/PlatformCrypto/Source/PlatformCryptoOpenSSL/Private/PlatformCryptoOpenSSLTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/PlatformCrypto/Source/PlatformCryptoOpenSSL/Public/EncryptionContextOpenSSL.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/PlatformCrypto/Source/PlatformCryptoOpenSSL/Public/IPlatformCryptoOpenSSL.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/PlatformCrypto/Source/PlatformCrypto/Public/IPlatformCrypto.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/PlatformCrypto/Source/PlatformCrypto/Public/PlatformCryptoIncludes.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/PlatformCrypto/Source/PlatformCryptoTypes/Public/PlatformCryptoTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ProxyLODPlugin/Source/ProxyLOD/Private/ProxyLODBarycentricUtilities.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/ProxyLODPlugin/Source/ProxyLOD/Private/ProxyLODDebugTimer.h" \
@@ -12143,6 +12143,9 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/RawInput/Source/RawInput/Public/RawInputFunctionLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/RawInput/Source/RawInput/Public/RawInputSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/RawInput/Source/RawInput/Public/Windows/RawInputWindows.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSessionEditor/Private/RemoteSessionEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSessionEditor/Private/RemoteSessionEditorStyle.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSessionEditor/Private/Widgets/SRemoteSessionStream.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSession/RemoteSession.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSession/RemoteSessionRole.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSession/Channels/RemoteSessionARCameraChannel.h" \
@@ -12162,9 +12165,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSession/Private/MessageHandler/Messages.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSession/Private/MessageHandler/ProxyMessageHandler.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSession/Private/MessageHandler/RecordingMessageHandler.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSessionEditor/Private/RemoteSessionEditorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSessionEditor/Private/RemoteSessionEditorStyle.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/RemoteSession/Source/RemoteSessionEditor/Private/Widgets/SRemoteSessionStream.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/SampleToolsEditorMode/Source/Private/SampleTools/CreateActorSampleTool.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/SampleToolsEditorMode/Source/Private/SampleTools/DrawCurveOnMeshSampleTool.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/SampleToolsEditorMode/Source/Private/SampleTools/MeasureDistanceSampleTool.h" \
@@ -12208,19 +12208,12 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualCamera/Source/VirtualCamera/Public/VirtualCameraPawnBase.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualCamera/Source/VirtualCamera/Public/VirtualCameraPlayerControllerBase.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualCamera/Source/VirtualCamera/Public/VirtualCameraSaveGame.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmarkEditor/Private/VPBookmarkEditorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmarkEditor/Private/VPBookmarkTypeActions.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmarkEditor/Public/SVPBookmarkListView.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmarkEditor/Public/VPBookmarkEditorBlueprintLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Private/VPUtilitiesModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/IVPContextMenuProvider.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPBlueprintLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPCameraBlueprintLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPGameMode.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPRootActor.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPTimecodeCustomTimeStep.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPViewportTickableActorBase.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Private/VPBookmarkModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Public/IVPBookmarkProvider.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Public/VPBookmark.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Public/VPBookmarkBlueprintLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Public/VPBookmarkContext.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Public/VPBookmarkLifecycleDelegates.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilitiesEditor/Private/SGenlockProvider.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilitiesEditor/Private/SGenlockProviderTab.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilitiesEditor/Private/VPCameraBase.h" \
@@ -12235,29 +12228,30 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilitiesEditor/Public/VPUtilitiesEditorBlueprintLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilitiesEditor/Public/VPUtilitiesEditorSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilitiesEditor/Public/VRTool.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Private/VPBookmarkModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Public/IVPBookmarkProvider.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Public/VPBookmark.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Public/VPBookmarkBlueprintLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Public/VPBookmarkContext.h" \
-	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmark/Public/VPBookmarkLifecycleDelegates.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmarkEditor/Private/VPBookmarkEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmarkEditor/Private/VPBookmarkTypeActions.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmarkEditor/Public/SVPBookmarkListView.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPBookmarkEditor/Public/VPBookmarkEditorBlueprintLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Private/VPUtilitiesModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/IVPContextMenuProvider.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPBlueprintLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPCameraBlueprintLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPGameMode.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPRootActor.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPSettings.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPTimecodeCustomTimeStep.h" \
+	"$$unrealRootPath/Engine/Plugins/Experimental/VirtualProductionUtilities/Source/VPUtilities/Public/VPViewportTickableActorBase.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/WebSocketNetworking/Source/WebSocketNetworking/Classes/WebSocketConnection.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/WebSocketNetworking/Source/WebSocketNetworking/Classes/WebSocketNetDriver.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/WebSocketNetworking/Source/WebSocketNetworking/Private/WebSocket.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/WebSocketNetworking/Source/WebSocketNetworking/Private/WebSocketNetworkingPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Experimental/WebSocketNetworking/Source/WebSocketNetworking/Private/WebSocketServer.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/HoudiniNiagara/Source/HoudiniNiagaraEditor/Public/HoudiniCSVAssetActions.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/HoudiniNiagara/Source/HoudiniNiagaraEditor/Public/HoudiniCSVFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/HoudiniNiagara/Source/HoudiniNiagaraEditor/Public/HoudiniNiagaraEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/HoudiniNiagara/Source/HoudiniNiagara/Classes/NiagaraDataInterfaceHoudiniCSV.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/HoudiniNiagara/Source/HoudiniNiagara/Public/HoudiniCSV.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/HoudiniNiagara/Source/HoudiniNiagara/Public/HoudiniNiagara.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraCompileHash.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraCore.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraCoreModule.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraCustomVersion.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraDataInterfaceBase.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraMergeable.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/HoudiniNiagara/Source/HoudiniNiagaraEditor/Public/HoudiniCSVAssetActions.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/HoudiniNiagara/Source/HoudiniNiagaraEditor/Public/HoudiniCSVFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/HoudiniNiagara/Source/HoudiniNiagaraEditor/Public/HoudiniNiagaraEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/Niagara/Classes/NDISkeletalMeshCommon.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/Niagara/Classes/NiagaraCollision.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/Niagara/Classes/NiagaraConstants.h" \
@@ -12345,35 +12339,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/Niagara/Public/MovieScene/Parameters/MovieSceneNiagaraIntegerParameterTrack.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/Niagara/Public/MovieScene/Parameters/MovieSceneNiagaraParameterTrack.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/Niagara/Public/MovieScene/Parameters/MovieSceneNiagaraVectorParameterTrack.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/NiagaraEditorWidgetsStyle.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/NiagaraEditorWidgetsUtilities.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/NiagaraOverviewGraphNodeFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraOverviewGraph.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraOverviewStack.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraOverviewStackNode.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraStack.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraStackEntryWidget.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/DetailCustomizations/NiagaraDataInterfaceCurveDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/DetailCustomizations/NiagaraDataInterfaceDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/DetailCustomizations/NiagaraDataInterfaceSkeletalMeshDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/DetailCustomizations/NiagaraDetailSourcedArrayBuilder.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/DetailCustomizations/SNiagaraNamePropertySelector.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackEmitterPropertiesItem.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackErrorItem.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackEventHandlerPropertiesItem.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackFunctionInputName.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackFunctionInputValue.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackIssueIcon.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackItemFooter.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackItemGroup.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackItemGroupAddButton.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackItemGroupAddMenu.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackModuleItem.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackParameterStoreEntryName.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackParameterStoreEntryValue.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackRendererItem.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackTableRow.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Public/NiagaraEditorWidgetsModule.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraShader/Private/NiagaraShaderDerivedDataVersion.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraShader/Public/NiagaraShader.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraShader/Public/NiagaraShaderCompilationManager.h" \
@@ -12381,14 +12346,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraShader/Public/NiagaraShaderModule.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraShader/Public/NiagaraShaderType.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraShader/Public/NiagaraShared.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraCutoutVertexBuffer.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraDrawIndirect.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraMeshVertexFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraRibbonVertexFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraSortingGPU.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraSpriteVertexFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraVertexFactoriesModule.h" \
-	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraVertexFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Private/NiagaraCompiler.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Private/NiagaraEmitterDetailsCustomization.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Private/NiagaraEmitterEditorData.h" \
@@ -12565,9 +12522,77 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Public/ViewModels/Stack/NiagaraStackSystemPropertiesItem.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Public/ViewModels/Stack/NiagaraStackSystemSettingsGroup.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditor/Public/ViewModels/Stack/NiagaraStackViewModel.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/NiagaraEditorWidgetsStyle.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/NiagaraEditorWidgetsUtilities.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/NiagaraOverviewGraphNodeFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraOverviewGraph.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraOverviewStack.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraOverviewStackNode.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraStack.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/SNiagaraStackEntryWidget.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/DetailCustomizations/NiagaraDataInterfaceCurveDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/DetailCustomizations/NiagaraDataInterfaceDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/DetailCustomizations/NiagaraDataInterfaceSkeletalMeshDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/DetailCustomizations/NiagaraDetailSourcedArrayBuilder.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/DetailCustomizations/SNiagaraNamePropertySelector.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackEmitterPropertiesItem.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackErrorItem.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackEventHandlerPropertiesItem.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackFunctionInputName.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackFunctionInputValue.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackIssueIcon.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackItemFooter.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackItemGroup.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackItemGroupAddButton.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackItemGroupAddMenu.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackModuleItem.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackParameterStoreEntryName.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackParameterStoreEntryValue.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackRendererItem.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Private/Stack/SNiagaraStackTableRow.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraEditorWidgets/Public/NiagaraEditorWidgetsModule.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraAnimNotifies/Public/AnimNotifyState_TimedNiagaraEffect.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraAnimNotifies/Public/AnimNotify_PlayNiagaraEffect.h" \
 	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraAnimNotifies/Public/NiagaraAnimNotifiesModule.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraCutoutVertexBuffer.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraDrawIndirect.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraMeshVertexFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraRibbonVertexFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraSortingGPU.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraSpriteVertexFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraVertexFactoriesModule.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraVertexFactories/Public/NiagaraVertexFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraCompileHash.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraCore.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraCoreModule.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraCustomVersion.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraDataInterfaceBase.h" \
+	"$$unrealRootPath/Engine/Plugins/FX/Niagara/Source/NiagaraCore/Public/NiagaraMergeable.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/SUSDLayersTreeView.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/SUSDPrimInfo.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/SUSDStage.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/SUSDStageInfo.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/SUSDStageTreeView.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/Widgets/SUSDPrimPropertiesList.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/Widgets/SUSDReferencesList.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/Widgets/SUSDTreeView.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/Widgets/SUSDVariantSetsList.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Public/USDStageEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStage/Public/USDListener.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStage/Public/USDPrimTwin.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStage/Public/USDStageActor.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStage/Public/USDStageModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDConversionUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDGeomMeshConversion.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDLayerUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDPrimConversion.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDSkeletalDataConversion.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDTypesConversion.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDUtilitiesModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/UnrealUSDWrapper/Public/USDIncludesEnd.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/UnrealUSDWrapper/Public/USDIncludesStart.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/UnrealUSDWrapper/Public/USDMemory.h" \
+	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/UnrealUSDWrapper/Public/UnrealUSDWrapper.h" \
 	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDExporter/Public/StaticMeshExporterUSD.h" \
 	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDExporter/Public/USDExporterModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDImporter/Private/PropertyHelpers.h" \
@@ -12585,32 +12610,69 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDImporter/Public/USDImporter.h" \
 	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDImporter/Public/USDImporterProjectSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDImporter/Public/USDPrimResolver.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDConversionUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDGeomMeshConversion.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDLayerUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDPrimConversion.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDSkeletalDataConversion.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDTypesConversion.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDUtilities/Public/USDUtilitiesModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/UnrealUSDWrapper/Public/USDIncludesEnd.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/UnrealUSDWrapper/Public/USDIncludesStart.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/UnrealUSDWrapper/Public/USDMemory.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/UnrealUSDWrapper/Public/UnrealUSDWrapper.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStage/Public/USDListener.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStage/Public/USDPrimTwin.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStage/Public/USDStageActor.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStage/Public/USDStageModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/SUSDLayersTreeView.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/SUSDPrimInfo.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/SUSDStage.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/SUSDStageInfo.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/SUSDStageTreeView.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/Widgets/SUSDPrimPropertiesList.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/Widgets/SUSDReferencesList.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/Widgets/SUSDTreeView.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Private/Widgets/SUSDVariantSetsList.h" \
-	"$$unrealRootPath/Engine/Plugins/Importers/USDImporter/Source/USDStageEditor/Public/USDStageEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapARPin/Private/MagicLeapARPinModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapARPin/Public/IMagicLeapARPinModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapARPin/Public/MagicLeapARPinComponent.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapARPin/Public/MagicLeapARPinFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapARPin/Public/MagicLeapARPinTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Private/LuminARAPI.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Private/LuminARDevice.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Private/LuminARTrackingSystem.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Public/LuminARFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Public/LuminARModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Public/LuminARSessionConfig.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Public/LuminARTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Private/AudioMixerPlatformMagicLeap.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Private/FakeAudioMixerMagicLeap.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Private/FakeDeviceCallbackRunnable.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Private/MagicLeapAudioModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Public/IMagicLeapAudioModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Public/MagicLeapAudioFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Public/MagicLeapAudioTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperOpenGL/Public/ExternalTextureRendererGL.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperOpenGL/Public/IMagicLeapHelperOpenGLPlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperOpenGL/Public/MagicLeapHelperOpenGL.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperOpenGL/Public/TexturePixelReader.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapEyeTracker/Private/MagicLeapVREyeTracker.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapEyeTracker/Public/IMagicLeapVREyeTracker.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapEyeTracker/Public/MagicLeapEyeTrackerModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapEyeTracker/Public/MagicLeapEyeTrackerTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperVulkan/Public/IMagicLeapHelperVulkanPlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperVulkan/Public/MagicLeapHelperVulkan.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudioCapture/Private/AudioCaptureMagicLeap.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPrivileges/Private/MagicLeapPrivilegesModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPrivileges/Public/IMagicLeapPrivilegesModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPrivileges/Public/MagicLeapPrivilegeTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPrivileges/Public/MagicLeapPrivilegeUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPrivileges/Public/MagicLeapPrivilegesFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapIdentity/Public/IMagicLeapIdentityPlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapIdentity/Public/MagicLeapIdentity.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapIdentity/Public/MagicLeapIdentityTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Private/MagicLeapImageTrackerModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Private/MagicLeapImageTrackerRunnable.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Public/IMagicLeapImageTrackerModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Public/MagicLeapImageTrackerComponent.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Public/MagicLeapImageTrackerFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Public/MagicLeapImageTrackerTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Private/MagicLeapController.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Private/MagicLeapControllerMappings.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Private/MagicLeapInputState.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Public/IMagicLeapControllerPlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Public/MagicLeapControllerFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Public/MagicLeapControllerKeys.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Public/TouchpadGesturesComponent.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapSecureStorage/Public/IMagicLeapSecureStoragePlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapSecureStorage/Public/MagicLeapSecureStorage.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandTracking/Private/LiveLinkMagicLeapHandTrackingSourceFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandTracking/Private/MagicLeapHandTracking.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandTracking/Public/IMagicLeapHandTrackingPlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandTracking/Public/MagicLeapHandTrackingFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandTracking/Public/MagicLeapHandTrackingTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPlanes/Source/Private/MagicLeapPlanesModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPlanes/Source/Public/IMagicLeapPlanesModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPlanes/Source/Public/MagicLeapPlanesComponent.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPlanes/Source/Public/MagicLeapPlanesFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPlanes/Source/Public/MagicLeapPlanesTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeap/Private/AppFramework.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeap/Private/AsyncDestroyer.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeap/Private/MagicLeapCustomPresent.h" \
@@ -12637,83 +12699,21 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeap/Public/MeshTrackerComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeap/Public/MeshTrackerTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeap/Public/RaycastComponent.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapARPin/Private/MagicLeapARPinModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapARPin/Public/IMagicLeapARPinModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapARPin/Public/MagicLeapARPinComponent.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapARPin/Public/MagicLeapARPinFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapARPin/Public/MagicLeapARPinTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandTracking/Private/LiveLinkMagicLeapHandTrackingSourceFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandTracking/Private/MagicLeapHandTracking.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandTracking/Public/IMagicLeapHandTrackingPlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandTracking/Public/MagicLeapHandTrackingFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandTracking/Public/MagicLeapHandTrackingTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapEyeTracker/Private/MagicLeapVREyeTracker.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapEyeTracker/Public/IMagicLeapVREyeTracker.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapEyeTracker/Public/MagicLeapEyeTrackerModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapEyeTracker/Public/MagicLeapEyeTrackerTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Private/LuminARAPI.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Private/LuminARDevice.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Private/LuminARTrackingSystem.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Public/LuminARFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Public/LuminARModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Public/LuminARSessionConfig.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAR/Public/LuminARTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Private/MagicLeapController.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Private/MagicLeapControllerMappings.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Private/MagicLeapInputState.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Public/IMagicLeapControllerPlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Public/MagicLeapControllerFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Public/MagicLeapControllerKeys.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapController/Public/TouchpadGesturesComponent.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Private/AudioMixerPlatformMagicLeap.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Private/FakeAudioMixerMagicLeap.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Private/FakeDeviceCallbackRunnable.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Private/MagicLeapAudioModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Public/IMagicLeapAudioModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Public/MagicLeapAudioFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapAudio/Public/MagicLeapAudioTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapIdentity/Public/IMagicLeapIdentityPlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapIdentity/Public/MagicLeapIdentity.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapIdentity/Public/MagicLeapIdentityTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandMeshing/Private/MagicLeapHandMeshingModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandMeshing/Private/MagicLeapMeshTracker.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandMeshing/Public/IMagicLeapHandMeshingModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandMeshing/Public/MagicLeapHandMeshingComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandMeshing/Public/MagicLeapHandMeshingFunctionLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHandMeshing/Public/MagicLeapHandMeshingTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPrivileges/Private/MagicLeapPrivilegesModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPrivileges/Public/IMagicLeapPrivilegesModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPrivileges/Public/MagicLeapPrivilegeTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPrivileges/Public/MagicLeapPrivilegeUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPrivileges/Public/MagicLeapPrivilegesFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperVulkan/Public/IMagicLeapHelperVulkanPlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperVulkan/Public/MagicLeapHelperVulkan.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Private/MagicLeapImageTrackerModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Private/MagicLeapImageTrackerRunnable.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Public/IMagicLeapImageTrackerModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Public/MagicLeapImageTrackerComponent.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Public/MagicLeapImageTrackerFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapImageTracker/Public/MagicLeapImageTrackerTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapSecureStorage/Public/IMagicLeapSecureStoragePlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapSecureStorage/Public/MagicLeapSecureStorage.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperOpenGL/Public/ExternalTextureRendererGL.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperOpenGL/Public/IMagicLeapHelperOpenGLPlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperOpenGL/Public/MagicLeapHelperOpenGL.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapHelperOpenGL/Public/TexturePixelReader.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPlanes/Source/Private/MagicLeapPlanesModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPlanes/Source/Public/IMagicLeapPlanesModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPlanes/Source/Public/MagicLeapPlanesComponent.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPlanes/Source/Public/MagicLeapPlanesFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeap/Source/MagicLeapPlanes/Source/Public/MagicLeapPlanesTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCameraPreview/Private/MagicLeapCameraPreviewModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCameraPreview/Private/MagicLeapCameraPreviewPlayer.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCameraPreview/Public/IMagicLeapCameraPreviewModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCamera/Private/MagicLeapCameraPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCamera/Private/MagicLeapCameraRunnable.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCamera/Public/IMagicLeapCameraPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCamera/Public/MagicLeapCameraComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCamera/Public/MagicLeapCameraFunctionLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCamera/Public/MagicLeapCameraTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCameraPreview/Private/MagicLeapCameraPreviewModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCameraPreview/Private/MagicLeapCameraPreviewPlayer.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapCamera/Source/MagicLeapCameraPreview/Public/IMagicLeapCameraPreviewModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapContacts/Source/Private/MagicLeapContactsPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapContacts/Source/Public/IMagicLeapContactsPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapContacts/Source/Public/MagicLeapContactsComponent.h" \
@@ -12731,15 +12731,15 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapLocation/Source/Public/MagicLeapLocationFunctionLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapLocation/Source/Public/MagicLeapLocationTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMediaCodecFactory/Private/MagicLeapMediaCodecFactoryPrivate.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMediaEditor/Private/MagicLeapFileMediaSourceFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMedia/Private/MagicLeapMediaOverlaySample.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMedia/Private/MagicLeapMediaPlayer.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMedia/Public/IMagicLeapMediaModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMediaEditor/Private/MagicLeapFileMediaSourceFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMediaFactory/Private/MagicLeapMediaFactoryPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMediaCodec/Private/MagicLeapMediaAudioSample.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMediaCodec/Private/MagicLeapMediaCodecPlayer.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMediaCodec/Private/MediaCodecInputWorker.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMediaCodec/Public/IMagicLeapMediaCodecModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMedia/Source/MagicLeapMediaFactory/Private/MagicLeapMediaFactoryPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMusicService/Source/MagicLeapMusicService/Private/MagicLeapMusicServicePlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMusicService/Source/MagicLeapMusicService/Public/IMagicLeapMusicServicePlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MagicLeapMusicService/Source/MagicLeapMusicService/Public/MagicLeapMusicServiceFunctionLibrary.h" \
@@ -12821,20 +12821,20 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Lumin/MLSDK/Source/MLSDK/Public/Lumin/CAPIShims/LuminAPITokenAgent.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCameraEditor/Public/AndroidCameraEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCameraEditor/Public/AndroidCameraRuntimeSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCameraFactory/Private/AndroidCameraFactoryPrivate.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCameraFactory/Public/AndroidCameraSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCamera/Private/AndroidCameraPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCamera/Private/Player/AndroidCameraPlayer.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCamera/Private/Player/AndroidCameraTextureSample.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCamera/Public/AndroidJavaCameraPlayer.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCamera/Public/IAndroidCameraModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCameraFactory/Private/AndroidCameraFactoryPrivate.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/AndroidCamera/Source/AndroidCameraFactory/Public/AndroidCameraSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidMedia/Source/AndroidMedia/Private/AndroidMediaPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidMedia/Source/AndroidMedia/Private/Player/AndroidMediaPlayer.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidMedia/Source/AndroidMedia/Private/Player/AndroidMediaTextureSample.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidMedia/Source/AndroidMedia/Public/IAndroidMediaModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/AndroidMedia/Source/AndroidMediaEditor/Private/AndroidFileMediaSourceFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidMedia/Source/AndroidMediaFactory/Private/AndroidMediaFactoryPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AndroidMedia/Source/AndroidMediaFactory/Public/AndroidMediaSettings.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/AndroidMedia/Source/AndroidMediaEditor/Private/AndroidFileMediaSourceFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AppleProResMedia/Source/AppleProResMedia/Private/AppleProResEncoderProtocol.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AppleProResMedia/Source/AppleProResMedia/Private/AppleProResMediaModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AppleProResMedia/Source/AppleProResMedia/Private/AppleProResMediaSettings.h" \
@@ -12842,6 +12842,8 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/AudioCaptureTimecodeProvider/Source/AudioCaptureTimecodeProvider/Public/AudioCaptureTimecodeProvider.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AudioCaptureTimecodeProvider/Source/AudioCaptureTimecodeProvider/Public/AudioCaptureTimecodeProviderModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMediaEditor/Private/AvfFileMediaSourceFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMediaFactory/Private/AvfMediaFactoryPrivate.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMediaFactory/Public/AvfMediaSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMedia/Private/AvfMediaPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMedia/Private/Player/AvfMediaAudioSample.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMedia/Private/Player/AvfMediaOverlaySample.h" \
@@ -12851,8 +12853,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMedia/Private/Player/AvfMediaVideoSampler.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMedia/Private/Shared/AvfMediaUtils.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMedia/Public/IAvfMediaModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMediaFactory/Private/AvfMediaFactoryPrivate.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/AvfMedia/Source/AvfMediaFactory/Public/AvfMediaSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AvidDNxMedia/Source/Source/Private/AvidDNxEncoderProtocol.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AvidDNxMedia/Source/Source/Private/AvidDNxMediaModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/AvidDNxMedia/Source/Thirdparty/DNxMXF/include/dnx_mxf_sdk.h" \
@@ -12860,6 +12860,9 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/AvidDNxMedia/Source/Thirdparty/DNxUncompressed/include/dnx_uncompressed_sdk.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/HAPMedia/Source/HAPMedia/Private/HAPMediaModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/HAPMedia/Source/HAPMedia/Private/HAPDecoder/WmfMediaHAPDecoder.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMediaEditor/Private/Customizations/ImgMediaSourceCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMediaEditor/Private/Factories/ImgMediaSourceFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMediaEditor/Private/Factories/ImgMediaSourceFactoryNew.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMedia/Private/ImgMediaPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMedia/Private/GlobalCache/ImgMediaGlobalCache.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMedia/Private/Loader/ImgMediaLoader.h" \
@@ -12876,9 +12879,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMedia/Public/ImgMediaSource.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMediaFactory/Private/ImgMediaFactoryPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMediaFactory/Public/ImgMediaSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMediaEditor/Private/Customizations/ImgMediaSourceCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMediaEditor/Private/Factories/ImgMediaSourceFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/ImgMediaEditor/Private/Factories/ImgMediaSourceFactoryNew.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/ImgMedia/Source/OpenExrWrapper/Public/OpenExrWrapper.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/LinearTimecode/Source/LinearTimecode/Private/MediaAudioSampleReader.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/LinearTimecode/Source/LinearTimecode/Public/DropTimecode.h" \
@@ -12932,15 +12932,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaFrameworkUtilities/Source/MediaFrameworkUtilities/Public/Profile/MediaProfile.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaFrameworkUtilities/Source/MediaFrameworkUtilities/Public/Profile/MediaProfileBlueprintLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaFrameworkUtilities/Source/MediaFrameworkUtilities/Public/Profile/MediaProfileSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Private/FileMediaOutputFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Private/MediaIOEditorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/MediaIOPermutationsSelectorBuilder.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Customizations/MediaIOConfigurationCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Customizations/MediaIOCustomizationBase.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Customizations/MediaIODeviceCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Customizations/MediaIOInputConfigurationCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Customizations/MediaIOOutputConfigurationCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Widgets/SMediaPermutationsSelector.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOCore/Private/MediaIOCoreModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOCore/Public/FileMediaCapture.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOCore/Public/FileMediaOutput.h" \
@@ -12959,6 +12950,15 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOCore/Public/MediaIOCoreTextureSampleBase.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOCore/Public/MediaIOCoreWaitVsyncThread.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOCore/Public/MediaOutput.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Private/FileMediaOutputFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Private/MediaIOEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/MediaIOPermutationsSelectorBuilder.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Customizations/MediaIOConfigurationCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Customizations/MediaIOCustomizationBase.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Customizations/MediaIODeviceCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Customizations/MediaIOInputConfigurationCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Customizations/MediaIOOutputConfigurationCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/MediaIOFramework/Source/MediaIOEditor/Public/Widgets/SMediaPermutationsSelector.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaPlayerEditor/Source/MediaPlayerEditor/Private/MediaPlayerEditorLog.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaPlayerEditor/Source/MediaPlayerEditor/Private/AssetTools/FileMediaSourceActions.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaPlayerEditor/Source/MediaPlayerEditor/Private/AssetTools/MediaPlayerActions.h" \
@@ -12998,7 +12998,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaPlayerEditor/Source/MediaPlayerEditor/Private/Widgets/SMediaPlaylistEditorMedia.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaPlayerEditor/Source/MediaPlayerEditor/Private/Widgets/SMediaSourceTableRow.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MediaPlayerEditor/Source/MediaPlayerEditor/Public/Widgets/SMediaImage.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/MfMedia/Source/MfMediaFactory/Private/MfMediaFactoryPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MfMedia/Source/MfMedia/Private/MfMediaPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MfMedia/Source/MfMedia/Private/Mf/IMfMediaSourceReaderSink.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MfMedia/Source/MfMedia/Private/Mf/MfMediaByteStream.h" \
@@ -13012,6 +13011,7 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/MfMedia/Source/MfMedia/Private/Player/MfMediaTracks.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MfMedia/Source/MfMedia/Public/IMfMediaModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/MfMedia/Source/MfMediaEditor/Private/MfFileMediaSourceFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/MfMedia/Source/MfMediaFactory/Private/MfMediaFactoryPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/PixelStreaming/Source/PixelStreaming/Private/AudioCapturer.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/PixelStreaming/Source/PixelStreaming/Private/AudioSink.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/PixelStreaming/Source/PixelStreaming/Private/FreezeFrame.h" \
@@ -13059,8 +13059,8 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/TimecodeSynchronizer/Source/TimecodeSynchronizer/Public/TimecodeSynchronizer.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/TimecodeSynchronizer/Source/TimecodeSynchronizer/Public/TimecodeSynchronizerModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/TimecodeSynchronizer/Source/TimecodeSynchronizer/Public/TimecodeSynchronizerProjectSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/WebMMedia/Source/WebMMediaEditor/Private/WebMFileMediaSourceFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WebMMedia/Source/WebMMediaFactory/Private/WebMMediaFactoryPrivate.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/WebMMedia/Source/WebMMediaEditor/Private/WebMFileMediaSourceFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WebMMedia/Source/WebMMedia/Private/WebMMediaPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WebMMedia/Source/WebMMedia/Private/Player/MkvFileReader.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WebMMedia/Source/WebMMedia/Private/Player/WebMMediaPlayer.h" \
@@ -13072,7 +13072,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/WebMMedia/Source/WebMMedia/Public/WebMMediaTextureSample.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WebMMedia/Source/WebMMedia/Public/WebMSamplesSink.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WebMMedia/Source/WebMMedia/Public/WebMVideoDecoder.h" \
-	"$$unrealRootPath/Engine/Plugins/Media/WmfMedia/Source/WmfMediaEditor/Private/WmfFileMediaSourceFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WmfMedia/Source/WmfMedia/Private/Player/WmfMediaAudioSample.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WmfMedia/Source/WmfMedia/Private/Player/WmfMediaBinarySample.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WmfMedia/Source/WmfMedia/Private/Player/WmfMediaOverlaySample.h" \
@@ -13096,6 +13095,7 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Media/WmfMedia/Source/WmfMedia/Public/WmfMediaCodec/WmfMediaCodecGenerator.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WmfMedia/Source/WmfMedia/Public/WmfMediaCodec/WmfMediaCodecManager.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WmfMedia/Source/WmfMedia/Public/WmfMediaCodec/WmfMediaDecoder.h" \
+	"$$unrealRootPath/Engine/Plugins/Media/WmfMedia/Source/WmfMediaEditor/Private/WmfFileMediaSourceFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WmfMedia/Source/WmfMediaFactory/Private/WmfMediaFactoryPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Media/WmfMedia/Source/WmfMediaFactory/Public/WmfMediaSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Messaging/MessagingDebugger/Source/MessagingDebugger/Private/Models/MessagingDebuggerCommands.h" \
@@ -13150,15 +13150,15 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Private/Tunnel/UdpMessageTunnelConnection.h" \
 	"$$unrealRootPath/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public/IUdpMessageTunnel.h" \
 	"$$unrealRootPath/Engine/Plugins/Messaging/UdpMessaging/Source/UdpMessaging/Public/IUdpMessageTunnelConnection.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequenceEditor/Private/ActorSequenceComponentCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequenceEditor/Private/ActorSequenceEditorStyle.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequenceEditor/Private/ActorSequenceEditorTabSummoner.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequenceEditor/Private/MovieSceneSequenceEditor_ActorSequence.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequence/Private/ActorSequencePrivatePCH.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequence/Public/ActorSequence.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequence/Public/ActorSequenceComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequence/Public/ActorSequenceObjectReference.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequence/Public/ActorSequencePlayer.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequenceEditor/Private/ActorSequenceComponentCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequenceEditor/Private/ActorSequenceEditorStyle.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequenceEditor/Private/ActorSequenceEditorTabSummoner.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/ActorSequence/Source/ActorSequenceEditor/Private/MovieSceneSequenceEditor_ActorSequence.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/LevelSequenceEditorBlueprintLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/LevelSequenceEditorCommands.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/LevelSequenceEditor/Source/LevelSequenceEditor/Private/LevelSequenceEditorToolkit.h" \
@@ -13202,14 +13202,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/SequencerScripting/Source/SequencerScripting/Public/ExtensionLibraries/MovieSceneTrackExtensions.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/SequencerScripting/Source/SequencerScripting/Public/ExtensionLibraries/MovieSceneVectorTrackExtensions.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/SequencerScripting/Source/SequencerScripting/Public/ExtensionLibraries/SequencerScriptingRangeExtensions.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/TemplateSequence.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/TemplateSequenceActor.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/TemplateSequencePlayer.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/TemplateSequenceSpawnRegister.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/Evaluation/TemplateSequenceInstanceData.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/Evaluation/TemplateSequenceSectionTemplate.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/Sections/TemplateSequenceSection.h" \
-	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/Tracks/TemplateSequenceTrack.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequenceEditor/Private/TemplateSequenceEditorToolkit.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequenceEditor/Private/AssetTools/TemplateSequenceActions.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequenceEditor/Private/Factories/TemplateSequenceFactoryNew.h" \
@@ -13219,6 +13211,14 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequenceEditor/Private/Misc/TemplateSequenceEditorSpawnRegister.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequenceEditor/Private/Styles/TemplateSequenceEditorStyle.h" \
 	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequenceEditor/Private/TrackEditors/TemplateSequenceTrackEditor.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/TemplateSequence.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/TemplateSequenceActor.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/TemplateSequencePlayer.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/TemplateSequenceSpawnRegister.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/Evaluation/TemplateSequenceInstanceData.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/Evaluation/TemplateSequenceSectionTemplate.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/Sections/TemplateSequenceSection.h" \
+	"$$unrealRootPath/Engine/Plugins/MovieScene/TemplateSequence/Source/TemplateSequence/Public/Tracks/TemplateSequenceTrack.h" \
 	"$$unrealRootPath/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Source/NetcodeUnitTest/Classes/ClientUnitTest.h" \
 	"$$unrealRootPath/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Source/NetcodeUnitTest/Classes/MinimalClient.h" \
 	"$$unrealRootPath/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Source/NetcodeUnitTest/Classes/NUTActor.h" \
@@ -13317,6 +13317,9 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Source/Public/OnlineSubsystemIOS.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Source/Public/OnlineSubsystemIOSModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Source/Public/OnlineSubsystemIOSPackage.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Hotfix/Public/HotfixModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Hotfix/Public/OnlineHotfixManager.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Hotfix/Public/UpdateManager.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/LoginFlow/Private/LoginFlowPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/LoginFlow/Private/LoginFlowViewModel.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/LoginFlow/Private/SLoginFlow.h" \
@@ -13324,30 +13327,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/LoginFlow/Public/ILoginFlowModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/LoginFlow/Public/LoginFlow.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/LoginFlow/Public/LoginFlowManager.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Rejoin/Public/RejoinCheck.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Rejoin/Public/RejoinModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Private/QosEvaluator.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Private/QosStats.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosBeaconClient.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosBeaconHost.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosInterface.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosPackage.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosRegionManager.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Hotfix/Public/HotfixModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Hotfix/Public/OnlineHotfixManager.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Hotfix/Public/UpdateManager.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/PlayTimeLimit/Public/PlayTimeLimitImpl.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/PlayTimeLimit/Public/PlayTimeLimitModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/PlayTimeLimit/Public/PlayTimeLimitUser.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/PlayTimeLimit/Public/PlayTimeLimitUserMock.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/Lobby.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyBeaconClient.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyBeaconHost.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyBeaconPlayerState.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyBeaconState.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyPackage.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Party/Private/Party/PartyPlatformSessionMonitor.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Party/Private/User/SocialUserList.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Party/Public/Chatroom.h" \
@@ -13379,6 +13358,27 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Party/Public/Party/SocialParty.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Party/Public/User/ISocialUserList.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Party/Public/User/SocialUser.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/Lobby.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyBeaconClient.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyBeaconHost.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyBeaconPlayerState.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyBeaconState.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Lobby/Public/LobbyPackage.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Rejoin/Public/RejoinCheck.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Rejoin/Public/RejoinModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Private/QosEvaluator.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Private/QosStats.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosBeaconClient.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosBeaconHost.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosInterface.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosPackage.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/Qos/Public/QosRegionManager.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/PlayTimeLimit/Public/PlayTimeLimitImpl.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/PlayTimeLimit/Public/PlayTimeLimitModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/PlayTimeLimit/Public/PlayTimeLimitUser.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineFramework/Source/PlayTimeLimit/Public/PlayTimeLimitUserMock.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystem/Source/Public/LANBeacon.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystem/Source/Public/NamedInterfaces.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystem/Source/Public/NboSerializer.h" \
@@ -13588,12 +13588,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemTwitch/Source/Public/OnlineSubsystemTwitch.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemTwitch/Source/Public/OnlineSubsystemTwitchModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemTwitch/Source/Public/OnlineSubsystemTwitchPackage.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_InAppPurchase.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_InAppPurchaseQuery.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_InAppPurchaseRestore.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_LatentOnlineCall.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_LeaderboardFlush.h" \
-	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_LeaderboardQuery.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Classes/AchievementBlueprintLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Classes/AchievementQueryCallbackProxy.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Classes/AchievementWriteCallbackProxy.h" \
@@ -13658,6 +13652,12 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Public/VoicePacketBuffer.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Public/VoicePacketImpl.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineSubsystemUtils/Public/VoipListenerSynthComponent.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_InAppPurchase.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_InAppPurchaseQuery.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_InAppPurchaseRestore.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_LatentOnlineCall.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_LeaderboardFlush.h" \
+	"$$unrealRootPath/Engine/Plugins/Online/OnlineSubsystemUtils/Source/OnlineBlueprintSupport/Classes/K2Node_LeaderboardQuery.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/VoiceChat/VivoxVoiceChat/Source/Private/VivoxVoiceChatModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/VoiceChat/VivoxVoiceChat/Source/Private/Android/AndroidVivoxVoiceChat.h" \
 	"$$unrealRootPath/Engine/Plugins/Online/VoiceChat/VivoxVoiceChat/Source/Private/IOS/IOSVivoxVoiceChat.h" \
@@ -13666,20 +13666,20 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Online/VoiceChat/VivoxVoiceChat/Source/Public/VivoxVoiceChat.h" \
 	"$$unrealRootPath/Engine/Plugins/Performance/PerformanceMonitor/Source/PerformanceMonitor/Private/PerformanceMonitor.h" \
 	"$$unrealRootPath/Engine/Plugins/Portal/LauncherChunkInstaller/Source/LauncherChunkInstaller/Public/LauncherChunkInstaller.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/IOSAdjust/Private/IOSAdjustPrivatePCH.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/IOSAdjust/Private/IOSAdjustProvider.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/IOSAdjust/Public/IOSAdjust.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/AdjustEditor/Classes/AdjustSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/AdjustEditor/Private/AdjustEditorPrivatePCH.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/AdjustEditor/Public/AdjustEditor.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/IOSAdjust/Private/IOSAdjustPrivatePCH.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/IOSAdjust/Private/IOSAdjustProvider.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/IOSAdjust/Public/IOSAdjust.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/AndroidAdjust/Private/AndroidAdjustPrivatePCH.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/AndroidAdjust/Private/AndroidAdjustProvider.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Adjust/Source/AndroidAdjust/Public/AndroidAdjust.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Source/AnalyticsBlueprintLibrary/Classes/AnalyticsBlueprintLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/Source/AnalyticsBlueprintLibrary/Public/AnalyticsBlueprintLibraryModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/Source/AnalyticsMulticast/Public/AnalyticsMulticast.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/Source/AnaltyicsMulticastEditor/Classes/AnalyticsMulticastSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/Source/AnaltyicsMulticastEditor/Public/AnalyticsMulticastEditor.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/Source/AnalyticsMulticast/Public/AnalyticsMulticast.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Apsalar/Source/IOSApsalar/Private/IOSApsalarProvider.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Apsalar/Source/IOSApsalar/Public/IOSApsalar.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Analytics/Apsalar/Source/ApsalarEditor/Classes/ApsalarSettings.h" \
@@ -13710,13 +13710,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AnimationBudgetAllocator/Source/AnimationBudgetAllocator/Public/IAnimationBudgetAllocatorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AnimationBudgetAllocator/Source/AnimationBudgetAllocator/Public/SkeletalMeshComponentBudgeted.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AnimDistanceMatching/Source/AnimDistanceMatching/Public/IAnimDistanceMatching.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/ApexDestructibleAssetImport.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/ApexDestructionCustomPayload.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/ApexDestructionModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/DestructibleActor.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/DestructibleComponent.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/DestructibleFractureSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/DestructibleMesh.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestructionEditor/Private/ActorFactoryDestructible.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestructionEditor/Private/ApexDestructionEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestructionEditor/Private/ApexDestructionStyle.h" \
@@ -13731,6 +13724,13 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestructionEditor/Private/IDestructibleMeshEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestructionEditor/Private/ReimportDestructibleMeshFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestructionEditor/Private/SDestructibleMeshEditorViewport.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/ApexDestructibleAssetImport.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/ApexDestructionCustomPayload.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/ApexDestructionModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/DestructibleActor.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/DestructibleComponent.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/DestructibleFractureSettings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/ApexDestruction/Source/ApexDestruction/Public/DestructibleMesh.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AppleImageUtils/Source/AppleImageUtils/Public/AppleImageUtilsAvailability.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AppleImageUtils/Source/AppleImageUtils/Public/AppleImageUtilsBlueprintProxy.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AppleImageUtils/Source/AppleImageUtils/Public/AppleImageUtilsTypes.h" \
@@ -13738,11 +13738,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AppleImageUtils/Source/AppleImageUtilsBlueprintSupport/Classes/AppleImageUtilsBlueprintSupport.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AppleMoviePlayer/Source/AppleMoviePlayer/Private/AppleMovieStreamer.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AppleMoviePlayer/Source/AppleMoviePlayer/Public/AppleMoviePlayer.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKitPoseTrackingLiveLink/Private/AppleARKitPoseTrackingLiveLinkImpl.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKitPoseTrackingLiveLink/Private/AppleARKitPoseTrackingLiveLinkModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKitPoseTrackingLiveLink/Private/AppleARKitPoseTrackingLiveLinkRemapAsset.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKitPoseTrackingLiveLink/Private/AppleARKitPoseTrackingLiveLinkSource.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKitPoseTrackingLiveLink/Public/AppleARKitPoseTrackingLiveLinkSourceFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKit/Private/AppleARKitModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKit/Private/AppleARKitSessionDelegate.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKit/Private/AppleARKitSystem.h" \
@@ -13762,12 +13757,21 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKit/Public/AppleARKitSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKit/Public/AppleARKitTextures.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKit/Public/AppleARKitTrackable.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKitPoseTrackingLiveLink/Private/AppleARKitPoseTrackingLiveLinkImpl.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKitPoseTrackingLiveLink/Private/AppleARKitPoseTrackingLiveLinkModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKitPoseTrackingLiveLink/Private/AppleARKitPoseTrackingLiveLinkRemapAsset.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKitPoseTrackingLiveLink/Private/AppleARKitPoseTrackingLiveLinkSource.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKit/Source/AppleARKitPoseTrackingLiveLink/Public/AppleARKitPoseTrackingLiveLinkSourceFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKitFaceSupport/Source/AppleARKitFaceSupport/Private/AppleARKitFaceMeshConversion.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKitFaceSupport/Source/AppleARKitFaceSupport/Private/AppleARKitFaceSupportImpl.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKitFaceSupport/Source/AppleARKitFaceSupport/Private/AppleARKitFaceSupportModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKitFaceSupport/Source/AppleARKitFaceSupport/Private/AppleARKitLiveLinkSource.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKitFaceSupport/Source/AppleARKitFaceSupport/Public/AppleARKitFaceMeshComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Apple/AppleARKitFaceSupport/Source/AppleARKitFaceSupport/Public/AppleARKitLiveLinkSourceFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreRendering/Public/GoogleARCorePassthroughCameraExternalTextureGuid.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreRendering/Public/GoogleARCorePassthroughCameraRenderer.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreRendering/Public/GoogleARCoreRenderingModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreRendering/Public/MaterialExpressionGoogleARCorePassthroughCamera.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreBase/Private/GoogleARCoreAPI.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreBase/Private/GoogleARCoreAndroidHelper.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreBase/Private/GoogleARCoreBaseLogCategory.h" \
@@ -13792,10 +13796,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreBase/Public/GoogleARCorePointCloudRendererComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreBase/Public/GoogleARCoreSessionConfig.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreBase/Public/GoogleARCoreTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreRendering/Public/GoogleARCorePassthroughCameraExternalTextureGuid.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreRendering/Public/GoogleARCorePassthroughCameraRenderer.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreRendering/Public/GoogleARCoreRenderingModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCore/Source/GoogleARCoreRendering/Public/MaterialExpressionGoogleARCorePassthroughCamera.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCoreServices/Source/GoogleARCoreServices/Private/GoogleARCoreCloudARPinManager.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCoreServices/Source/GoogleARCoreServices/Private/GoogleARCoreServicesEditorSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Google/GoogleARCoreServices/Source/GoogleARCoreServices/Private/GoogleARCoreServicesManager.h" \
@@ -13807,6 +13807,7 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensAR/Public/HoloLensARFunctionLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensAR/Public/HoloLensARSystem.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensAR/Public/HoloLensModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensDeviceDetector/Public/IHoloLensDeviceDetectorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensTargetPlatform/Private/HoloLensTargetDevice.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensTargetPlatform/Private/HoloLensTargetPlatform.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensPlatformEditor/Private/HoloLensImageResourcesCustomization.h" \
@@ -13815,14 +13816,27 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensPlatformEditor/Private/HoloLensTargetSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensPlatformEditor/Private/HoloLensTargetSettingsCustomization.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensPlatformEditor/Public/HoloLensPlatformEditor.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AR/Microsoft/HoloLensAR/Source/HoloLensDeviceDetector/Public/IHoloLensDeviceDetectorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ArchVisCharacter/Source/ArchVisCharacter/Public/ArchVisCharMovementComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ArchVisCharacter/Source/ArchVisCharacter/Public/ArchVisCharacter.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AssetTags/Source/AssetTags/Public/AssetTagsSubsystem.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioCapture/Source/AudioCaptureEditor/Private/AudioCaptureEditor.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioCapture/Source/AudioCaptureEditor/Private/AudioRecordingManager.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioCapture/Source/AudioCapture/Public/AudioCapture.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioCapture/Source/AudioCapture/Public/AudioCaptureComponent.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioCapture/Source/AudioCaptureEditor/Private/AudioCaptureEditor.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioCapture/Source/AudioCaptureEditor/Private/AudioRecordingManager.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Private/AudioModulationDebugger.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Private/AudioModulationInternal.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Private/AudioModulationLogging.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Private/AudioModulationStatics.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Private/SoundModulationProxy.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/AudioModulation.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/AudioModulationSettings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundControlBus.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundControlBusMix.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundModulationPatch.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundModulationTransform.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundModulationValue.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundModulatorBase.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundModulatorLFO.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulationEditor/Private/AudioModulationEditor.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulationEditor/Private/AudioModulationStyle.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulationEditor/Private/AssetTypeActions/AssetTypeActions_SoundControlBus.h" \
@@ -13839,20 +13853,12 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulationEditor/Private/Layouts/SoundModulationControlComboBox.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulationEditor/Private/Layouts/SoundModulationParameterLayout.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulationEditor/Private/Layouts/SoundModulationTransformLayout.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Private/AudioModulationDebugger.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Private/AudioModulationInternal.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Private/AudioModulationLogging.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Private/AudioModulationStatics.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Private/SoundModulationProxy.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/AudioModulation.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/AudioModulationSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundControlBus.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundControlBusMix.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundModulationPatch.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundModulationTransform.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundModulationValue.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundModulatorBase.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioModulation/Source/AudioModulation/Public/SoundModulatorLFO.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Classes/AudioSynesthesiaNRTFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Classes/AudioSynesthesiaNRTSettingsFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Private/AssetTypeActions_AudioSynesthesiaNRT.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Private/AssetTypeActions_AudioSynesthesiaNRTSettings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Private/AudioSynesthesiaClassFilter.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Public/AudioSynesthesiaEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesia/Classes/AudioSynesthesiaNRT.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesia/Classes/ConstantQNRT.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesia/Classes/LoudnessNRT.h" \
@@ -13868,12 +13874,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesia/Public/OnsetAnalyzer.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesia/Public/OnsetNRTFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesia/Public/PeakPicker.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Classes/AudioSynesthesiaNRTFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Classes/AudioSynesthesiaNRTSettingsFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Private/AssetTypeActions_AudioSynesthesiaNRT.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Private/AssetTypeActions_AudioSynesthesiaNRTSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Private/AudioSynesthesiaClassFilter.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/AudioSynesthesia/Source/AudioSynesthesiaEditor/Public/AudioSynesthesiaEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/CableComponent/Source/CableComponent/Classes/CableActor.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/CableComponent/Source/CableComponent/Classes/CableComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/CableComponent/Source/CableComponent/Private/CableComponentStats.h" \
@@ -14071,6 +14071,17 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/IOSReplayKit/Source/IOSReplayKit/Private/ReplayKitRecorder.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/IOSReplayKit/Source/IOSReplayKit/Public/IOSReplayKit.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/IOSReplayKit/Source/IOSReplayKit/Public/IOSReplayKitControl.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/FLeapMotionInputDevice.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/FLeapMotionPlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/LeapAsync.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/LeapImage.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/LeapLiveLink.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/LeapUtility.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/LeapWrapper.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Public/ILeapMotionPlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Public/LeapBlueprintFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Public/LeapComponent.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Public/LeapMotionData.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/BodyState/Private/BodyStateHMDDevice.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/BodyState/Private/BodyStateSkeletonStorage.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/BodyState/Private/BodyStateUtility.h" \
@@ -14093,31 +14104,20 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/BodyState/Public/Skeleton/BodyStateSkeleton.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotionEditor/Public/AnimGraphNode_ModifyBodyStateMappedBones.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotionEditor/Public/LeapMotionEditorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/FLeapMotionInputDevice.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/FLeapMotionPlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/LeapAsync.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/LeapImage.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/LeapLiveLink.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/LeapUtility.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Private/LeapWrapper.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Public/ILeapMotionPlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Public/LeapBlueprintFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Public/LeapComponent.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LeapMotion/Source/LeapMotion/Public/LeapMotionData.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Source/LinuxDeviceProfileSelector/Private/LinuxDeviceProfileSelectorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Source/LinuxDeviceProfileSelector/Public/LinuxDeviceProfileSelector.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Source/LocationServicesAndroidImpl/Classes/LocationServicesAndroidImpl.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Source/LocationServicesAndroidImpl/Public/LocationServicesAndroidImplModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Source/LocationServicesAndroidEditor/Classes/LocationServicesAndroidSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Source/LocationServicesAndroidEditor/Public/LocationServicesAndroidEditor.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Source/LocationServicesAndroidImpl/Classes/LocationServicesAndroidImpl.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesAndroidImpl/Source/LocationServicesAndroidImpl/Public/LocationServicesAndroidImplModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Classes/LocationServicesBPLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Classes/LocationServicesImpl.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Private/LocationServicesBPLibraryPCH.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesBPLibrary/Source/LocationServicesBPLibrary/Public/LocationServicesBPLibraryModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesIOSImpl/Source/LocationServicesIOSImpl/Classes/LocationServicesIOSImpl.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesIOSImpl/Source/LocationServicesIOSImpl/Public/LocationServicesIOSImplModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesIOSImpl/Source/LocationServicesIOSEditor/Classes/LocationServicesIOSSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesIOSImpl/Source/LocationServicesIOSEditor/Public/LocationServicesIOSEditor.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesIOSImpl/Source/LocationServicesIOSImpl/Classes/LocationServicesIOSImpl.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/LocationServicesIOSImpl/Source/LocationServicesIOSImpl/Public/LocationServicesIOSImplModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/MeshReconstruction/DummyMeshReconstructor/Source/DummyMeshReconstructor/Public/DummyMeshReconstructor.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/MeshReconstruction/DummyMeshReconstructor/Source/DummyMeshReconstructor/Public/DummyMeshReconstructorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/MicrosoftSpatialAudio/Source/MicrosoftSpatialSound/Public/MicrosoftSpatialSoundPlugin.h" \
@@ -14138,6 +14138,32 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/MixedRealityCaptureFramework/Source/MixedRealityCaptureFramework/Public/MrcUtilLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/MixedRealityCaptureFramework/Source/MixedRealityCaptureFramework/Public/MrcVideoCaptureDevice.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/MobilePatchingUtils/Source/MobilePatchingUtils/Private/MobilePatchingLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Private/DisplayClusterPostprocessHelpers.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Private/DisplayClusterPostprocessLog.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Private/DisplayClusterPostprocessModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Private/DisplayClusterPostprocessStrings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Private/PostProcess/DisplayClusterPostprocessOutputRemap.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Public/IDisplayClusterPostprocess.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/DisplayClusterInput.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/DisplayClusterInputModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/DisplayClusterInputStrings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Blueprints/DisplayClusterInputBlueprintAPIImpl.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/DisplayClusterInputControllerAnalog.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/DisplayClusterInputControllerBase.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/DisplayClusterInputControllerButton.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/DisplayClusterInputControllerKeyboard.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/DisplayClusterInputControllerTracker.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/IDisplayClusterInputController.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Misc/DisplayClusterInputHelpers.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Misc/DisplayClusterInputLog.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/State/DisplayClusterInputStateAnalog.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/State/DisplayClusterInputStateButton.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/State/DisplayClusterInputStateKeyboard.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/State/DisplayClusterInputStateTracker.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Public/DisplayClusterInputTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Public/IDisplayClusterInputModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Public/Blueprints/DisplayClusterInputBlueprintLib.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Public/Blueprints/IDisplayClusterInputBlueprintAPI.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayCluster/Private/DisplayClusterBuildConfig.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayCluster/Private/DisplayClusterConstants.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayCluster/Private/DisplayClusterGlobals.h" \
@@ -14275,6 +14301,62 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayCluster/Public/Render/Projection/IDisplayClusterProjectionPolicyFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayCluster/Public/Render/Synchronization/IDisplayClusterRenderSyncPolicy.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayCluster/Public/Render/Synchronization/IDisplayClusterRenderSyncPolicyFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterMessageInterceptor/Private/DisplayClusterMessageInterceptor.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterMessageInterceptor/Public/DisplayClusterMessageInterceptionSettings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterEditor/Private/DisplayClusterEditorEngine.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterEditor/Private/DisplayClusterEditorLog.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterEditor/Public/DisplayClusterEditor.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterEditor/Public/DisplayClusterEditorSettings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Private/PicpBlurPostProcess.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Private/PicpMPCDILog.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Private/PicpMPCDIModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Private/PicpMPCDIShader.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Private/PicpMPCDITypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Public/IPicpMPCDI.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Public/PicpPostProcessing.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIBlendTexture.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIData.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIHelpers.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDILog.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIRegion.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIShader.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIStrings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDITexture.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIWarpTexture.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/Blueprints/MPCDIBlueprintAPIImpl.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Public/IMPCDI.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Public/Blueprints/IMPCDIBlueprintAPI.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Public/Blueprints/MPCDIBlueprintLib.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Public/Blueprints/MPCDIContainers.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/PicpProjectionHelpers.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/PicpProjectionLog.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/PicpProjectionModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/PicpProjectionStrings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/Blueprints/PicpProjectionBlueprintAPIImpl.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/Policy/PicpProjectionPolicyBase.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/Policy/MPCDI/PicpProjectionMPCDIPolicy.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/Policy/MPCDI/PicpProjectionMPCDIPolicyFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/IPicpProjection.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/OverlayRenderingParameters.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Blueprints/IPicpProjectionBlueprintAPI.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Blueprints/PicpProjectionBlueprintLib.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Blueprints/PicpProjectionFrustumData.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Blueprints/PicpProjectionFrustumDataListener.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Blueprints/ReprojectionBlendingData.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Overlay/PicpProjectionOverlayCamera.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Overlay/PicpProjectionOverlayLUT.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Overlay/PicpProjectionOverlayRender.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Overlay/PicpProjectionOverlayViewport.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/OutputRemapHelpers.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/OutputRemapLog.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/OutputRemapMesh.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/OutputRemapModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/OutputRemapShader.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/Blueprints/OutputRemapBlueprintAPIImpl.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Public/IOutputRemap.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Public/Blueprints/IOutputRemapBlueprintAPI.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Public/Blueprints/OutputRemapBlueprintLib.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterProjection/Private/DisplayClusterProjectionHelpers.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterProjection/Private/DisplayClusterProjectionLog.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterProjection/Private/DisplayClusterProjectionModule.h" \
@@ -14298,88 +14380,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterProjection/Public/IDisplayClusterProjection.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterProjection/Public/Blueprints/DisplayClusterProjectionBlueprintLib.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterProjection/Public/Blueprints/IDisplayClusterProjectionBlueprintAPI.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/DisplayClusterInput.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/DisplayClusterInputModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/DisplayClusterInputStrings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Blueprints/DisplayClusterInputBlueprintAPIImpl.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/DisplayClusterInputControllerAnalog.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/DisplayClusterInputControllerBase.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/DisplayClusterInputControllerButton.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/DisplayClusterInputControllerKeyboard.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/DisplayClusterInputControllerTracker.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Controller/IDisplayClusterInputController.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Misc/DisplayClusterInputHelpers.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/Misc/DisplayClusterInputLog.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/State/DisplayClusterInputStateAnalog.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/State/DisplayClusterInputStateButton.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/State/DisplayClusterInputStateKeyboard.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Private/State/DisplayClusterInputStateTracker.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Public/DisplayClusterInputTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Public/IDisplayClusterInputModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Public/Blueprints/DisplayClusterInputBlueprintLib.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterInput/Public/Blueprints/IDisplayClusterInputBlueprintAPI.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Private/PicpBlurPostProcess.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Private/PicpMPCDILog.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Private/PicpMPCDIModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Private/PicpMPCDIShader.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Private/PicpMPCDITypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Public/IPicpMPCDI.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpMPCDI/Public/PicpPostProcessing.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/PicpProjectionHelpers.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/PicpProjectionLog.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/PicpProjectionModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/PicpProjectionStrings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/Blueprints/PicpProjectionBlueprintAPIImpl.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/Policy/PicpProjectionPolicyBase.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/Policy/MPCDI/PicpProjectionMPCDIPolicy.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Private/Policy/MPCDI/PicpProjectionMPCDIPolicyFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/IPicpProjection.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/OverlayRenderingParameters.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Blueprints/IPicpProjectionBlueprintAPI.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Blueprints/PicpProjectionBlueprintLib.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Blueprints/PicpProjectionFrustumData.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Blueprints/PicpProjectionFrustumDataListener.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Blueprints/ReprojectionBlendingData.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Overlay/PicpProjectionOverlayCamera.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Overlay/PicpProjectionOverlayLUT.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Overlay/PicpProjectionOverlayRender.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/PicpProjection/Public/Overlay/PicpProjectionOverlayViewport.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIBlendTexture.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIData.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIHelpers.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDILog.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIRegion.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIShader.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIStrings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDITexture.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/MPCDIWarpTexture.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Private/Blueprints/MPCDIBlueprintAPIImpl.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Public/IMPCDI.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Public/Blueprints/IMPCDIBlueprintAPI.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Public/Blueprints/MPCDIBlueprintLib.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/MPCDI/Public/Blueprints/MPCDIContainers.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/OutputRemapHelpers.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/OutputRemapLog.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/OutputRemapMesh.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/OutputRemapModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/OutputRemapShader.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Private/Blueprints/OutputRemapBlueprintAPIImpl.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Public/IOutputRemap.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Public/Blueprints/IOutputRemapBlueprintAPI.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/OutputRemap/Public/Blueprints/OutputRemapBlueprintLib.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Private/DisplayClusterPostprocessHelpers.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Private/DisplayClusterPostprocessLog.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Private/DisplayClusterPostprocessModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Private/DisplayClusterPostprocessStrings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Private/PostProcess/DisplayClusterPostprocessOutputRemap.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterPostprocess/Public/IDisplayClusterPostprocess.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterMessageInterceptor/Private/DisplayClusterMessageInterceptor.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterMessageInterceptor/Public/DisplayClusterMessageInterceptionSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterEditor/Private/DisplayClusterEditorEngine.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterEditor/Private/DisplayClusterEditorLog.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterEditor/Public/DisplayClusterEditor.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/nDisplay/Source/DisplayClusterEditor/Public/DisplayClusterEditorSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/NetworkPrediction/Source/NetworkPrediction/Public/NetworkPredictionComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/NetworkPrediction/Source/NetworkPrediction/Public/NetworkPredictionModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/NetworkPrediction/Source/NetworkPrediction/Public/NetworkPredictionTypes.h" \
@@ -14424,6 +14424,27 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusAvatar/Source/Public/OvrAvatar.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusAvatar/Source/Public/OvrAvatarGazeTarget.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusAvatar/Source/Public/OvrAvatarManager.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusAssetManager.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMDModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMDPrivate.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMDPrivateRHI.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_ConsoleCommands.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_CustomPresent.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_DynamicResolutionState.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_GameFrame.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_Layer.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_Settings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_SpectatorScreenController.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_Splash.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_StressTester.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_VulkanExtensions.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusSceneCaptureCubemap.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Public/IOculusHMDModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Public/OculusAssetDirectory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Public/OculusFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Public/OculusHMDRuntimeSettings.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Public/OculusHMDTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusInput/Private/OculusInput.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusInput/Private/OculusInputModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusInput/Private/OculusInputState.h" \
@@ -14447,27 +14468,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusMR/Public/IOculusMRModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusMR/Public/OculusMRFunctionLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusMR/Public/OculusMR_Settings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusAssetManager.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMDModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMDPrivate.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMDPrivateRHI.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_ConsoleCommands.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_CustomPresent.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_DynamicResolutionState.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_GameFrame.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_Layer.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_Settings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_SpectatorScreenController.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_Splash.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_StressTester.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusHMD_VulkanExtensions.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Private/OculusSceneCaptureCubemap.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Public/IOculusHMDModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Public/OculusAssetDirectory.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Public/OculusFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Public/OculusHMDRuntimeSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Oculus/OculusVR/Source/OculusHMD/Public/OculusHMDTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/OpenXR/Source/OpenXRHMD/Private/OpenXRHMD.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/OpenXR/Source/OpenXRHMD/Private/OpenXRHMDPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/OpenXR/Source/OpenXRHMD/Private/OpenXRHMDPrivateRHI.h" \
@@ -14504,10 +14504,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PacketHandlers/DTLSHandlerComponent/Source/Public/DTLSContext.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PacketHandlers/DTLSHandlerComponent/Source/Public/DTLSHandlerComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PacketHandlers/DTLSHandlerComponent/Source/Public/DTLSHandlerTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Private/VehicleTransmissionDataCustomization.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Private/WheeledVehicleMovementComponent4WDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Public/AnimGraphNode_WheelHandler.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Public/IPhysXVehiclesEditorPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles/Public/AnimNode_WheelHandler.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles/Public/IPhysXVehiclesPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles/Public/PhysXVehicleManager.h" \
@@ -14518,6 +14514,10 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles/Public/WheeledVehicle.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles/Public/WheeledVehicleMovementComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehicles/Public/WheeledVehicleMovementComponent4W.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Private/VehicleTransmissionDataCustomization.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Private/WheeledVehicleMovementComponent4WDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Public/AnimGraphNode_WheelHandler.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/PhysXVehicles/Source/PhysXVehiclesEditor/Public/IPhysXVehiclesEditorPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PostSplashScreen/Source/PostSplashScreen/Public/CustomSplashScreen.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PostSplashScreen/Source/PostSplashScreen/Public/CustomSplashScreenWidget.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PostSplashScreen/Source/PostSplashScreen/Public/PostSplashScreen.h" \
@@ -14526,14 +14526,14 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PreLoadScreenMoviePlayer/Source/PreLoadScreenMoviePlayer/Public/PreLoadMoviePlayerModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PreLoadScreenMoviePlayer/Source/PreLoadScreenMoviePlayer/Public/PreLoadMoviePlayerModuleBase.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/PreLoadScreenMoviePlayer/Source/PreLoadScreenMoviePlayer/Public/PreLoadMoviePlayerScreenBase.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponentEditor/Private/ProceduralMeshComponentDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponentEditor/Public/IProceduralMeshComponentEditorPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Private/ProceduralMeshComponentPluginPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public/IProceduralMeshComponentPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public/KismetProceduralMeshLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public/ProceduralMeshBridge.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public/ProceduralMeshComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponent/Public/ProceduralMeshConversion.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponentEditor/Private/ProceduralMeshComponentDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/ProceduralMeshComponent/Source/ProceduralMeshComponentEditor/Public/IProceduralMeshComponentEditorPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ReplicationGraph/Source/Public/BasicReplicationGraph.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ReplicationGraph/Source/Public/ReplicationGraph.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/ReplicationGraph/Source/Public/ReplicationGraphModule.h" \
@@ -14680,13 +14680,13 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundCueTemplates/Source/SoundCueTemplates/Public/SoundCueDistanceCrossfade.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundCueTemplates/Source/SoundCueTemplates/Public/SoundCueTemplateSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundCueTemplates/Source/SoundCueTemplates/Public/SoundCueTemplatesModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/SoundMod/Source/SoundModImporter/Classes/SoundModImporterFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/SoundMod/Source/SoundModImporter/Private/AssetTypeActions_SoundMod.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/SoundMod/Source/SoundModImporter/Private/SoundModImporterPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundMod/Source/SoundMod/Classes/SoundMod.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundMod/Source/SoundMod/Classes/SoundModWave.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundMod/Source/SoundMod/Public/SoundModPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundMod/Source/SoundMod/Public/SoundNodeModPlayer.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/SoundMod/Source/SoundModImporter/Classes/SoundModImporterFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/SoundMod/Source/SoundModImporter/Private/AssetTypeActions_SoundMod.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/SoundMod/Source/SoundModImporter/Private/SoundModImporterPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilitiesEditor/Private/AssetTypeActions_SoundSimple.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilitiesEditor/Private/SoundSimpleFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilitiesEditor/Public/SoundUtilitiesEditorModule.h" \
@@ -14696,11 +14696,25 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundUtilities/Source/SoundUtilities/Public/SoundUtilitiesModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundVisualizations/Source/SoundVisualizations/Classes/SoundVisualizationStatics.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SoundVisualizations/Source/SoundVisualizations/Public/SoundVisualizationsPlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Spatialization/Source/SpatializationEditor/Public/ITDSpatializationSourceSettingsFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Spatialization/Source/SpatializationEditor/Public/SpatializationEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Spatialization/Source/Spatialization/Public/ITDSpatializationSourceSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Spatialization/Source/Spatialization/Public/ITDSpatializer.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Spatialization/Source/Spatialization/Public/SpatializationModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Spatialization/Source/SpatializationEditor/Public/ITDSpatializationSourceSettingsFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Spatialization/Source/SpatializationEditor/Public/SpatializationEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/BakeIndirectWindow.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/IndirectBaker.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononOcclusionSettingsFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononProbeComponentVisualizer.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononProbeVolumeDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononReverbSettingsFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononSourceComponentDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononSourceComponentVisualizer.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononSpatializationSettingsFactory.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/SteamAudioEdMode.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/SteamAudioEdModeToolkit.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/SteamAudioEditorModule.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/TickableNotification.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Public/ISteamAudioEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudio/Private/PhononCommon.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudio/Private/PhononGeometryComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudio/Private/PhononMaterial.h" \
@@ -14720,20 +14734,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudio/Public/PhononOcclusionSourceSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudio/Public/PhononReverbSourceSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudio/Public/PhononSpatializationSourceSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/BakeIndirectWindow.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/IndirectBaker.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononOcclusionSettingsFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononProbeComponentVisualizer.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononProbeVolumeDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononReverbSettingsFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononSourceComponentDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononSourceComponentVisualizer.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/PhononSpatializationSettingsFactory.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/SteamAudioEdMode.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/SteamAudioEdModeToolkit.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/SteamAudioEditorModule.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Private/TickableNotification.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamAudio/Source/SteamAudioEditor/Public/ISteamAudioEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamController/Source/SteamController/Private/SteamControllerPrivate.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamController/Source/SteamController/Public/ISteamControllerPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamShared/Source/SteamShared/Public/SteamSharedModule.h" \
@@ -14750,7 +14750,19 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamSockets/Source/SteamSockets/Public/SteamSocketsSubsystem.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamSockets/Source/SteamSockets/Public/SteamSocketsTaskManagerInterface.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamSockets/Source/SteamSockets/Public/SteamSocketsTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Classes/SteamVRChaperoneComponent.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Classes/SteamVRFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private/SteamVRAssetManager.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private/SteamVRHMD.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private/SteamVRPrivate.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private/SteamVRSplash.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Public/ISteamVRPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRInput/Public/SteamVRInput.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVREditor/Private/SteamVREditorCommands.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVREditor/Private/SteamVREditorStyle.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVREditor/Public/AnimGraphNode_SteamVRInputAnimPose.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVREditor/Public/AnimGraphNode_SteamVRSetWristTransform.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVREditor/Public/SteamVREditor.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRInputDevice/Private/SteamVRControllerKeys.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRInputDevice/Private/SteamVRInputDevice.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRInputDevice/Private/SteamVRInputTypes.h" \
@@ -14763,22 +14775,13 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRInputDevice/Public/SteamVRInputPublic.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRInputDevice/Public/SteamVRSkeletonDefinition.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVRInputDevice/Public/SteamVRTrackingRefComponent.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVREditor/Private/SteamVREditorCommands.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVREditor/Private/SteamVREditorStyle.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVREditor/Public/AnimGraphNode_SteamVRInputAnimPose.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVREditor/Public/AnimGraphNode_SteamVRSetWristTransform.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVREditor/Public/SteamVREditor.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Classes/SteamVRChaperoneComponent.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Classes/SteamVRFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private/SteamVRAssetManager.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private/SteamVRHMD.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private/SteamVRPrivate.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Private/SteamVRSplash.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Steam/SteamVR/Source/SteamVR/Public/ISteamVRPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SunPosition/Source/SunPosition/Private/SunPositionModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SunPosition/Source/SunPosition/Public/SunPosition.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SunPosition/Source/SunPosition/Public/SunPositionPlacement.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/SunPosition/Source/SunPosition/Public/SunPositionStyle.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor/Classes/EpicSynth1PresetBank.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor/Classes/MonoWaveTablePresetBank.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor/Public/SynthesisEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Classes/SourceEffects/SourceEffectBitCrusher.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Classes/SourceEffects/SourceEffectChorus.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Classes/SourceEffects/SourceEffectDynamicsProcessor.h" \
@@ -14815,18 +14818,12 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI/SynthKnobStyle.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI/SynthSlateStyle.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/Synthesis/Public/UI/SynthTypes.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor/Classes/EpicSynth1PresetBank.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor/Classes/MonoWaveTablePresetBank.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/Synthesis/Source/SynthesisEditor/Public/SynthesisEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/TimeSynth/Source/TimeSynth/Classes/TimeSynthComponent.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/TimeSynth/Source/TimeSynth/Public/TimeSynthModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/TimeSynth/Source/TimeSynthEditor/Classes/TimeSynthClip.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/TimeSynth/Source/TimeSynthEditor/Classes/TimeSynthVolumeGroup.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/TimeSynth/Source/TimeSynthEditor/Public/TimeSynthEditorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/TimeSynth/Source/TimeSynthEditor/Public/TimeSynthSoundWaveAssetActionExtender.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/WarpUtils/Private/WarpUtilsLog.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/WarpUtils/Public/WarpUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/WarpUtils/Public/Blueprints/WarpUtilsBlueprintLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/PFMExporter/Private/PFMExporterLog.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/PFMExporter/Private/PFMExporterMesh.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/PFMExporter/Private/PFMExporterModule.h" \
@@ -14835,6 +14832,9 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/PFMExporter/Public/IPFMExporter.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/PFMExporter/Public/Blueprints/IPFMExporterBlueprintAPI.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/PFMExporter/Public/Blueprints/PFMExporterBlueprintLib.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/WarpUtils/Private/WarpUtilsLog.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/WarpUtils/Public/WarpUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WarpUtils/Source/WarpUtils/Public/Blueprints/WarpUtilsBlueprintLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WebBrowserNativeProxy/Source/WebBrowserNativeProxy/Public/WebBrowserNativeProxyModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WebBrowserWidget/Source/WebBrowserWidget/Public/WebBrowser.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WebBrowserWidget/Source/WebBrowserWidget/Public/WebBrowserAssetManager.h" \
@@ -14849,6 +14849,10 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WebMMoviePlayer/Source/WebMMoviePlayer/Private/Audio/Windows/WindowsWebMAudioBackendDefines.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/Source/WindowsDeviceProfileSelector/Private/WindowsDeviceProfileSelectorModule.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/Source/WindowsDeviceProfileSelector/Public/WindowsDeviceProfileSelector.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityRHI/Private/WindowsMixedRealityPrecompiled.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityRHI/Private/WindowsMixedRealityRHI.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityPlatformEditor/Private/WindowsMixedRealityDetails.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityRuntimeSettings/Classes/WindowsMixedRealityRuntimeSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHMD/Classes/WindowsMixedRealityFunctionLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHMD/Classes/WindowsMixedRealityStatics.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHMD/Private/WindowsMixedRealityCustomPresent.h" \
@@ -14856,21 +14860,17 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHMD/Private/WindowsMixedRealityPrecompiled.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHMD/Private/WindowsMixedRealityStereoLayers.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHMD/Public/IWindowsMixedRealityHMDPlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityRuntimeSettings/Classes/WindowsMixedRealityRuntimeSettings.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityRHI/Private/WindowsMixedRealityPrecompiled.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityRHI/Private/WindowsMixedRealityRHI.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityPlatformEditor/Private/WindowsMixedRealityDetails.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealitySpatialInput/Classes/WindowsMixedRealitySpatialInputFunctionLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealitySpatialInput/Private/WindowsMixedRealitySpatialInput.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealitySpatialInput/Private/WindowsSpatialInputDefinitions.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealitySpatialInput/Public/IWindowsMixedRealitySpatialInputPlugin.h" \
-	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealitySpatialInput/Public/WindowsMixedRealitySpatialInputTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHandTracking/Private/LiveLinkWindowsMixedRealityHandTrackingSourceFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHandTracking/Private/WindowsMixedRealityHandTracking.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHandTracking/Private/WindowsMixedRealityHandTrackingLiveLinkRemapAsset.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHandTracking/Public/IWindowsMixedRealityHandTrackingPlugin.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHandTracking/Public/WindowsMixedRealityHandTrackingFunctionLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealityHandTracking/Public/WindowsMixedRealityHandTrackingTypes.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealitySpatialInput/Classes/WindowsMixedRealitySpatialInputFunctionLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealitySpatialInput/Private/WindowsMixedRealitySpatialInput.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealitySpatialInput/Private/WindowsSpatialInputDefinitions.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealitySpatialInput/Public/IWindowsMixedRealitySpatialInputPlugin.h" \
+	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMixedReality/Source/WindowsMixedRealitySpatialInput/Public/WindowsMixedRealitySpatialInputTypes.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMoviePlayer/Source/WindowsMoviePlayer/Private/WindowsMovieStreamer.h" \
 	"$$unrealRootPath/Engine/Plugins/Runtime/WindowsMoviePlayer/Source/WindowsMoviePlayer/Public/WindowsMoviePlayer.h" \
 	"$$unrealRootPath/Engine/Plugins/ScriptPlugin/Source/ScriptGeneratorPlugin/Private/GenericScriptCodeGenerator.h" \
@@ -14915,14 +14915,6 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/Tests/ScreenshotTools/Source/ScreenshotTools/Public/ScreenshotTools.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/RemoteControl/Source/RemoteControl/Public/IRemoteControlModule.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/RemoteControl/Source/RemoteControl/Public/RemoteControlMessages.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderActorSource.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderLevelSequenceSource.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderLevelVisibilitySource.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderMicrophoneAudioSource.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderNearbySpawnedActorSource.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderPlayerSource.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderSourcesUtils.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderWorldSource.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorder/Private/ScopedSequencerPanel.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorder/Private/TakePresetActions.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorder/Private/TakePresetToolkit.h" \
@@ -14946,15 +14938,14 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorder/Public/Recorder/TakeRecorderBlueprintLibrary.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorder/Public/Recorder/TakeRecorderPanel.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorder/Public/Recorder/TakeRecorderParameters.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Private/TakeData.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakeMetaData.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakePreset.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakeRecorderSource.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakeRecorderSourceProperty.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakeRecorderSources.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakesCoreBlueprintLibrary.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakesCoreLog.h" \
-	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakesUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderActorSource.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderLevelSequenceSource.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderLevelVisibilitySource.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderMicrophoneAudioSource.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderNearbySpawnedActorSource.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderPlayerSource.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderSourcesUtils.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeRecorderSources/Private/TakeRecorderWorldSource.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeTrackRecorders/Public/TrackRecorders/IMovieSceneTrackRecorderFactory.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeTrackRecorders/Public/TrackRecorders/IMovieSceneTrackRecorderHost.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeTrackRecorders/Public/TrackRecorders/MovieScene3DAttachTrackRecorder.h" \
@@ -14968,6 +14959,15 @@ HEADERS += \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeTrackRecorders/Public/TrackRecorders/MovieSceneTrackRecorder.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeTrackRecorders/Public/TrackRecorders/MovieSceneTrackRecorderSettings.h" \
 	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakeTrackRecorders/Public/TrackRecorders/MovieSceneVisibilityTrackRecorder.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Private/TakeData.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakeMetaData.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakePreset.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakeRecorderSource.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakeRecorderSourceProperty.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakeRecorderSources.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakesCoreBlueprintLibrary.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakesCoreLog.h" \
+	"$$unrealRootPath/Engine/Plugins/VirtualProduction/Takes/Source/TakesCore/Public/TakesUtils.h" \
 	"$$BlocksRootPath/Plugins/AirSim/Source/AirBlueprintLib.h" \
 	"$$BlocksRootPath/Plugins/AirSim/Source/AirSim.h" \
 	"$$BlocksRootPath/Plugins/AirSim/Source/AirSimCharacter.h" \

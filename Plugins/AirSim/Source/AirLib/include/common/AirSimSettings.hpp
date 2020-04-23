@@ -207,6 +207,7 @@ public: //types
         uint horizontal_rotation_frequency = 10;          // rotations/sec
         float horizontal_FOV_start = 0;                   // degrees
         float horizontal_FOV_end = 359;                   // degrees
+        float points_per_scan = 300;
 
         // defaults specific to a mode
         float vertical_FOV_upper = Utils::nan<float>();   // drones -15, car +10
@@ -1173,6 +1174,7 @@ private:
         lidar_setting.vertical_FOV_lower = settings_json.getFloat("VerticalFOVLower", lidar_setting.vertical_FOV_lower);
         lidar_setting.horizontal_FOV_start = settings_json.getFloat("HorizontalFOVStart", lidar_setting.horizontal_FOV_start);
         lidar_setting.horizontal_FOV_end = settings_json.getFloat("HorizontalFOVEnd", lidar_setting.horizontal_FOV_end);
+        lidar_setting.points_per_scan = settings_json.getFloat("PointsPerScan", lidar_setting.points_per_scan);
 
         lidar_setting.position = createVectorSetting(settings_json, lidar_setting.position);
         lidar_setting.rotation = createRotationSetting(settings_json, lidar_setting.rotation);
